@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.itayfeder.colors.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "colors.refmap.json",
+  "mixins": [
+    "DyeColorMixin",
+    "entities.SheepMixin",
+    "ShulkerBoxBlockMixin",
+    "entities.ShulkerMixin"
+  ],
+  "client": [
+    "SheetsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
