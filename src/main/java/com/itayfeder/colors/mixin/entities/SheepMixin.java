@@ -57,6 +57,7 @@ public abstract class SheepMixin extends Animal {
         p_29841_.put(DyeColor.BLACK, Blocks.BLACK_WOOL);
 
         p_29841_.put(ExtraDyeColors.CORAL, BlockInit.CORAL_WOOL.get());
+        p_29841_.put(ExtraDyeColors.BEIGE, BlockInit.BEIGE_WOOL.get());
     });
 
     @Shadow public abstract boolean isSheared();
@@ -116,7 +117,8 @@ public abstract class SheepMixin extends Animal {
 
     @Inject(locals = LocalCapture.CAPTURE_FAILHARD,
             method = "getDefaultLootTable",
-            at = @At(value = "HEAD")
+            at = @At(value = "HEAD"),
+            cancellable = true
     )
     private void getDefaultLootTableInject(CallbackInfoReturnable<ResourceLocation> cir) {
         if (this.isSheared()) {
@@ -124,6 +126,9 @@ public abstract class SheepMixin extends Animal {
         } else {
             if (this.getColor() == ExtraDyeColors.CORAL) {
                 cir.setReturnValue(new ResourceLocation(ColorsMod.MODID,"entities/sheep/coral"));
+            }
+            if (this.getColor() == ExtraDyeColors.BEIGE) {
+                cir.setReturnValue(new ResourceLocation(ColorsMod.MODID,"entities/sheep/beige"));
             }
         }
     }

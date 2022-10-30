@@ -27,6 +27,22 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.CORAL_STAINED_GLASS_PANE.get());
         this.add(BlockInit.CORAL_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.CORAL_CANDLE.get()));
 
+        this.dropSelf(BlockInit.BEIGE_WOOL.get());
+        this.dropSelf(BlockInit.BEIGE_TERRACOTTA.get());
+        this.dropSelf(BlockInit.BEIGE_CARPET.get());
+        this.dropSelf(BlockInit.BEIGE_CONCRETE.get());
+        this.dropSelf(BlockInit.BEIGE_CONCRETE_POWDER.get());
+        this.add(BlockInit.BEIGE_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.BEIGE_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.BEIGE_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.BEIGE_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.BEIGE_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.BEIGE_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.BEIGE_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.BEIGE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.BEIGE_CANDLE.get()));
+
     }
 
     @Override

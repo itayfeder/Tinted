@@ -15,5 +15,7 @@ public class ClientEvents {
     public static void onClientSetup(FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(BlockInit.CORAL_STAINED_GLASS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.CORAL_STAINED_GLASS_PANE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.BEIGE_STAINED_GLASS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.BEIGE_STAINED_GLASS_PANE.get(), RenderType.translucent());
     }
 }

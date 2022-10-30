@@ -27,6 +27,7 @@ public abstract class DyeColorMixin {
     public static DyeColor[] $VALUES;
 
     private static final DyeColor CORAL = addVariant("CORAL", "coral", 16286585, MaterialColor.COLOR_ORANGE, 16286585, 16286585);
+    private static final DyeColor BEIGE = addVariant("BEIGE", "beige", 15062720, MaterialColor.COLOR_YELLOW, 15062720, 15062720);
 
     @Shadow
     @Final

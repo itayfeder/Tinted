@@ -32,5 +32,17 @@ public class ColorRecipeProvider extends RecipeProvider {
         concretePowder(p_176532_, BlockInit.CORAL_CONCRETE_POWDER.get(), ItemInit.CORAL_DYE.get());
         candle(p_176532_, BlockInit.CORAL_CANDLE.get(), ItemInit.CORAL_DYE.get());
 
+        coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.BEIGE_WOOL.get(), ItemInit.BEIGE_DYE.get());
+        carpet(p_176532_, BlockInit.BEIGE_CARPET.get(), BlockInit.BEIGE_WOOL.get());
+        coloredCarpetFromWhiteCarpetAndDye(p_176532_, BlockInit.BEIGE_CARPET.get(), ItemInit.BEIGE_DYE.get());
+        bedFromPlanksAndWool(p_176532_, ItemInit.BEIGE_BED.get(), BlockInit.BEIGE_WOOL.get());
+        bedFromWhiteBedAndDye(p_176532_, ItemInit.BEIGE_BED.get(), ItemInit.BEIGE_DYE.get());
+        banner(p_176532_, ItemInit.BEIGE_BANNER.get(), BlockInit.BEIGE_WOOL.get());
+        stainedGlassFromGlassAndDye(p_176532_, BlockInit.BEIGE_STAINED_GLASS.get(), ItemInit.BEIGE_DYE.get());
+        stainedGlassPaneFromStainedGlass(p_176532_, BlockInit.BEIGE_STAINED_GLASS_PANE.get(), BlockInit.BEIGE_STAINED_GLASS.get());
+        stainedGlassPaneFromGlassPaneAndDye(p_176532_, BlockInit.BEIGE_STAINED_GLASS_PANE.get(), ItemInit.BEIGE_DYE.get());
+        coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.BEIGE_TERRACOTTA.get(), ItemInit.BEIGE_DYE.get());
+        concretePowder(p_176532_, BlockInit.BEIGE_CONCRETE_POWDER.get(), ItemInit.BEIGE_DYE.get());
+        candle(p_176532_, BlockInit.BEIGE_CANDLE.get(), ItemInit.BEIGE_DYE.get());
     }
 }

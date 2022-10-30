@@ -15,18 +15,18 @@ public class ColorBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags() {
-        this.tag(BlockTags.WOOL).add(BlockInit.CORAL_WOOL.get());
-        this.tag(BlockTags.WOOL_CARPETS).add(BlockInit.CORAL_CARPET.get());
-        this.tag(BlockTags.BANNERS).add(BlockInit.CORAL_BANNER.get(), BlockInit.CORAL_WALL_BANNER.get());
-        this.tag(BlockTags.IMPERMEABLE).add(BlockInit.CORAL_STAINED_GLASS.get());
-        this.tag(BlockTags.BEDS).add(BlockInit.CORAL_BED.get());
-        this.tag(BlockTags.SHULKER_BOXES).add(BlockInit.CORAL_SHULKER_BOX.get());
-        this.tag(BlockTags.CANDLES).add(BlockInit.CORAL_CANDLE.get());
-        this.tag(BlockTags.CANDLE_CAKES).add(BlockInit.CORAL_CANDLE_CAKE.get());
-        this.tag(BlockTags.TERRACOTTA).add(BlockInit.CORAL_TERRACOTTA.get());
+        this.tag(BlockTags.WOOL).add(BlockInit.CORAL_WOOL.get(), BlockInit.BEIGE_WOOL.get());
+        this.tag(BlockTags.WOOL_CARPETS).add(BlockInit.CORAL_CARPET.get(), BlockInit.BEIGE_CARPET.get());
+        this.tag(BlockTags.BANNERS).add(BlockInit.CORAL_BANNER.get(), BlockInit.CORAL_WALL_BANNER.get(), BlockInit.BEIGE_BANNER.get(), BlockInit.BEIGE_WALL_BANNER.get());
+        this.tag(BlockTags.IMPERMEABLE).add(BlockInit.CORAL_STAINED_GLASS.get(), BlockInit.BEIGE_STAINED_GLASS.get());
+        this.tag(BlockTags.BEDS).add(BlockInit.CORAL_BED.get(), BlockInit.BEIGE_BED.get());
+        this.tag(BlockTags.SHULKER_BOXES).add(BlockInit.CORAL_SHULKER_BOX.get(), BlockInit.BEIGE_SHULKER_BOX.get());
+        this.tag(BlockTags.CANDLES).add(BlockInit.CORAL_CANDLE.get(), BlockInit.BEIGE_CANDLE.get());
+        this.tag(BlockTags.CANDLE_CAKES).add(BlockInit.CORAL_CANDLE_CAKE.get(), BlockInit.BEIGE_CANDLE_CAKE.get());
+        this.tag(BlockTags.TERRACOTTA).add(BlockInit.CORAL_TERRACOTTA.get(), BlockInit.BEIGE_TERRACOTTA.get());
 
-        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BlockInit.CORAL_TERRACOTTA.get(), BlockInit.CORAL_CONCRETE.get());
-        this.tag(BlockTags.MINEABLE_WITH_SHOVEL).add(BlockInit.CORAL_CONCRETE_POWDER.get());
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(BlockInit.CORAL_TERRACOTTA.get(), BlockInit.CORAL_CONCRETE.get(), BlockInit.BEIGE_TERRACOTTA.get(), BlockInit.BEIGE_CONCRETE.get());
+        this.tag(BlockTags.MINEABLE_WITH_SHOVEL).add(BlockInit.CORAL_CONCRETE_POWDER.get(), BlockInit.BEIGE_CONCRETE_POWDER.get());
 
     }
 }

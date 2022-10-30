@@ -25,6 +25,6 @@ public class ColorItemTagProvider extends ItemTagsProvider {
         this.copy(BlockTags.CANDLES, ItemTags.CANDLES);
         this.copy(BlockTags.TERRACOTTA, ItemTags.TERRACOTTA);
 
-        this.tag(ItemTags.BANNERS).add(ItemInit.CORAL_BANNER.get());
+        this.tag(ItemTags.BANNERS).add(ItemInit.CORAL_BANNER.get(), ItemInit.BEIGE_BANNER.get());
     }
 }

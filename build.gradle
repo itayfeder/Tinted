@@ -20,7 +20,6 @@ apply plugin: "org.spongepowered.mixin"
 
 mixin {
     add sourceSets.main, "colors.refmap.json"
-    config "colors.mixins.json"
 }
 
 version = '1.0'
@@ -54,6 +53,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
+            arg "-mixin.config=colors.mixins.json"
 
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
@@ -70,10 +70,6 @@ minecraft {
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             property 'forge.enabledGameTestNamespaces', 'colors'
 
-            arg "-mixin.config=colors.mixins.json"
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
-
             mods {
                 colors {
                     source sourceSets.main
@@ -83,16 +79,13 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
+            arg "-mixin.config=colors.mixins.json"
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
 
             property 'forge.logging.console.level', 'debug'
 
             property 'forge.enabledGameTestNamespaces', 'colors'
-
-            arg "-mixin.config=colors.mixins.json"
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
 
             mods {
                 colors {
@@ -155,6 +148,12 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.1.47'
 
     implementation fg.deobf("curse.maven:jei-238222:4049227")
+
+    implementation fg.deobf("curse.maven:supplementaries-412082:4050910")
+    implementation fg.deobf("curse.maven:selene-499980:4040434")
+
+    implementation fg.deobf("curse.maven:another-furniture-610492:4034009")
+
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency

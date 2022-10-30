@@ -11,10 +11,12 @@ import java.util.Comparator;
 public class ExtraDyeColors {
 
     public static DyeColor CORAL;
+    public static DyeColor BEIGE;
 
 
     public static void InitColors() {
         CORAL = DyeColor.byId(16);
+        BEIGE = DyeColor.byId(17);
     }
 
 }

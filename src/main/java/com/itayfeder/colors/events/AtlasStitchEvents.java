@@ -22,6 +22,7 @@ public class AtlasStitchEvents {
         if (event.getAtlas().location().equals(Sheets.SHULKER_SHEET)) {
             Objects.requireNonNull(event);
             event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "coral"));
+            event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "beige"));
         }
     }
 }

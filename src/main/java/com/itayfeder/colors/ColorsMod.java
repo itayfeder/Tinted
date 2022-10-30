@@ -1,12 +1,14 @@
 package com.itayfeder.colors;
 
 import com.google.common.collect.ImmutableSet;
+import com.itayfeder.colors.compat.another_furniture.AnotherFurnitureCompat;
 import com.itayfeder.colors.data.ColorRecipeProvider;
 import com.itayfeder.colors.data.lootTables.ColorLootTableProvider;
 import com.itayfeder.colors.data.tags.ColorBlockTagProvider;
 import com.itayfeder.colors.data.tags.ColorItemTagProvider;
 import com.itayfeder.colors.init.BlockInit;
 import com.itayfeder.colors.init.ItemInit;
+import com.itayfeder.colors.util.BlockEntityAdder;
 import com.itayfeder.colors.util.ExtraDyeColors;
 import com.mojang.logging.LogUtils;
 import net.minecraft.data.DataGenerator;
@@ -17,6 +19,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -46,6 +49,10 @@ public class ColorsMod
         BlockInit.BLOCKS.register(modEventBus);
         ItemInit.ITEMS.register(modEventBus);
 
+        if (ModList.get().isLoaded("another_furniture")) {
+            AnotherFurnitureCompat.RegisterRegistries(modEventBus);
+        }
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -58,44 +65,24 @@ public class ColorsMod
         System.out.println("-----------------------------------------------");
 
         event.enqueueWork(() -> {
-            Set<Block> shulkerSet = BlockEntityType.SHULKER_BOX.validBlocks;
-            List<Block> shulkerList = new ArrayList<>();
-            for (Block sbox : shulkerSet) {
-                shulkerList.add(sbox);
-            }
-            shulkerList.add(BlockInit.CORAL_SHULKER_BOX.get());
-            BlockEntityType.SHULKER_BOX.validBlocks = ImmutableSet.copyOf(shulkerList);
+            BlockEntityAdder.AddToBlockEntities();
 
-            Set<Block> bedSet = BlockEntityType.BED.validBlocks;
-            List<Block> bedList = new ArrayList<>();
-            for (Block bed : bedSet) {
-                bedList.add(bed);
+            if (ModList.get().isLoaded("another_furniture")) {
+                AnotherFurnitureCompat.AddToBlockEntities();
             }
-            bedList.add(BlockInit.CORAL_BED.get());
-            BlockEntityType.BED.validBlocks = ImmutableSet.copyOf(bedList);
-
-            Set<Block> bannerSet = BlockEntityType.BANNER.validBlocks;
-            List<Block> bannerList = new ArrayList<>();
-            for (Block banner : bannerSet) {
-                bannerList.add(banner);
-            }
-            bannerList.add(BlockInit.CORAL_BANNER.get());
-            bannerList.add(BlockInit.CORAL_WALL_BANNER.get());
-            BlockEntityType.BANNER.validBlocks = ImmutableSet.copyOf(bannerList);
         });
     }
 
     private void dataSetup(GatherDataEvent event) {
         DataGenerator dataGenerator = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
+        boolean includeServer = event.includeServer();
 
-        if (event.includeServer()) {
-            ColorBlockTagProvider blockTags = new ColorBlockTagProvider(dataGenerator, existingFileHelper);
-            dataGenerator.addProvider(true, blockTags);
-            dataGenerator.addProvider(true, new ColorItemTagProvider(dataGenerator, blockTags, existingFileHelper));
+        ColorBlockTagProvider blockTags = new ColorBlockTagProvider(dataGenerator, existingFileHelper);
+        dataGenerator.addProvider(includeServer, blockTags);
+        dataGenerator.addProvider(includeServer, new ColorItemTagProvider(dataGenerator, blockTags, existingFileHelper));
 
-            dataGenerator.addProvider(true, new ColorRecipeProvider(dataGenerator));
-            dataGenerator.addProvider(true, new ColorLootTableProvider(dataGenerator));
-        }
+        dataGenerator.addProvider(includeServer, new ColorRecipeProvider(dataGenerator));
+        dataGenerator.addProvider(includeServer, new ColorLootTableProvider(dataGenerator));
     }
 }

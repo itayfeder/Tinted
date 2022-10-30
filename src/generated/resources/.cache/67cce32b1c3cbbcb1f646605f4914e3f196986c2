@@ -1,4 +1,17 @@
-// 1.19.2	2022-10-29T18:53:05.1544353	LootTables
+// 1.19.2	2022-10-30T07:55:56.3062743	LootTables
+c0000a333bb4ca11cb138785b6ddd862885d07a5 data/colors/loot_tables/blocks/beige_banner.json
+42309186fd0a2b9aaefd8c527503e6364f3cbc8d data/colors/loot_tables/blocks/beige_bed.json
+ee66f5bdb14b2d7a0c09390d402c79c39a45835d data/colors/loot_tables/blocks/beige_candle.json
+0929638b40eea861494ddd1531b1c75aa70ef3dc data/colors/loot_tables/blocks/beige_candle_cake.json
+08e65d4e7f8f56374d5a0ae466a9fac07c59aec9 data/colors/loot_tables/blocks/beige_carpet.json
+dffd6f6e0d3c6e091d439fd1de9bc91298d970eb data/colors/loot_tables/blocks/beige_concrete.json
+73cec67edf293db7a03cbabcef78e6635ece24b6 data/colors/loot_tables/blocks/beige_concrete_powder.json
+b67dd02d3e1af9c47068f87567053e011ed96c51 data/colors/loot_tables/blocks/beige_shulker_box.json
+1626d45b981a61e1fe45f017ef02f01364a9ce4b data/colors/loot_tables/blocks/beige_stained_glass.json
+f16c7f4f2082211fa12be86a727f2d8724d349f7 data/colors/loot_tables/blocks/beige_stained_glass_pane.json
+0b7cda2a731c955be767c97cd8f5b0252d1ada73 data/colors/loot_tables/blocks/beige_terracotta.json
+c0000a333bb4ca11cb138785b6ddd862885d07a5 data/colors/loot_tables/blocks/beige_wall_banner.json
+4ee962939823a4e7b90473867f341391e9fce5d4 data/colors/loot_tables/blocks/beige_wool.json
 7dc94e3cae09a1c90343bc82d441ad2552ca56e1 data/colors/loot_tables/blocks/coral_banner.json
 2263f1eacdd6ba32770526201af99f65c209b52f data/colors/loot_tables/blocks/coral_bed.json
 5bb3fc5b799320085ae92a79588889575ac44576 data/colors/loot_tables/blocks/coral_candle.json
