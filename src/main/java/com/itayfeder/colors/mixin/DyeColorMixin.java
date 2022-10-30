@@ -20,7 +20,7 @@ import java.util.Comparator;
 import java.util.stream.Collectors;
 
 @Mixin(DyeColor.class)
-public class DyeColorMixin {
+public abstract class DyeColorMixin {
     @Shadow
     @Final
     @Mutable

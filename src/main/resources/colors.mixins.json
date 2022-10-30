@@ -1,8 +1,9 @@
 {
   "required": true,
   "package": "com.itayfeder.colors.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_8",
   "refmap": "colors.refmap.json",
+  "minVersion": "0.8",
   "mixins": [
     "DyeColorMixin",
     "entities.SheepMixin",
@@ -14,6 +15,5 @@
   ],
   "injectors": {
     "defaultRequire": 1
-  },
-  "minVersion": "0.8"
+  }
 }

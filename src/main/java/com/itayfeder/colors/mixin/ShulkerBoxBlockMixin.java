@@ -17,7 +17,8 @@ public class ShulkerBoxBlockMixin {
 
     @Inject(locals = LocalCapture.CAPTURE_FAILHARD,
             method = "getBlockByColor",
-            at = @At(value = "HEAD")
+            at = @At(value = "HEAD"),
+            cancellable = true
     )
     private static void getBlockByColorInject(DyeColor p_56191_, CallbackInfoReturnable<Block> cir) {
         if (p_56191_ == null) {
