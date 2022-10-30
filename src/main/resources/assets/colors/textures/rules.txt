@@ -1,0 +1,6 @@
+All:
+- Black/White
+
+Olive:
+- Base: Light Gray
+- Brightness: +5

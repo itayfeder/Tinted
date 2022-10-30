@@ -121,6 +121,67 @@
   "block.minecraft.banner.piglin.beige": "Beige Snout",
 
 
+  "comment___": "---------------------OLIVE---------------------",
+  "block.colors.olive_stained_glass": "Olive Stained Glass",
+  "block.colors.olive_stained_glass_pane": "Olive Stained Glass Pane",
+  "block.colors.olive_carpet": "Olive Carpet",
+  "block.colors.olive_terracotta": "Olive Terracotta",
+  "block.colors.olive_wool": "Olive Wool",
+  "block.colors.olive_shulker_box": "Olive Shulker Box",
+  "block.colors.olive_concrete": "Olive Concrete",
+  "block.colors.olive_concrete_powder": "Olive Concrete Powder",
+  "block.colors.olive_candle": "Olive Candle",
+  "block.colors.olive_candle_cake": "Cake with Olive Candle",
+  "item.colors.olive_dye": "Olive Dye",
+  "block.colors.olive_bed": "Olive Bed",
+  "item.minecraft.firework_star.olive": "Olive",
+  "block.colors.olive_banner": "Olive Banner",
+  "item.minecraft.shield.olive": "Olive Shield",
+  "color.minecraft.olive": "Olive",
+
+  "block.minecraft.banner.base.olive": "Fully Olive Field",
+  "block.minecraft.banner.square_bottom_left.olive": "Olive Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.olive": "Olive Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.olive": "Olive Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.olive": "Olive Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.olive": "Olive Base",
+  "block.minecraft.banner.stripe_top.olive": "Olive Chief",
+  "block.minecraft.banner.stripe_left.olive": "Olive Pale Dexter",
+  "block.minecraft.banner.stripe_right.olive": "Olive Pale Sinister",
+  "block.minecraft.banner.stripe_center.olive": "Olive Pale",
+  "block.minecraft.banner.stripe_middle.olive": "Olive Fess",
+  "block.minecraft.banner.stripe_downright.olive": "Olive Bend",
+  "block.minecraft.banner.stripe_downleft.olive": "Olive Bend Sinister",
+  "block.minecraft.banner.small_stripes.olive": "Olive Paly",
+  "block.minecraft.banner.cross.olive": "Olive Saltire",
+  "block.minecraft.banner.triangle_bottom.olive": "Olive Chevron",
+  "block.minecraft.banner.triangle_top.olive": "Olive Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.olive": "Olive Base Indented",
+  "block.minecraft.banner.triangles_top.olive": "Olive Chief Indented",
+  "block.minecraft.banner.diagonal_left.olive": "Olive Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.olive": "Olive Per Bend",
+  "block.minecraft.banner.diagonal_up_left.olive": "Olive Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.olive": "Olive Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.olive": "Olive Roundel",
+  "block.minecraft.banner.rhombus.olive": "Olive Lozenge",
+  "block.minecraft.banner.half_vertical.olive": "Olive Per Pale",
+  "block.minecraft.banner.half_horizontal.olive": "Olive Per Fess",
+  "block.minecraft.banner.half_vertical_right.olive": "Olive Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.olive": "Olive Per Fess Inverted",
+  "block.minecraft.banner.creeper.olive": "Olive Creeper Charge",
+  "block.minecraft.banner.bricks.olive": "Olive Field Masoned",
+  "block.minecraft.banner.gradient.olive": "Olive Gradient",
+  "block.minecraft.banner.gradient_up.olive": "Olive Base Gradient",
+  "block.minecraft.banner.skull.olive": "Olive Skull Charge",
+  "block.minecraft.banner.flower.olive": "Olive Flower Charge",
+  "block.minecraft.banner.border.olive": "Olive Bordure",
+  "block.minecraft.banner.curly_border.olive": "Olive Bordure Indented",
+  "block.minecraft.banner.mojang.olive": "Olive Thing",
+  "block.minecraft.banner.straight_cross.olive": "Olive Cross",
+  "block.minecraft.banner.globe.olive": "Olive Globe",
+  "block.minecraft.banner.piglin.olive": "Olive Snout",
+
+
 
   "comment___": "---------------------COMPAT: SUPPLEMENTARIES---------------------",
   "block.supplementaries.flag_coral": "Coral Flag",
@@ -132,6 +193,11 @@
   "block.supplementaries.present_beige": "Beige Present",
   "block.supplementaries.trapped_present_beige": "Trapped Beige Present",
   "block.supplementaries.candle_holder_beige": "Beige Candle Holder",
+
+  "block.supplementaries.flag_olive": "Olive Flag",
+  "block.supplementaries.present_olive": "Olive Present",
+  "block.supplementaries.trapped_present_olive": "Trapped Olive Present",
+  "block.supplementaries.candle_holder_olive": "Olive Candle Holder",
 
 
 
@@ -146,5 +212,12 @@
   "block.another_furniture.beige_stool": "Beige Stool",
   "block.another_furniture.beige_curtain": "Beige Curtain",
   "block.another_furniture.beige_lamp": "Beige Lamp",
-  "block.another_furniture.beige_tall_stool": "Beige Tall Stool"
+  "block.another_furniture.beige_tall_stool": "Beige Tall Stool",
+
+  "block.another_furniture.olive_sofa": "Olive Sofa",
+  "block.another_furniture.olive_stool": "Olive Stool",
+  "block.another_furniture.olive_curtain": "Olive Curtain",
+  "block.another_furniture.olive_lamp": "Olive Lamp",
+  "block.another_furniture.olive_tall_stool": "Olive Tall Stool"
+
 }

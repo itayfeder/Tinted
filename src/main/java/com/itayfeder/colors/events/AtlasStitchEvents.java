@@ -23,6 +23,7 @@ public class AtlasStitchEvents {
             Objects.requireNonNull(event);
             event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "coral"));
             event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "beige"));
+            event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "olive"));
         }
     }
 }

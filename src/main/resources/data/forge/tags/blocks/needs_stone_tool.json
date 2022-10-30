@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"quark:coral_framed_glass","required":false},
+	{"id":"quark:beige_framed_glass","required":false},
+	{"id":"quark:olive_framed_glass","required":false},
+	{"id":"quark:coral_framed_glass_pane","required":false},
+	{"id":"quark:beige_framed_glass_pane","required":false},
+	{"id":"quark:olive_framed_glass_pane","required":false}
+  ]
+}

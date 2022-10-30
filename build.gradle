@@ -149,9 +149,15 @@ dependencies {
 
     implementation fg.deobf("curse.maven:jei-238222:4049227")
 
+    //ADDED FROM BASE (SOME I LOVE, SOME I HATE)
     implementation fg.deobf("curse.maven:supplementaries-412082:4050910")
     implementation fg.deobf("curse.maven:selene-499980:4040434")
 
+    implementation fg.deobf("curse.maven:quark-243121:3961436")
+    implementation fg.deobf("curse.maven:autoreglib-250363:3857246")
+
+
+    // ADDED MYSELF (PERSONALLY PICKED
     implementation fg.deobf("curse.maven:another-furniture-610492:4034009")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings

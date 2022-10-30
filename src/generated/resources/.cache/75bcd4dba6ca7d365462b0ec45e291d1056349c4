@@ -1,12 +1,13 @@
-// 1.19.2	2022-10-30T07:55:56.3082687	Tags for minecraft:block
-9dd7479cdea8d8e3d3d6d87ff0acae699f0f38d9 data/minecraft/tags/blocks/banners.json
-390e24ed50299a3695e45f7fe2b46666ccf41fee data/minecraft/tags/blocks/beds.json
-01d60236574ca47390e50b8711002aed107f93e0 data/minecraft/tags/blocks/candles.json
-1b1b9c210e2c8f0e3ad113251e9e0f3d81e757a2 data/minecraft/tags/blocks/candle_cakes.json
-a3435a33774cb3915f9a3d13a7ad645a556d86f2 data/minecraft/tags/blocks/impermeable.json
-38a1ed07b77e0e22ac83ab30e64844fdf30738db data/minecraft/tags/blocks/mineable/pickaxe.json
-8bb74bd0d6bb81b427250c5832c59a87396c232e data/minecraft/tags/blocks/mineable/shovel.json
-84cbaf47f10f1c18ea3a78b6d6d5ef51b0e16108 data/minecraft/tags/blocks/shulker_boxes.json
-997f25f45abd35c903d3e5150122e45608d70a26 data/minecraft/tags/blocks/terracotta.json
-50101920eee66d2576791a04715baf419fd3aaba data/minecraft/tags/blocks/wool.json
-283ced49af396283538bdcbaecd32b68e84c68d9 data/minecraft/tags/blocks/wool_carpets.json
+// 1.19.2	2022-10-30T18:13:38.2868249	Tags for minecraft:block
+ce66d82d3d96979891891618c1d123ccc41e9d16 data/forge/tags/blocks/stained_glass.json
+97c1ef18da39ef9c874819c59a4dcb8945676472 data/forge/tags/blocks/stained_glass_panes.json
+8a30ca163490dc92a1144602920899e3b274965f data/minecraft/tags/blocks/banners.json
+7391e39ba3aef2b38719983ae8f9511b57ba6201 data/minecraft/tags/blocks/beds.json
+f3828cf8e1938be2c3adb49949eba31ac0933a21 data/minecraft/tags/blocks/candles.json
+58ccde016d68e89cb9e336f1da2c4ae4c1c53419 data/minecraft/tags/blocks/candle_cakes.json
+ce66d82d3d96979891891618c1d123ccc41e9d16 data/minecraft/tags/blocks/impermeable.json
+eb325e7c30a0d8545bf9bd907e1dc86e8ad79ae3 data/minecraft/tags/blocks/mineable/shovel.json
+9c62077b5c7cdb53a89a1d1ec9253029c0fb9d3f data/minecraft/tags/blocks/shulker_boxes.json
+c8ebc06e6d656bd8e2f8e00659bf272befc42d3e data/minecraft/tags/blocks/terracotta.json
+7d391fe5c24fa1bdf4a1e7870eb1c486687bbbc2 data/minecraft/tags/blocks/wool.json
+3149d79899993dcf2ee9a64c10d8cfb51438b9a4 data/minecraft/tags/blocks/wool_carpets.json

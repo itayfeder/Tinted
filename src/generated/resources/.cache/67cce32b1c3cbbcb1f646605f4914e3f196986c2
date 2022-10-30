@@ -1,4 +1,4 @@
-// 1.19.2	2022-10-30T07:55:56.3062743	LootTables
+// 1.19.2	2022-10-30T13:28:34.6164359	LootTables
 c0000a333bb4ca11cb138785b6ddd862885d07a5 data/colors/loot_tables/blocks/beige_banner.json
 42309186fd0a2b9aaefd8c527503e6364f3cbc8d data/colors/loot_tables/blocks/beige_bed.json
 ee66f5bdb14b2d7a0c09390d402c79c39a45835d data/colors/loot_tables/blocks/beige_candle.json
@@ -25,3 +25,16 @@ a8af3ae7138083211cf294f3e24fe72b3043f0ca data/colors/loot_tables/blocks/coral_st
 eaef9dabcc71ea5f6833714b4c33be6a1dd4ee4c data/colors/loot_tables/blocks/coral_terracotta.json
 7dc94e3cae09a1c90343bc82d441ad2552ca56e1 data/colors/loot_tables/blocks/coral_wall_banner.json
 a1ecb4adb9747fbb7978e2b3cc69474030e4463e data/colors/loot_tables/blocks/coral_wool.json
+a7cda001a3b834adf585238f977046a14de8db40 data/colors/loot_tables/blocks/olive_banner.json
+66316830f26611867865f2e742374d11c7a605fd data/colors/loot_tables/blocks/olive_bed.json
+259c763e6753cd873fcde252039bc0406a5b4a47 data/colors/loot_tables/blocks/olive_candle.json
+aaa61a5aaa097a04e3070afb8e2147a814d2deb3 data/colors/loot_tables/blocks/olive_candle_cake.json
+793eef15d1d42593b6d437ea185f4227f67a088e data/colors/loot_tables/blocks/olive_carpet.json
+804213e3795e89b3bdb7112610ab30d231ae61a6 data/colors/loot_tables/blocks/olive_concrete.json
+f0e5693520624fd9c714d65a400f20bcf3b1a73b data/colors/loot_tables/blocks/olive_concrete_powder.json
+781047922cb22f76a78a20da6db715374a130ded data/colors/loot_tables/blocks/olive_shulker_box.json
+20541867c186ad72910d9d2aab5b4c62cbf1e498 data/colors/loot_tables/blocks/olive_stained_glass.json
+522bf96a07c6c576d5736fb8b833c08bec24f224 data/colors/loot_tables/blocks/olive_stained_glass_pane.json
+92c866275d8a65514ef48140257f15f7ff60f336 data/colors/loot_tables/blocks/olive_terracotta.json
+a7cda001a3b834adf585238f977046a14de8db40 data/colors/loot_tables/blocks/olive_wall_banner.json
+8b9f1f5fee8085f718286a3aa108b4882de0542f data/colors/loot_tables/blocks/olive_wool.json

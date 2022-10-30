@@ -28,6 +28,7 @@ public abstract class DyeColorMixin {
 
     private static final DyeColor CORAL = addVariant("CORAL", "coral", 16286585, MaterialColor.COLOR_ORANGE, 16286585, 16286585);
     private static final DyeColor BEIGE = addVariant("BEIGE", "beige", 15062720, MaterialColor.COLOR_YELLOW, 15062720, 15062720);
+    private static final DyeColor OLIVE = addVariant("OLIVE", "olive", 9868800, MaterialColor.COLOR_LIGHT_GREEN, 9868800, 9868800);
 
     @Shadow
     @Final

@@ -30,6 +30,9 @@ public class ShulkerBoxBlockMixin {
             if (p_56191_ == ExtraDyeColors.BEIGE) {
                 cir.setReturnValue(BlockInit.BEIGE_SHULKER_BOX.get());
             }
+            if (p_56191_ == ExtraDyeColors.OLIVE) {
+                cir.setReturnValue(BlockInit.OLIVE_SHULKER_BOX.get());
+            }
         }
     }
 }

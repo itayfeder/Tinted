@@ -37,4 +37,17 @@ public class ItemInit {
     public static final RegistryObject<Item> BEIGE_CANDLE = ITEMS.register("beige_candle", () -> new BlockItem(BlockInit.BEIGE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
     public static final RegistryObject<Item> BEIGE_DYE = ITEMS.register("beige_dye", () -> new DyeItem(ExtraDyeColors.BEIGE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
 
+    public static final RegistryObject<Item> OLIVE_WOOL = ITEMS.register("olive_wool", () -> new BlockItem(BlockInit.OLIVE_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> OLIVE_TERRACOTTA = ITEMS.register("olive_terracotta", () -> new BlockItem(BlockInit.OLIVE_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> OLIVE_STAINED_GLASS = ITEMS.register("olive_stained_glass", () -> new BlockItem(BlockInit.OLIVE_STAINED_GLASS.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> OLIVE_CONCRETE = ITEMS.register("olive_concrete", () -> new BlockItem(BlockInit.OLIVE_CONCRETE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> OLIVE_CONCRETE_POWDER = ITEMS.register("olive_concrete_powder", () -> new BlockItem(BlockInit.OLIVE_CONCRETE_POWDER.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> OLIVE_CARPET = ITEMS.register("olive_carpet", () -> new BlockItem(BlockInit.OLIVE_CARPET.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> OLIVE_STAINED_GLASS_PANE = ITEMS.register("olive_stained_glass_pane", () -> new BlockItem(BlockInit.OLIVE_STAINED_GLASS_PANE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> OLIVE_SHULKER_BOX = ITEMS.register("olive_shulker_box", () -> new BlockItem(BlockInit.OLIVE_SHULKER_BOX.get(), (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> OLIVE_BED = ITEMS.register("olive_bed", () -> new BedItem(BlockInit.OLIVE_BED.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> OLIVE_BANNER = ITEMS.register("olive_banner", () -> new BannerItem(BlockInit.OLIVE_BANNER.get(), BlockInit.OLIVE_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> OLIVE_CANDLE = ITEMS.register("olive_candle", () -> new BlockItem(BlockInit.OLIVE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> OLIVE_DYE = ITEMS.register("olive_dye", () -> new DyeItem(ExtraDyeColors.OLIVE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
+
 }

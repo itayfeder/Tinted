@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quark:blank_rune"
+    },
+    {
+      "item": "colors:beige_dye"
+    }
+  ],
+  "result": {
+    "item": "quark:beige_rune",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "color_runes"
+    }
+  ]
+} 

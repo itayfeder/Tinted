@@ -23,9 +23,10 @@ public class ColorBlockLoot extends BlockLoot {
         this.add(BlockInit.CORAL_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
         this.add(BlockInit.CORAL_BANNER.get(), BlockLoot::createBannerDrop);
         this.add(BlockInit.CORAL_WALL_BANNER.get(), BlockLoot::createBannerDrop);
-        this.dropWhenSilkTouch(BlockInit.CORAL_STAINED_GLASS.get());
+        //this.dropWhenSilkTouch(BlockInit.CORAL_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.CORAL_STAINED_GLASS_PANE.get());
         this.add(BlockInit.CORAL_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.CORAL_CANDLE.get()));
+
 
         this.dropSelf(BlockInit.BEIGE_WOOL.get());
         this.dropSelf(BlockInit.BEIGE_TERRACOTTA.get());
@@ -39,9 +40,26 @@ public class ColorBlockLoot extends BlockLoot {
         this.add(BlockInit.BEIGE_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
         this.add(BlockInit.BEIGE_BANNER.get(), BlockLoot::createBannerDrop);
         this.add(BlockInit.BEIGE_WALL_BANNER.get(), BlockLoot::createBannerDrop);
-        this.dropWhenSilkTouch(BlockInit.BEIGE_STAINED_GLASS.get());
+        //this.dropWhenSilkTouch(BlockInit.BEIGE_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.BEIGE_STAINED_GLASS_PANE.get());
         this.add(BlockInit.BEIGE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.BEIGE_CANDLE.get()));
+
+
+        this.dropSelf(BlockInit.OLIVE_WOOL.get());
+        this.dropSelf(BlockInit.OLIVE_TERRACOTTA.get());
+        this.dropSelf(BlockInit.OLIVE_CARPET.get());
+        this.dropSelf(BlockInit.OLIVE_CONCRETE.get());
+        this.dropSelf(BlockInit.OLIVE_CONCRETE_POWDER.get());
+        this.add(BlockInit.OLIVE_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.OLIVE_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.OLIVE_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.OLIVE_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.OLIVE_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        //this.dropWhenSilkTouch(BlockInit.OLIVE_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.OLIVE_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.OLIVE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.OLIVE_CANDLE.get()));
 
     }
 

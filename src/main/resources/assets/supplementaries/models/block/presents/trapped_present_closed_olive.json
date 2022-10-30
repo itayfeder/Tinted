@@ -1,0 +1,11 @@
+{
+	"parent": "supplementaries:block/trapped_present_closed_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+			"3": "supplementaries:blocks/presents/present_trapped_olive",
+		"bottom": "supplementaries:blocks/presents/present_bottom_olive",
+		"top": "supplementaries:blocks/presents/present_top_olive",
+		"particle": "supplementaries:blocks/presents/present_side_olive",
+		"side": "supplementaries:blocks/presents/present_side_olive"
+	}
+}
