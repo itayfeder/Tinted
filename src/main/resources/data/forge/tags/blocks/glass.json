@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "colors:coral_stained_glass",
-    "colors:beige_stained_glass",
-    "colors:olive_stained_glass",
+    "tinted:coral_stained_glass",
+    "tinted:beige_stained_glass",
+    "tinted:olive_stained_glass",
 	{"id":"quark:coral_framed_glass","required":false},
 	{"id":"quark:beige_framed_glass","required":false},
 	{"id":"quark:olive_framed_glass","required":false}

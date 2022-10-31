@@ -3,7 +3,7 @@
   "group": "curtains",
   "ingredients": [
     {
-      "item": "colors:olive_dye"
+      "item": "tinted:olive_dye"
     },
     {
       "item": "another_furniture:white_curtain"

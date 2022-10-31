@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"create:coral_seat","required":false},
+	{"id":"create:beige_seat","required":false},
+	{"id":"create:olive_seat","required":false},
+	{"id":"create:coral_sail","required":false},
+	{"id":"create:beige_sail","required":false},
+	{"id":"create:olive_sail","required":false}
+  ]
+}

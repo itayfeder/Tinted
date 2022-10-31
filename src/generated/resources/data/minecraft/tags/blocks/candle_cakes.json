@@ -1,7 +1,7 @@
 {
   "values": [
-    "colors:coral_candle_cake",
-    "colors:beige_candle_cake",
-    "colors:olive_candle_cake"
+    "tinted:coral_candle_cake",
+    "tinted:beige_candle_cake",
+    "tinted:olive_candle_cake"
   ]
 }

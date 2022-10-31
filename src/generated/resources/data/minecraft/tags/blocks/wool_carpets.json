@@ -1,7 +1,7 @@
 {
   "values": [
-    "colors:coral_carpet",
-    "colors:beige_carpet",
-    "colors:olive_carpet"
+    "tinted:coral_carpet",
+    "tinted:beige_carpet",
+    "tinted:olive_carpet"
   ]
 }

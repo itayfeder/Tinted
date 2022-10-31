@@ -6,7 +6,7 @@
       "item": "minecraft:glass_pane"
     },
     "$": {
-      "item": "colors:beige_dye"
+      "item": "tinted:beige_dye"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "colors:beige_stained_glass_pane"
+    "item": "tinted:beige_stained_glass_pane"
   }
 }

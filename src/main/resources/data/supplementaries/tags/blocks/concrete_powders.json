@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    {"id":"colors:coral_concrete_powder","required":false},
-    {"id":"colors:beige_concrete_powder","required":false},
-    {"id":"colors:olive_concrete_powder","required":false}
+    {"id":"tinted:coral_concrete_powder","required":false},
+    {"id":"tinted:beige_concrete_powder","required":false},
+    {"id":"tinted:olive_concrete_powder","required":false}
   ]
 }

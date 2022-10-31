@@ -9,7 +9,7 @@
             "item": "minecraft:stick"
         },
         "W": {
-            "item": "colors:olive_wool"
+            "item": "tinted:olive_wool"
         }
     },
     "pattern": [

@@ -6,10 +6,10 @@
       "item": "minecraft:white_bed"
     },
     {
-      "item": "colors:coral_dye"
+      "item": "tinted:coral_dye"
     }
   ],
   "result": {
-    "item": "colors:coral_bed"
+    "item": "tinted:coral_bed"
   }
 }

@@ -3,7 +3,7 @@
   "group": "stools",
   "ingredients": [
     {
-      "item": "colors:beige_dye"
+      "item": "tinted:beige_dye"
     },
     {
       "item": "another_furniture:white_stool"

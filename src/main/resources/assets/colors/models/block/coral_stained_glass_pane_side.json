@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_side",
-  "textures": {
-    "pane": "colors:block/coral_stained_glass",
-    "edge": "colors:block/coral_stained_glass_pane_top"
-  }
-}

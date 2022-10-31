@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create:coral_toolbox",
+    "create:beige_toolbox",
+    "create:olive_toolbox"
+  ]
+}

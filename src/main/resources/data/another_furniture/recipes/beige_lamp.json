@@ -6,7 +6,7 @@
             "item": "minecraft:stick"
         },
         "W": {
-            "item": "colors:beige_wool"
+            "item": "tinted:beige_wool"
         },
         "T": {
             "item": "minecraft:torch"

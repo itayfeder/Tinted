@@ -1,7 +1,7 @@
 {
   "values": [
-    "colors:coral_terracotta",
-    "colors:beige_terracotta",
-    "colors:olive_terracotta"
+    "tinted:coral_terracotta",
+    "tinted:beige_terracotta",
+    "tinted:olive_terracotta"
   ]
 }

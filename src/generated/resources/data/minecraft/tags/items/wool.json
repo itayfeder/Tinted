@@ -1,7 +1,7 @@
 {
   "values": [
-    "colors:coral_wool",
-    "colors:beige_wool",
-    "colors:olive_wool"
+    "tinted:coral_wool",
+    "tinted:beige_wool",
+    "tinted:olive_wool"
   ]
 }

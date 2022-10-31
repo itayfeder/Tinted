@@ -1,7 +1,7 @@
 {
   "values": [
-    "colors:coral_banner",
-    "colors:beige_banner",
-    "colors:olive_banner"
+    "tinted:coral_banner",
+    "tinted:beige_banner",
+    "tinted:olive_banner"
   ]
 }

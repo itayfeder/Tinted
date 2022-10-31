@@ -4,6 +4,6 @@
 	"textures": {
 		"2": "supplementaries:blocks/candle_holder",
 		"particle": "supplementaries:blocks/candle_holder",
-		"all": "colors:block/coral_candle_lit"
+		"all": "tinted:block/coral_candle_lit"
 	}
 }

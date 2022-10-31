@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "waystones:coral_sharestone"
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:coral_dye"
+    },
+    {
+      "tag": "waystones:sharestone"
+    }
+  ]
+}

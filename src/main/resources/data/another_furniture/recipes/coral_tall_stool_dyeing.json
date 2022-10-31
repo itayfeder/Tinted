@@ -3,7 +3,7 @@
     "group": "tall_stools",
     "ingredients": [
         {
-            "item": "colors:coral_dye"
+            "item": "tinted:coral_dye"
         },
         {
             "item": "another_furniture:white_tall_stool"

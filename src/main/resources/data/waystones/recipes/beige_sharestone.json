@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "waystones:beige_sharestone"
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:beige_dye"
+    },
+    {
+      "tag": "waystones:sharestone"
+    }
+  ]
+}

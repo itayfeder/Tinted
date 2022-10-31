@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "colors:coral_stained_glass"
+    "item": "tinted:coral_stained_glass"
   },
   "group": "quark:glass_shard",
   "conditions": [

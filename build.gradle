@@ -19,12 +19,12 @@ apply plugin: "org.spongepowered.mixin"
 
 
 mixin {
-    add sourceSets.main, "colors.refmap.json"
+    add sourceSets.main, "tinted.refmap.json"
 }
 
 version = '1.0'
-group = 'com.itayfeder.colors' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'colors'
+group = 'com.itayfeder.tinted' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'tinted'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -53,7 +53,7 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-            arg "-mixin.config=colors.mixins.json"
+            arg "-mixin.config=tinted.mixins.json"
 
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
@@ -68,10 +68,11 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'colors'
+            property 'forge.enabledGameTestNamespaces', 'tinted'
+
 
             mods {
-                colors {
+                tinted {
                     source sourceSets.main
                 }
             }
@@ -79,16 +80,16 @@ minecraft {
 
         server {
             workingDirectory project.file('run')
-            arg "-mixin.config=colors.mixins.json"
+            arg "-mixin.config=tinted.mixins.json"
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'colors'
+            property 'forge.enabledGameTestNamespaces', 'tinted'
 
             mods {
-                colors {
+                tinted {
                     source sourceSets.main
                 }
             }
@@ -104,10 +105,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'colors'
+            property 'forge.enabledGameTestNamespaces', 'tinted'
 
             mods {
-                colors {
+                tinted {
                     source sourceSets.main
                 }
             }
@@ -121,10 +122,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'colors', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'tinted', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                colors {
+                tinted {
                     source sourceSets.main
                 }
             }
@@ -156,7 +157,10 @@ dependencies {
     implementation fg.deobf("curse.maven:quark-243121:3961436")
     implementation fg.deobf("curse.maven:autoreglib-250363:3857246")
 
+    implementation fg.deobf("curse.maven:create-328085:4011414")
 
+    implementation fg.deobf("curse.maven:waystones-245755:3901921")
+    implementation fg.deobf("curse.maven:balm-531761:3914527")
     // ADDED MYSELF (PERSONALLY PICKED
     implementation fg.deobf("curse.maven:another-furniture-610492:4034009")
 
@@ -178,14 +182,14 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "colors",
+                "Specification-Title"     : "tinted",
                 "Specification-Vendor"    : "feder",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "feder",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                "MixinConfigs"            : "colors.mixins.json"
+                "MixinConfigs"            : "tinted.mixins.json"
         ])
     }
 }

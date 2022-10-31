@@ -1,7 +1,7 @@
 {
   "values": [
-    "colors:coral_stained_glass_pane",
-    "colors:beige_stained_glass_pane",
-    "colors:olive_stained_glass_pane"
+    "tinted:coral_stained_glass_pane",
+    "tinted:beige_stained_glass_pane",
+    "tinted:olive_stained_glass_pane"
   ]
 }

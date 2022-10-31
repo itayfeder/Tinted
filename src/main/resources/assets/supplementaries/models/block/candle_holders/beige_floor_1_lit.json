@@ -4,6 +4,6 @@
 	"textures": {
 		"1": "supplementaries:blocks/candle_holder",
 		"particle": "supplementaries:blocks/candle_holder",
-		"all": "colors:block/beige_candle_lit"
+		"all": "tinted:block/beige_candle_lit"
 	}
 }

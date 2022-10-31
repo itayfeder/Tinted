@@ -1,7 +1,7 @@
 {
   "values": [
-    "colors:coral_concrete_powder",
-    "colors:beige_concrete_powder",
-    "colors:olive_concrete_powder"
+    "tinted:coral_concrete_powder",
+    "tinted:beige_concrete_powder",
+    "tinted:olive_concrete_powder"
   ]
 }

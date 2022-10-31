@@ -6,7 +6,7 @@
       "item": "minecraft:white_carpet"
     },
     "$": {
-      "item": "colors:beige_dye"
+      "item": "tinted:beige_dye"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "colors:beige_carpet"
+    "item": "tinted:beige_carpet"
   }
 }

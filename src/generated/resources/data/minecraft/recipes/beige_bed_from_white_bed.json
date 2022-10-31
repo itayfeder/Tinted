@@ -6,10 +6,10 @@
       "item": "minecraft:white_bed"
     },
     {
-      "item": "colors:beige_dye"
+      "item": "tinted:beige_dye"
     }
   ],
   "result": {
-    "item": "colors:beige_bed"
+    "item": "tinted:beige_bed"
   }
 }
