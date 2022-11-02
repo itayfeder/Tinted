@@ -49,4 +49,16 @@ public class ItemInit {
     public static final RegistryObject<Item> OLIVE_CANDLE = ITEMS.register("olive_candle", () -> new BlockItem(BlockInit.OLIVE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
     public static final RegistryObject<Item> OLIVE_DYE = ITEMS.register("olive_dye", () -> new DyeItem(ExtraDyeColors.OLIVE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
 
+    public static final RegistryObject<Item> TURQUOISE_WOOL = ITEMS.register("turquoise_wool", () -> new BlockItem(BlockInit.TURQUOISE_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> TURQUOISE_TERRACOTTA = ITEMS.register("turquoise_terracotta", () -> new BlockItem(BlockInit.TURQUOISE_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> TURQUOISE_STAINED_GLASS = ITEMS.register("turquoise_stained_glass", () -> new BlockItem(BlockInit.TURQUOISE_STAINED_GLASS.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> TURQUOISE_CONCRETE = ITEMS.register("turquoise_concrete", () -> new BlockItem(BlockInit.TURQUOISE_CONCRETE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> TURQUOISE_CONCRETE_POWDER = ITEMS.register("turquoise_concrete_powder", () -> new BlockItem(BlockInit.TURQUOISE_CONCRETE_POWDER.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> TURQUOISE_CARPET = ITEMS.register("turquoise_carpet", () -> new BlockItem(BlockInit.TURQUOISE_CARPET.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> TURQUOISE_STAINED_GLASS_PANE = ITEMS.register("turquoise_stained_glass_pane", () -> new BlockItem(BlockInit.TURQUOISE_STAINED_GLASS_PANE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> TURQUOISE_SHULKER_BOX = ITEMS.register("turquoise_shulker_box", () -> new BlockItem(BlockInit.TURQUOISE_SHULKER_BOX.get(), (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> TURQUOISE_BED = ITEMS.register("turquoise_bed", () -> new BedItem(BlockInit.TURQUOISE_BED.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> TURQUOISE_BANNER = ITEMS.register("turquoise_banner", () -> new BannerItem(BlockInit.TURQUOISE_BANNER.get(), BlockInit.TURQUOISE_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> TURQUOISE_CANDLE = ITEMS.register("turquoise_candle", () -> new BlockItem(BlockInit.TURQUOISE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> TURQUOISE_DYE = ITEMS.register("turquoise_dye", () -> new DyeItem(ExtraDyeColors.TURQUOISE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
 }

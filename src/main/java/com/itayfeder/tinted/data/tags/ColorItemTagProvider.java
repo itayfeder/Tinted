@@ -1,6 +1,7 @@
 package com.itayfeder.tinted.data.tags;
 
 import com.itayfeder.tinted.TintedMod;
+import com.itayfeder.tinted.init.BlockInit;
 import com.itayfeder.tinted.init.ItemInit;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
@@ -25,8 +26,8 @@ public class ColorItemTagProvider extends ItemTagsProvider {
         this.copy(BlockTags.CANDLES, ItemTags.CANDLES);
         this.copy(BlockTags.TERRACOTTA, ItemTags.TERRACOTTA);
 
-        this.tag(ItemTags.BANNERS).add(ItemInit.CORAL_BANNER.get(), ItemInit.BEIGE_BANNER.get(), ItemInit.OLIVE_BANNER.get());
+        this.tag(ItemTags.BANNERS).add(ItemInit.CORAL_BANNER.get(), ItemInit.BEIGE_BANNER.get(), ItemInit.OLIVE_BANNER.get(), ItemInit.TURQUOISE_BANNER.get());
 
-        this.tag(Tags.Items.DYES).add(ItemInit.CORAL_DYE.get(), ItemInit.BEIGE_DYE.get(), ItemInit.OLIVE_DYE.get());
+        this.tag(Tags.Items.DYES).add(ItemInit.CORAL_DYE.get(), ItemInit.BEIGE_DYE.get(), ItemInit.OLIVE_DYE.get(), ItemInit.TURQUOISE_DYE.get());
     }
 }

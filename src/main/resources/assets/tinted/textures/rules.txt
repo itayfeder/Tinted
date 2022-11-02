@@ -4,3 +4,11 @@ All:
 Olive:
 - Base: Light Gray
 - Brightness: +5
+
+Turquoise:
+- Base: Orange
+- Brightness: -20
+- Contrast: 10
+- After:
+- - Brightness: -10
+- - Contrast: 20

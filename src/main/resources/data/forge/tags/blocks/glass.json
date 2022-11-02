@@ -4,8 +4,10 @@
     "tinted:coral_stained_glass",
     "tinted:beige_stained_glass",
     "tinted:olive_stained_glass",
+    "tinted:turquoise_stained_glass",
 	{"id":"quark:coral_framed_glass","required":false},
 	{"id":"quark:beige_framed_glass","required":false},
-	{"id":"quark:olive_framed_glass","required":false}
+	{"id":"quark:olive_framed_glass","required":false},
+	{"id":"quark:turquoise_framed_glass","required":false}
   ]
 }

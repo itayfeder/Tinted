@@ -3,6 +3,7 @@
   "values": [
     {"id":"supplementaries:flag_coral","required":false},
     {"id":"supplementaries:flag_beige","required":false},
-    {"id":"supplementaries:flag_olive","required":false}
+    {"id":"supplementaries:flag_olive","required":false},
+    {"id":"supplementaries:flag_turquoise","required":false}
   ]
 }

@@ -1,5 +1,6 @@
 package com.itayfeder.tinted.mixin;
 
+import com.itayfeder.tinted.TintedMod;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.minecraft.world.item.BannerItem;
 import net.minecraft.world.item.DyeColor;
@@ -14,6 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -29,6 +31,9 @@ public abstract class DyeColorMixin {
     private static final DyeColor CORAL = addVariant("CORAL", "coral", 16286585, MaterialColor.COLOR_ORANGE, 16286585, 16286585);
     private static final DyeColor BEIGE = addVariant("BEIGE", "beige", 15062720, MaterialColor.COLOR_YELLOW, 15062720, 15062720);
     private static final DyeColor OLIVE = addVariant("OLIVE", "olive", 9868800, MaterialColor.COLOR_LIGHT_GREEN, 9868800, 9868800);
+    private static final DyeColor TURQUOISE = addVariant("TURQUOISE", "turquoise", 4251856, MaterialColor.COLOR_LIGHT_BLUE, 4251856, 4251856);
+
+    //private static final DyeColor CHROMATIC = addVariant("CHROMATIC", "chromatic", 16777215, MaterialColor.TERRACOTTA_WHITE, 16777215, 16777215);
 
     @Shadow
     @Final
@@ -45,6 +50,8 @@ public abstract class DyeColorMixin {
     }, (p_41056_) -> {
         return p_41056_;
     })));
+
+    @Shadow @Final private int id;
 
     @Invoker("<init>")
     public static DyeColor invokeInit(String internalName, int internalId, int id, String p_41047_, int p_41048_, MaterialColor p_41049_, int p_41050_, int p_41051_) {

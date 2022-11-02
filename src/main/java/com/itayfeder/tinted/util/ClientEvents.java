@@ -19,5 +19,7 @@ public class ClientEvents {
         ItemBlockRenderTypes.setRenderLayer(BlockInit.BEIGE_STAINED_GLASS_PANE.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.OLIVE_STAINED_GLASS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.OLIVE_STAINED_GLASS_PANE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.TURQUOISE_STAINED_GLASS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.TURQUOISE_STAINED_GLASS_PANE.get(), RenderType.translucent());
     }
 }

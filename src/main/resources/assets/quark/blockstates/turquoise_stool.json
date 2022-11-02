@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "big=true": { "model": "quark:block/turquoise_big_stool" },
+        "big=false": { "model": "quark:block/turquoise_stool" }
+    }
+}

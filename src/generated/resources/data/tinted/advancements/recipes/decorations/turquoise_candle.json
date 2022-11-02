@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tinted:turquoise_candle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_turquoise_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tinted:turquoise_dye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_turquoise_dye",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tinted:turquoise_candle"
+    ]
+  }
+}

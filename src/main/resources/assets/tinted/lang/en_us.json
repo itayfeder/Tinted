@@ -182,6 +182,67 @@
   "block.minecraft.banner.piglin.olive": "Olive Snout",
 
 
+  "comment___": "---------------------TURQUOISE---------------------",
+  "block.tinted.turquoise_stained_glass": "Turquoise Stained Glass",
+  "block.tinted.turquoise_stained_glass_pane": "Turquoise Stained Glass Pane",
+  "block.tinted.turquoise_carpet": "Turquoise Carpet",
+  "block.tinted.turquoise_terracotta": "Turquoise Terracotta",
+  "block.tinted.turquoise_wool": "Turquoise Wool",
+  "block.tinted.turquoise_shulker_box": "Turquoise Shulker Box",
+  "block.tinted.turquoise_concrete": "Turquoise Concrete",
+  "block.tinted.turquoise_concrete_powder": "Turquoise Concrete Powder",
+  "block.tinted.turquoise_candle": "Turquoise Candle",
+  "block.tinted.turquoise_candle_cake": "Cake with Turquoise Candle",
+  "item.tinted.turquoise_dye": "Turquoise Dye",
+  "block.tinted.turquoise_bed": "Turquoise Bed",
+  "item.minecraft.firework_star.turquoise": "Turquoise",
+  "block.tinted.turquoise_banner": "Turquoise Banner",
+  "item.minecraft.shield.turquoise": "Turquoise Shield",
+  "color.minecraft.turquoise": "Turquoise",
+
+  "block.minecraft.banner.base.turquoise": "Fully Turquoise Field",
+  "block.minecraft.banner.square_bottom_left.turquoise": "Turquoise Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.turquoise": "Turquoise Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.turquoise": "Turquoise Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.turquoise": "Turquoise Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.turquoise": "Turquoise Base",
+  "block.minecraft.banner.stripe_top.turquoise": "Turquoise Chief",
+  "block.minecraft.banner.stripe_left.turquoise": "Turquoise Pale Dexter",
+  "block.minecraft.banner.stripe_right.turquoise": "Turquoise Pale Sinister",
+  "block.minecraft.banner.stripe_center.turquoise": "Turquoise Pale",
+  "block.minecraft.banner.stripe_middle.turquoise": "Turquoise Fess",
+  "block.minecraft.banner.stripe_downright.turquoise": "Turquoise Bend",
+  "block.minecraft.banner.stripe_downleft.turquoise": "Turquoise Bend Sinister",
+  "block.minecraft.banner.small_stripes.turquoise": "Turquoise Paly",
+  "block.minecraft.banner.cross.turquoise": "Turquoise Saltire",
+  "block.minecraft.banner.triangle_bottom.turquoise": "Turquoise Chevron",
+  "block.minecraft.banner.triangle_top.turquoise": "Turquoise Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.turquoise": "Turquoise Base Indented",
+  "block.minecraft.banner.triangles_top.turquoise": "Turquoise Chief Indented",
+  "block.minecraft.banner.diagonal_left.turquoise": "Turquoise Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.turquoise": "Turquoise Per Bend",
+  "block.minecraft.banner.diagonal_up_left.turquoise": "Turquoise Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.turquoise": "Turquoise Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.turquoise": "Turquoise Roundel",
+  "block.minecraft.banner.rhombus.turquoise": "Turquoise Lozenge",
+  "block.minecraft.banner.half_vertical.turquoise": "Turquoise Per Pale",
+  "block.minecraft.banner.half_horizontal.turquoise": "Turquoise Per Fess",
+  "block.minecraft.banner.half_vertical_right.turquoise": "Turquoise Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.turquoise": "Turquoise Per Fess Inverted",
+  "block.minecraft.banner.creeper.turquoise": "Turquoise Creeper Charge",
+  "block.minecraft.banner.bricks.turquoise": "Turquoise Field Masoned",
+  "block.minecraft.banner.gradient.turquoise": "Turquoise Gradient",
+  "block.minecraft.banner.gradient_up.turquoise": "Turquoise Base Gradient",
+  "block.minecraft.banner.skull.turquoise": "Turquoise Skull Charge",
+  "block.minecraft.banner.flower.turquoise": "Turquoise Flower Charge",
+  "block.minecraft.banner.border.turquoise": "Turquoise Bordure",
+  "block.minecraft.banner.curly_border.turquoise": "Turquoise Bordure Indented",
+  "block.minecraft.banner.mojang.turquoise": "Turquoise Thing",
+  "block.minecraft.banner.straight_cross.turquoise": "Turquoise Cross",
+  "block.minecraft.banner.globe.turquoise": "Turquoise Globe",
+  "block.minecraft.banner.piglin.turquoise": "Turquoise Snout",
+
+
 
   "comment___": "---------------------COMPAT: SUPPLEMENTARIES---------------------",
   "block.supplementaries.flag_coral": "Coral Flag",
@@ -198,6 +259,11 @@
   "block.supplementaries.present_olive": "Olive Present",
   "block.supplementaries.trapped_present_olive": "Trapped Olive Present",
   "block.supplementaries.candle_holder_olive": "Olive Candle Holder",
+
+  "block.supplementaries.flag_turquoise": "Turquoise Flag",
+  "block.supplementaries.present_turquoise": "Turquoise Present",
+  "block.supplementaries.trapped_present_turquoise": "Trapped Turquoise Present",
+  "block.supplementaries.candle_holder_turquoise": "Turquoise Candle Holder",
 
 
 
@@ -220,6 +286,12 @@
   "block.another_furniture.olive_lamp": "Olive Lamp",
   "block.another_furniture.olive_tall_stool": "Olive Tall Stool",
 
+  "block.another_furniture.turquoise_sofa": "Turquoise Sofa",
+  "block.another_furniture.turquoise_stool": "Turquoise Stool",
+  "block.another_furniture.turquoise_curtain": "Turquoise Curtain",
+  "block.another_furniture.turquoise_lamp": "Turquoise Lamp",
+  "block.another_furniture.turquoise_tall_stool": "Turquoise Tall Stool",
+
 
 
   "comment___": "---------------------COMPAT: QUARK---------------------",
@@ -241,6 +313,12 @@
   "block.quark.olive_framed_glass_pane": "Olive Framed Glass Pane",
   "block.quark.olive_stool": "Olive Stool",
 
+  "item.quark.turquoise_shard": "Turquoise Glass Shard",
+  "item.quark.turquoise_rune": "Turquoise Rune",
+  "block.quark.turquoise_framed_glass": "Turquoise Framed Glass",
+  "block.quark.turquoise_framed_glass_pane": "Turquoise Framed Glass Pane",
+  "block.quark.turquoise_stool": "Turquoise Stool",
+
 
 
   "comment___": "---------------------COMPAT: CREATE---------------------",
@@ -259,13 +337,23 @@
   "block.create.olive_toolbox": "Olive Toolbox",
   "block.create.olive_valve_handle": "Olive Valve Handle",
 
+  "block.create.turquoise_sail": "Turquoise Sail",
+  "block.create.turquoise_seat": "Turquoise Seat",
+  "block.create.turquoise_toolbox": "Turquoise Toolbox",
+  "block.create.turquoise_valve_handle": "Turquoise Valve Handle",
+
 
 
   "comment___": "---------------------COMPAT: WAYSTONES---------------------",
   "block.waystones.coral_sharestone": "Coral Sharestone",
-  "block.waystones.beige_sharestone": "Beige Sharestone",
-  "block.waystones.olive_sharestone": "Olive Sharestone",
   "tooltip.waystones.coral_sharestone": "Teleport to any other Coral Sharestone",
+
+  "block.waystones.beige_sharestone": "Beige Sharestone",
   "tooltip.waystones.beige_sharestone": "Teleport to any other Beige Sharestone",
-  "tooltip.waystones.olive_sharestone": "Teleport to any other Olive Sharestone"
+
+  "block.waystones.olive_sharestone": "Olive Sharestone",
+  "tooltip.waystones.olive_sharestone": "Teleport to any other Olive Sharestone",
+
+  "block.waystones.turquoise_sharestone": "Turquoise Sharestone",
+  "tooltip.waystones.turquoise_sharestone": "Teleport to any other Turquoise Sharestone"
 }

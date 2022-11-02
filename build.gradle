@@ -161,7 +161,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:waystones-245755:3901921")
     implementation fg.deobf("curse.maven:balm-531761:3914527")
-    // ADDED MYSELF (PERSONALLY PICKED
+    // ADDED MYSELF (PERSONALLY PICKED)
     implementation fg.deobf("curse.maven:another-furniture-610492:4034009")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings

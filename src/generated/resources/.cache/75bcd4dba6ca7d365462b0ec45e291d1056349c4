@@ -1,12 +1,12 @@
-// 1.19.2	2022-10-31T10:38:33.5283476	Tags for minecraft:block
-299b1372d0f5bbc03784cb8e568c15485f5b05f3 data/forge/tags/blocks/stained_glass.json
-0cb5a95179710c0a6e061849737f06ea5749f90c data/forge/tags/blocks/stained_glass_panes.json
-b594fe49eb5148cc919d436d601cae3ec8c19596 data/minecraft/tags/blocks/banners.json
-e5862ee9913d46d458331c204e3d43696b0faa54 data/minecraft/tags/blocks/beds.json
-82c6c85618298ce463373a890ebd30f0fe972508 data/minecraft/tags/blocks/candles.json
-b2fd79b5469fb342e9fa846d4ad0be01950bfa52 data/minecraft/tags/blocks/candle_cakes.json
-103c2abd3195a76231cb55a1558673a746451359 data/minecraft/tags/blocks/mineable/shovel.json
-4517fcc210e45bc023190905c70251a0cdfe7050 data/minecraft/tags/blocks/shulker_boxes.json
-f9d5040ca896c17e5b8ebf761fcae712e695a98f data/minecraft/tags/blocks/terracotta.json
-e0781f942d5d1897fcc6201a37074bc661efc832 data/minecraft/tags/blocks/wool.json
-b78fc66d9c46e657580656483a42a7fbebffe52f data/minecraft/tags/blocks/wool_carpets.json
+// 1.19.2	2022-10-31T18:57:08.0867803	Tags for minecraft:block
+8464bfe8b6a4566e6a1a814c0e446f259122fd99 data/forge/tags/blocks/stained_glass.json
+a2e30d71098c7b4913e8b699e5fd91b766ed4856 data/forge/tags/blocks/stained_glass_panes.json
+cfc1354e33f7700f4713c979607ea0eb80ae8357 data/minecraft/tags/blocks/banners.json
+13348ff7988d9e044b89ca20c49fda745bd66fdb data/minecraft/tags/blocks/beds.json
+d135c199362dd53f900aa3ce9a865c1dd85304b4 data/minecraft/tags/blocks/candles.json
+4e3f34c348abf0e50472d6bcff9d7b524a248747 data/minecraft/tags/blocks/candle_cakes.json
+8a926b07a09a506c0da61bc2d074b87533226e2f data/minecraft/tags/blocks/mineable/shovel.json
+c90b7496d24f595d91c9620471ecfed3cc3a9d70 data/minecraft/tags/blocks/shulker_boxes.json
+49802a89036d1553a883acc9c6d377ebc222dbe0 data/minecraft/tags/blocks/terracotta.json
+71e7fcff414da30c451b10cdf188d17be600e152 data/minecraft/tags/blocks/wool.json
+268187d8d0cf3f3ee59eb8dc113c566686210e3b data/minecraft/tags/blocks/wool_carpets.json

@@ -3,6 +3,7 @@
   "values": [
     {"id":"supplementaries:present_coral","required":false},
     {"id":"supplementaries:present_beige","required":false},
-    {"id":"supplementaries:present_olive","required":false}
+    {"id":"supplementaries:present_olive","required":false},
+    {"id":"supplementaries:present_turquoise","required":false}
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "tinted:turquoise_dye"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "item": "tinted:turquoise_wool"
+  }
+}

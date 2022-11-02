@@ -79,6 +79,22 @@ public class BlockInit {
     public static final RegistryObject<Block> OLIVE_CANDLE = BLOCKS.register("olive_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> OLIVE_CANDLE_CAKE = BLOCKS.register("olive_candle_cake", () -> new CandleCakeBlock(OLIVE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
 
+    public static final RegistryObject<Block> TURQUOISE_WOOL = BLOCKS.register("turquoise_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> TURQUOISE_TERRACOTTA = BLOCKS.register("turquoise_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
+    public static final RegistryObject<Block> TURQUOISE_STAINED_GLASS = BLOCKS.register("turquoise_stained_glass", () -> new StainedGlassBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_GREEN).strength(0.3F).sound(SoundType.GLASS).noOcclusion().isValidSpawn(BlockInit::never).isRedstoneConductor(BlockInit::never).isSuffocating(BlockInit::never).isViewBlocking(BlockInit::never)));
+    public static final RegistryObject<Block> TURQUOISE_CONCRETE = BLOCKS.register("turquoise_concrete", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GREEN).requiresCorrectToolForDrops().strength(1.8F)));
+    public static final RegistryObject<Block> TURQUOISE_CONCRETE_POWDER = BLOCKS.register("turquoise_concrete_powder", () -> new ConcretePowderBlock(TURQUOISE_CONCRETE.get(), BlockBehaviour.Properties.of(Material.SAND, DyeColor.GREEN).strength(0.5F).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> TURQUOISE_CARPET = BLOCKS.register("turquoise_carpet", () -> new WoolCarpetBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.CLOTH_DECORATION, MaterialColor.COLOR_GREEN).strength(0.1F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> TURQUOISE_STAINED_GLASS_PANE = BLOCKS.register("turquoise_stained_glass_pane", () -> new StainedGlassPaneBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.GLASS).strength(0.3F).sound(SoundType.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> TURQUOISE_SHULKER_BOX = BLOCKS.register("turquoise_shulker_box", () -> new ShulkerBoxBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.SHULKER_SHELL, MaterialColor.COLOR_GREEN).strength(2.0F).dynamicShape().noOcclusion().isSuffocating(blockbehaviour$statepredicate).isViewBlocking(blockbehaviour$statepredicate)));
+    public static final RegistryObject<Block> TURQUOISE_BED = BLOCKS.register("turquoise_bed", () -> new BedBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.WOOL, (p_152613_) -> {
+        return p_152613_.getValue(BedBlock.PART) == BedPart.FOOT ? ExtraDyeColors.TURQUOISE.getMaterialColor() : MaterialColor.WOOL;
+    }).sound(SoundType.WOOD).strength(0.2F).noOcclusion()));
+    public static final RegistryObject<Block> TURQUOISE_BANNER = BLOCKS.register("turquoise_banner", () -> new BannerBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> TURQUOISE_WALL_BANNER = BLOCKS.register("turquoise_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> TURQUOISE_CANDLE = BLOCKS.register("turquoise_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
+    public static final RegistryObject<Block> TURQUOISE_CANDLE_CAKE = BLOCKS.register("turquoise_candle_cake", () -> new CandleCakeBlock(TURQUOISE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+
 
     private static boolean never(BlockState p_50806_, BlockGetter p_50807_, BlockPos p_50808_) {
         return false;

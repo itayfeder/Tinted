@@ -30,5 +30,6 @@ public class ColorLootTableProvider extends LootTableProvider {
 
     @Override
     protected void validate(Map<ResourceLocation, LootTable> map, ValidationContext validationtracker) {
+
     }
 }

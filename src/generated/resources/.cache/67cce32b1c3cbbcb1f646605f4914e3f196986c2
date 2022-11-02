@@ -1,4 +1,4 @@
-// 1.19.2	2022-10-31T10:38:33.5283476	LootTables
+// 1.19.2	2022-10-31T18:57:08.0847857	LootTables
 d07331008b2b70eb4010ef0c9cf6c1b359b925ce data/tinted/loot_tables/blocks/beige_banner.json
 f5ee21736296b713f9df748bef30c723605656d6 data/tinted/loot_tables/blocks/beige_bed.json
 f6d7fa10c9579f0c3c27ec832057c2fcf8a52ded data/tinted/loot_tables/blocks/beige_candle.json
@@ -38,3 +38,16 @@ e40fadea41d4e21a7065debfdc36f43ab9feba4c data/tinted/loot_tables/blocks/olive_st
 00147abebddbf4c3f3c26b31ad60887e0cfe210a data/tinted/loot_tables/blocks/olive_terracotta.json
 d3ae9a11c89e7f6e252db4e95a1bb42caef34673 data/tinted/loot_tables/blocks/olive_wall_banner.json
 de28a529bb9c658b066435db91db2177da88d9b9 data/tinted/loot_tables/blocks/olive_wool.json
+f7a8d2641864391e40f7a3c4750faab50c1a08da data/tinted/loot_tables/blocks/turquoise_banner.json
+53ee82dbea10e3cea437a11c844e0cc3a3b90588 data/tinted/loot_tables/blocks/turquoise_bed.json
+416b3abf5abc2e814c60fbb697d9fc4c3dcb65fd data/tinted/loot_tables/blocks/turquoise_candle.json
+827b8825ba27e358c7401059d4c264bc2ef48900 data/tinted/loot_tables/blocks/turquoise_candle_cake.json
+42f3d2b7dd1ca3c54143a29011c988dd85957195 data/tinted/loot_tables/blocks/turquoise_carpet.json
+31274a2007e8af860f2e79d3a6c9215c02ae0ac3 data/tinted/loot_tables/blocks/turquoise_concrete.json
+9ef7cca8005ebf58a786401a148359a5c8a8d399 data/tinted/loot_tables/blocks/turquoise_concrete_powder.json
+f1a0bd813632d1e05a02312e92b59c3eefe66b9c data/tinted/loot_tables/blocks/turquoise_shulker_box.json
+bae1a3f9e3f25d6e49d1536c9c40f78dbd8eaa11 data/tinted/loot_tables/blocks/turquoise_stained_glass.json
+38d45c9d2db00c17573339bcf1221d462085d53e data/tinted/loot_tables/blocks/turquoise_stained_glass_pane.json
+b52dcd0e102fc34a5c4755ec1d5bf21925dad3d5 data/tinted/loot_tables/blocks/turquoise_terracotta.json
+f7a8d2641864391e40f7a3c4750faab50c1a08da data/tinted/loot_tables/blocks/turquoise_wall_banner.json
+a06d245917f973fa8e184f5daf9b5051c70ab9c3 data/tinted/loot_tables/blocks/turquoise_wool.json

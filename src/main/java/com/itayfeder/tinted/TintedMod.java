@@ -1,7 +1,6 @@
 package com.itayfeder.tinted;
 
 import com.itayfeder.tinted.compat.another_furniture.AnotherFurnitureCompat;
-import com.itayfeder.tinted.compat.create.CreateCompat;
 import com.itayfeder.tinted.data.ColorRecipeProvider;
 import com.itayfeder.tinted.data.lootTables.ColorLootTableProvider;
 import com.itayfeder.tinted.data.tags.ColorBlockTagProvider;
@@ -56,14 +55,6 @@ public class TintedMod
             System.out.println(color.toString() + " " + color.getId());
         }
         System.out.println("-----------------------------------------------");
-
-        if (ModList.get().isLoaded("create")) {
-            try {
-                CreateCompat.AddToHelper();
-            } catch (Exception e) {
-                System.out.println("Oopsy Woopsy something went wrong!");
-            }
-        }
 
         event.enqueueWork(() -> {
             BlockEntityAdder.AddToBlockEntities();
