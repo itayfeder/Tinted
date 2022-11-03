@@ -1,4 +1,17 @@
-// 1.19.2	2022-10-31T18:57:08.0847857	LootTables
+// 1.19.2	2022-11-02T09:14:45.042067	LootTables
+2264932b9016b0a11e0e350cde1391d0d70ade06 data/tinted/loot_tables/blocks/amber_banner.json
+d124487ecf42b748502e24cf334570c425d477f6 data/tinted/loot_tables/blocks/amber_bed.json
+5a4227fdfd5af78ec5d874cb7eddee13ea221b19 data/tinted/loot_tables/blocks/amber_candle.json
+d05111cb9b89c56331bd9155a0a8c67368b88928 data/tinted/loot_tables/blocks/amber_candle_cake.json
+4a4a156c7de4e6776a9ee73816856f30e5eaf373 data/tinted/loot_tables/blocks/amber_carpet.json
+7322218caf1c0a64462e5713f97f04189c26bfa0 data/tinted/loot_tables/blocks/amber_concrete.json
+6cbbcc1f75dc02a4e6c94b945a8137e077fb58d4 data/tinted/loot_tables/blocks/amber_concrete_powder.json
+1b05f2086dc88834c28a98896e5985d6fdef4fec data/tinted/loot_tables/blocks/amber_shulker_box.json
+61d15cbb4c51ac58f7d2ea11f9e2fb25ace50bd1 data/tinted/loot_tables/blocks/amber_stained_glass.json
+dc13e132a03271b80b73f7881e7ec5421f6d0f8e data/tinted/loot_tables/blocks/amber_stained_glass_pane.json
+7d4bed469739f0c62e143fc7085a62761541e5f8 data/tinted/loot_tables/blocks/amber_terracotta.json
+2264932b9016b0a11e0e350cde1391d0d70ade06 data/tinted/loot_tables/blocks/amber_wall_banner.json
+5b3e46fdb0666808a195193f41f00d97b0e32cf6 data/tinted/loot_tables/blocks/amber_wool.json
 d07331008b2b70eb4010ef0c9cf6c1b359b925ce data/tinted/loot_tables/blocks/beige_banner.json
 f5ee21736296b713f9df748bef30c723605656d6 data/tinted/loot_tables/blocks/beige_bed.json
 f6d7fa10c9579f0c3c27ec832057c2fcf8a52ded data/tinted/loot_tables/blocks/beige_candle.json

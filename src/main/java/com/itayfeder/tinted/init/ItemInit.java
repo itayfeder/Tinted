@@ -61,4 +61,20 @@ public class ItemInit {
     public static final RegistryObject<Item> TURQUOISE_BANNER = ITEMS.register("turquoise_banner", () -> new BannerItem(BlockInit.TURQUOISE_BANNER.get(), BlockInit.TURQUOISE_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS)));
     public static final RegistryObject<Item> TURQUOISE_CANDLE = ITEMS.register("turquoise_candle", () -> new BlockItem(BlockInit.TURQUOISE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
     public static final RegistryObject<Item> TURQUOISE_DYE = ITEMS.register("turquoise_dye", () -> new DyeItem(ExtraDyeColors.TURQUOISE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
+
+    public static final RegistryObject<Item> AMBER_WOOL = ITEMS.register("amber_wool", () -> new BlockItem(BlockInit.AMBER_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> AMBER_TERRACOTTA = ITEMS.register("amber_terracotta", () -> new BlockItem(BlockInit.AMBER_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> AMBER_STAINED_GLASS = ITEMS.register("amber_stained_glass", () -> new BlockItem(BlockInit.AMBER_STAINED_GLASS.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> AMBER_CONCRETE = ITEMS.register("amber_concrete", () -> new BlockItem(BlockInit.AMBER_CONCRETE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> AMBER_CONCRETE_POWDER = ITEMS.register("amber_concrete_powder", () -> new BlockItem(BlockInit.AMBER_CONCRETE_POWDER.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> AMBER_CARPET = ITEMS.register("amber_carpet", () -> new BlockItem(BlockInit.AMBER_CARPET.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> AMBER_STAINED_GLASS_PANE = ITEMS.register("amber_stained_glass_pane", () -> new BlockItem(BlockInit.AMBER_STAINED_GLASS_PANE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> AMBER_SHULKER_BOX = ITEMS.register("amber_shulker_box", () -> new BlockItem(BlockInit.AMBER_SHULKER_BOX.get(), (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> AMBER_BED = ITEMS.register("amber_bed", () -> new BedItem(BlockInit.AMBER_BED.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> AMBER_BANNER = ITEMS.register("amber_banner", () -> new BannerItem(BlockInit.AMBER_BANNER.get(), BlockInit.AMBER_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> AMBER_CANDLE = ITEMS.register("amber_candle", () -> new BlockItem(BlockInit.AMBER_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> AMBER_DYE = ITEMS.register("amber_dye", () -> new DyeItem(ExtraDyeColors.AMBER, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
+
+    //public static final RegistryObject<Item> CHROMATIC_DYE = ITEMS.register("chromatic_dye", () -> new DyeItem(ExtraDyeColors.CHROMATIC, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
+
 }

@@ -58,7 +58,6 @@ public class ColorRecipeProvider extends RecipeProvider {
         concretePowder(p_176532_, BlockInit.OLIVE_CONCRETE_POWDER.get(), ItemInit.OLIVE_DYE.get());
         candle(p_176532_, BlockInit.OLIVE_CANDLE.get(), ItemInit.OLIVE_DYE.get());
 
-
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.TURQUOISE_WOOL.get(), ItemInit.TURQUOISE_DYE.get());
         carpet(p_176532_, BlockInit.TURQUOISE_CARPET.get(), BlockInit.TURQUOISE_WOOL.get());
         coloredCarpetFromWhiteCarpetAndDye(p_176532_, BlockInit.TURQUOISE_CARPET.get(), ItemInit.TURQUOISE_DYE.get());
@@ -71,5 +70,18 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.TURQUOISE_TERRACOTTA.get(), ItemInit.TURQUOISE_DYE.get());
         concretePowder(p_176532_, BlockInit.TURQUOISE_CONCRETE_POWDER.get(), ItemInit.TURQUOISE_DYE.get());
         candle(p_176532_, BlockInit.TURQUOISE_CANDLE.get(), ItemInit.TURQUOISE_DYE.get());
+
+        coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.AMBER_WOOL.get(), ItemInit.AMBER_DYE.get());
+        carpet(p_176532_, BlockInit.AMBER_CARPET.get(), BlockInit.AMBER_WOOL.get());
+        coloredCarpetFromWhiteCarpetAndDye(p_176532_, BlockInit.AMBER_CARPET.get(), ItemInit.AMBER_DYE.get());
+        bedFromPlanksAndWool(p_176532_, ItemInit.AMBER_BED.get(), BlockInit.AMBER_WOOL.get());
+        bedFromWhiteBedAndDye(p_176532_, ItemInit.AMBER_BED.get(), ItemInit.AMBER_DYE.get());
+        banner(p_176532_, ItemInit.AMBER_BANNER.get(), BlockInit.AMBER_WOOL.get());
+        stainedGlassFromGlassAndDye(p_176532_, BlockInit.AMBER_STAINED_GLASS.get(), ItemInit.AMBER_DYE.get());
+        stainedGlassPaneFromStainedGlass(p_176532_, BlockInit.AMBER_STAINED_GLASS_PANE.get(), BlockInit.AMBER_STAINED_GLASS.get());
+        stainedGlassPaneFromGlassPaneAndDye(p_176532_, BlockInit.AMBER_STAINED_GLASS_PANE.get(), ItemInit.AMBER_DYE.get());
+        coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.AMBER_TERRACOTTA.get(), ItemInit.AMBER_DYE.get());
+        concretePowder(p_176532_, BlockInit.AMBER_CONCRETE_POWDER.get(), ItemInit.AMBER_DYE.get());
+        candle(p_176532_, BlockInit.AMBER_CANDLE.get(), ItemInit.AMBER_DYE.get());
     }
 }

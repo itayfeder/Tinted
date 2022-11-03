@@ -2,13 +2,20 @@ All:
 - Black/White
 
 Olive:
-- Base: Light Gray
+- Base: Light Gray (Grayscale)
 - Brightness: +5
 
 Turquoise:
-- Base: Orange
+- Base: Orange (Grayscale)
 - Brightness: -20
 - Contrast: 10
 - After:
 - - Brightness: -10
 - - Contrast: 20
+
+Amber:
+- Base: Orange
+- Mask: F9C525
+- After:
+- - Brightness: -15
+- - Contrast: 5

@@ -95,6 +95,22 @@ public class BlockInit {
     public static final RegistryObject<Block> TURQUOISE_CANDLE = BLOCKS.register("turquoise_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> TURQUOISE_CANDLE_CAKE = BLOCKS.register("turquoise_candle_cake", () -> new CandleCakeBlock(TURQUOISE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
 
+    public static final RegistryObject<Block> AMBER_WOOL = BLOCKS.register("amber_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> AMBER_TERRACOTTA = BLOCKS.register("amber_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
+    public static final RegistryObject<Block> AMBER_STAINED_GLASS = BLOCKS.register("amber_stained_glass", () -> new StainedGlassBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_GREEN).strength(0.3F).sound(SoundType.GLASS).noOcclusion().isValidSpawn(BlockInit::never).isRedstoneConductor(BlockInit::never).isSuffocating(BlockInit::never).isViewBlocking(BlockInit::never)));
+    public static final RegistryObject<Block> AMBER_CONCRETE = BLOCKS.register("amber_concrete", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GREEN).requiresCorrectToolForDrops().strength(1.8F)));
+    public static final RegistryObject<Block> AMBER_CONCRETE_POWDER = BLOCKS.register("amber_concrete_powder", () -> new ConcretePowderBlock(AMBER_CONCRETE.get(), BlockBehaviour.Properties.of(Material.SAND, DyeColor.GREEN).strength(0.5F).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> AMBER_CARPET = BLOCKS.register("amber_carpet", () -> new WoolCarpetBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.CLOTH_DECORATION, MaterialColor.COLOR_GREEN).strength(0.1F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> AMBER_STAINED_GLASS_PANE = BLOCKS.register("amber_stained_glass_pane", () -> new StainedGlassPaneBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.GLASS).strength(0.3F).sound(SoundType.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> AMBER_SHULKER_BOX = BLOCKS.register("amber_shulker_box", () -> new ShulkerBoxBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.SHULKER_SHELL, MaterialColor.COLOR_GREEN).strength(2.0F).dynamicShape().noOcclusion().isSuffocating(blockbehaviour$statepredicate).isViewBlocking(blockbehaviour$statepredicate)));
+    public static final RegistryObject<Block> AMBER_BED = BLOCKS.register("amber_bed", () -> new BedBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.WOOL, (p_152613_) -> {
+        return p_152613_.getValue(BedBlock.PART) == BedPart.FOOT ? ExtraDyeColors.AMBER.getMaterialColor() : MaterialColor.WOOL;
+    }).sound(SoundType.WOOD).strength(0.2F).noOcclusion()));
+    public static final RegistryObject<Block> AMBER_BANNER = BLOCKS.register("amber_banner", () -> new BannerBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> AMBER_WALL_BANNER = BLOCKS.register("amber_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> AMBER_CANDLE = BLOCKS.register("amber_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
+    public static final RegistryObject<Block> AMBER_CANDLE_CAKE = BLOCKS.register("amber_candle_cake", () -> new CandleCakeBlock(AMBER_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+
 
     private static boolean never(BlockState p_50806_, BlockGetter p_50807_, BlockPos p_50808_) {
         return false;

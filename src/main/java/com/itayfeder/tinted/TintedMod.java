@@ -11,6 +11,7 @@ import com.itayfeder.tinted.util.BlockEntityAdder;
 import com.itayfeder.tinted.util.ExtraDyeColors;
 import com.mojang.logging.LogUtils;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.item.DyeColor;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.data.ExistingFileHelper;

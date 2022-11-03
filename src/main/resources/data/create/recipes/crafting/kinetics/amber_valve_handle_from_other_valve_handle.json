@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:amber_dye"
+    },
+    {
+      "tag": "create:valve_handles"
+    }
+  ],
+  "result": {
+    "item": "create:amber_valve_handle"
+  }
+}

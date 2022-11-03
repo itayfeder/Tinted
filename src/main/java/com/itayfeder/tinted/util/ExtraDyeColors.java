@@ -14,12 +14,16 @@ public class ExtraDyeColors {
     public static DyeColor BEIGE;
     public static DyeColor OLIVE;
     public static DyeColor TURQUOISE;
+    public static DyeColor AMBER;
+
+    //public static DyeColor CHROMATIC;
 
     public static void InitColors() {
         CORAL = DyeColor.byId(16);
         BEIGE = DyeColor.byId(17);
         OLIVE = DyeColor.byId(18);
         TURQUOISE = DyeColor.byId(19);
+        AMBER = DyeColor.byId(20);
     }
 
 }

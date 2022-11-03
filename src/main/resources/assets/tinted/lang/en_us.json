@@ -243,6 +243,67 @@
   "block.minecraft.banner.piglin.turquoise": "Turquoise Snout",
 
 
+  "comment___": "---------------------AMBER---------------------",
+  "block.tinted.amber_stained_glass": "Amber Stained Glass",
+  "block.tinted.amber_stained_glass_pane": "Amber Stained Glass Pane",
+  "block.tinted.amber_carpet": "Amber Carpet",
+  "block.tinted.amber_terracotta": "Amber Terracotta",
+  "block.tinted.amber_wool": "Amber Wool",
+  "block.tinted.amber_shulker_box": "Amber Shulker Box",
+  "block.tinted.amber_concrete": "Amber Concrete",
+  "block.tinted.amber_concrete_powder": "Amber Concrete Powder",
+  "block.tinted.amber_candle": "Amber Candle",
+  "block.tinted.amber_candle_cake": "Cake with Amber Candle",
+  "item.tinted.amber_dye": "Amber Dye",
+  "block.tinted.amber_bed": "Amber Bed",
+  "item.minecraft.firework_star.amber": "Amber",
+  "block.tinted.amber_banner": "Amber Banner",
+  "item.minecraft.shield.amber": "Amber Shield",
+  "color.minecraft.amber": "Amber",
+
+  "block.minecraft.banner.base.amber": "Fully Amber Field",
+  "block.minecraft.banner.square_bottom_left.amber": "Amber Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.amber": "Amber Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.amber": "Amber Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.amber": "Amber Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.amber": "Amber Base",
+  "block.minecraft.banner.stripe_top.amber": "Amber Chief",
+  "block.minecraft.banner.stripe_left.amber": "Amber Pale Dexter",
+  "block.minecraft.banner.stripe_right.amber": "Amber Pale Sinister",
+  "block.minecraft.banner.stripe_center.amber": "Amber Pale",
+  "block.minecraft.banner.stripe_middle.amber": "Amber Fess",
+  "block.minecraft.banner.stripe_downright.amber": "Amber Bend",
+  "block.minecraft.banner.stripe_downleft.amber": "Amber Bend Sinister",
+  "block.minecraft.banner.small_stripes.amber": "Amber Paly",
+  "block.minecraft.banner.cross.amber": "Amber Saltire",
+  "block.minecraft.banner.triangle_bottom.amber": "Amber Chevron",
+  "block.minecraft.banner.triangle_top.amber": "Amber Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.amber": "Amber Base Indented",
+  "block.minecraft.banner.triangles_top.amber": "Amber Chief Indented",
+  "block.minecraft.banner.diagonal_left.amber": "Amber Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.amber": "Amber Per Bend",
+  "block.minecraft.banner.diagonal_up_left.amber": "Amber Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.amber": "Amber Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.amber": "Amber Roundel",
+  "block.minecraft.banner.rhombus.amber": "Amber Lozenge",
+  "block.minecraft.banner.half_vertical.amber": "Amber Per Pale",
+  "block.minecraft.banner.half_horizontal.amber": "Amber Per Fess",
+  "block.minecraft.banner.half_vertical_right.amber": "Amber Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.amber": "Amber Per Fess Inverted",
+  "block.minecraft.banner.creeper.amber": "Amber Creeper Charge",
+  "block.minecraft.banner.bricks.amber": "Amber Field Masoned",
+  "block.minecraft.banner.gradient.amber": "Amber Gradient",
+  "block.minecraft.banner.gradient_up.amber": "Amber Base Gradient",
+  "block.minecraft.banner.skull.amber": "Amber Skull Charge",
+  "block.minecraft.banner.flower.amber": "Amber Flower Charge",
+  "block.minecraft.banner.border.amber": "Amber Bordure",
+  "block.minecraft.banner.curly_border.amber": "Amber Bordure Indented",
+  "block.minecraft.banner.mojang.amber": "Amber Thing",
+  "block.minecraft.banner.straight_cross.amber": "Amber Cross",
+  "block.minecraft.banner.globe.amber": "Amber Globe",
+  "block.minecraft.banner.piglin.amber": "Amber Snout",
+
+
 
   "comment___": "---------------------COMPAT: SUPPLEMENTARIES---------------------",
   "block.supplementaries.flag_coral": "Coral Flag",
@@ -264,6 +325,11 @@
   "block.supplementaries.present_turquoise": "Turquoise Present",
   "block.supplementaries.trapped_present_turquoise": "Trapped Turquoise Present",
   "block.supplementaries.candle_holder_turquoise": "Turquoise Candle Holder",
+
+  "block.supplementaries.flag_amber": "Amber Flag",
+  "block.supplementaries.present_amber": "Amber Present",
+  "block.supplementaries.trapped_present_amber": "Trapped Amber Present",
+  "block.supplementaries.candle_holder_amber": "Amber Candle Holder",
 
 
 
@@ -292,6 +358,12 @@
   "block.another_furniture.turquoise_lamp": "Turquoise Lamp",
   "block.another_furniture.turquoise_tall_stool": "Turquoise Tall Stool",
 
+  "block.another_furniture.amber_sofa": "Amber Sofa",
+  "block.another_furniture.amber_stool": "Amber Stool",
+  "block.another_furniture.amber_curtain": "Amber Curtain",
+  "block.another_furniture.amber_lamp": "Amber Lamp",
+  "block.another_furniture.amber_tall_stool": "Amber Tall Stool",
+
 
 
   "comment___": "---------------------COMPAT: QUARK---------------------",
@@ -319,6 +391,12 @@
   "block.quark.turquoise_framed_glass_pane": "Turquoise Framed Glass Pane",
   "block.quark.turquoise_stool": "Turquoise Stool",
 
+  "item.quark.amber_shard": "Amber Glass Shard",
+  "item.quark.amber_rune": "Amber Rune",
+  "block.quark.amber_framed_glass": "Amber Framed Glass",
+  "block.quark.amber_framed_glass_pane": "Amber Framed Glass Pane",
+  "block.quark.amber_stool": "Amber Stool",
+
 
 
   "comment___": "---------------------COMPAT: CREATE---------------------",
@@ -342,6 +420,11 @@
   "block.create.turquoise_toolbox": "Turquoise Toolbox",
   "block.create.turquoise_valve_handle": "Turquoise Valve Handle",
 
+  "block.create.amber_sail": "Amber Sail",
+  "block.create.amber_seat": "Amber Seat",
+  "block.create.amber_toolbox": "Amber Toolbox",
+  "block.create.amber_valve_handle": "Amber Valve Handle",
+
 
 
   "comment___": "---------------------COMPAT: WAYSTONES---------------------",
@@ -355,5 +438,8 @@
   "tooltip.waystones.olive_sharestone": "Teleport to any other Olive Sharestone",
 
   "block.waystones.turquoise_sharestone": "Turquoise Sharestone",
-  "tooltip.waystones.turquoise_sharestone": "Teleport to any other Turquoise Sharestone"
+  "tooltip.waystones.turquoise_sharestone": "Teleport to any other Turquoise Sharestone",
+
+  "block.waystones.amber_sharestone": "Amber Sharestone",
+  "tooltip.waystones.amber_sharestone": "Teleport to any other Amber Sharestone"
 }

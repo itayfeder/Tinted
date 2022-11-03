@@ -32,6 +32,7 @@ public abstract class DyeColorMixin {
     private static final DyeColor BEIGE = addVariant("BEIGE", "beige", 15062720, MaterialColor.COLOR_YELLOW, 15062720, 15062720);
     private static final DyeColor OLIVE = addVariant("OLIVE", "olive", 9868800, MaterialColor.COLOR_LIGHT_GREEN, 9868800, 9868800);
     private static final DyeColor TURQUOISE = addVariant("TURQUOISE", "turquoise", 4251856, MaterialColor.COLOR_LIGHT_BLUE, 4251856, 4251856);
+    private static final DyeColor AMBER = addVariant("AMBER", "amber", 15836416, MaterialColor.TERRACOTTA_YELLOW, 15836416, 15836416);
 
     //private static final DyeColor CHROMATIC = addVariant("CHROMATIC", "chromatic", 16777215, MaterialColor.TERRACOTTA_WHITE, 16777215, 16777215);
 

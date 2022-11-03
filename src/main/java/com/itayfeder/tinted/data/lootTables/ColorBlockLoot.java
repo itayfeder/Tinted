@@ -77,6 +77,23 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.TURQUOISE_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.TURQUOISE_STAINED_GLASS_PANE.get());
         this.add(BlockInit.TURQUOISE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.TURQUOISE_CANDLE.get()));
+
+
+        this.dropSelf(BlockInit.AMBER_WOOL.get());
+        this.dropSelf(BlockInit.AMBER_TERRACOTTA.get());
+        this.dropSelf(BlockInit.AMBER_CARPET.get());
+        this.dropSelf(BlockInit.AMBER_CONCRETE.get());
+        this.dropSelf(BlockInit.AMBER_CONCRETE_POWDER.get());
+        this.add(BlockInit.AMBER_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.AMBER_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.AMBER_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.AMBER_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.AMBER_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.AMBER_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.AMBER_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.AMBER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.AMBER_CANDLE.get()));
     }
 
     @Override

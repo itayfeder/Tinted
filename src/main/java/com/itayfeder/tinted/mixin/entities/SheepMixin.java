@@ -58,6 +58,7 @@ public abstract class SheepMixin extends Animal {
         p_29841_.put(ExtraDyeColors.BEIGE, BlockInit.BEIGE_WOOL.get());
         p_29841_.put(ExtraDyeColors.OLIVE, BlockInit.OLIVE_WOOL.get());
         p_29841_.put(ExtraDyeColors.TURQUOISE, BlockInit.TURQUOISE_WOOL.get());
+        p_29841_.put(ExtraDyeColors.AMBER, BlockInit.AMBER_WOOL.get());
     });
 
     @Shadow public abstract boolean isSheared();
@@ -135,6 +136,9 @@ public abstract class SheepMixin extends Animal {
             }
             if (this.getColor() == ExtraDyeColors.TURQUOISE) {
                 cir.setReturnValue(new ResourceLocation(TintedMod.MODID,"entities/sheep/turquoise"));
+            }
+            if (this.getColor() == ExtraDyeColors.AMBER) {
+                cir.setReturnValue(new ResourceLocation(TintedMod.MODID,"entities/sheep/amber"));
             }
         }
     }

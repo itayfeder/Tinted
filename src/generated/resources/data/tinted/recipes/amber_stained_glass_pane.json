@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "tinted:amber_stained_glass"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 16,
+    "item": "tinted:amber_stained_glass_pane"
+  }
+}

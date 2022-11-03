@@ -4,6 +4,7 @@
     {"id":"tinted:coral_concrete_powder","required":false},
     {"id":"tinted:beige_concrete_powder","required":false},
     {"id":"tinted:olive_concrete_powder","required":false},
-    {"id":"tinted:turquoise_concrete_powder","required":false}
+    {"id":"tinted:turquoise_concrete_powder","required":false},
+    {"id":"tinted:amber_concrete_powder","required":false}
   ]
 }

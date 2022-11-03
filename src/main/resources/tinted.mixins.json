@@ -13,7 +13,8 @@
 		"compat/create/DyeHelperMixin"
 	],
 	"client": [
-		"SheetsMixin"
+		"client.SheetsMixin",
+		"client.LivingEntityRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

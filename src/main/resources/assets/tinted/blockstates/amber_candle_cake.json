@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "tinted:block/amber_candle_cake"
+    },
+    "lit=true": {
+      "model": "tinted:block/amber_candle_cake_lit"
+    }
+  }
+}

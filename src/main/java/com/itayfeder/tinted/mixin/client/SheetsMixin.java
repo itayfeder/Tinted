@@ -1,4 +1,4 @@
-package com.itayfeder.tinted.mixin;
+package com.itayfeder.tinted.mixin.client;
 
 import com.google.common.collect.ImmutableList;
 import net.minecraft.client.renderer.Sheets;
@@ -18,7 +18,7 @@ public class SheetsMixin {
     @Shadow
     @Final
     @Mutable
-    public static final List<Material> SHULKER_TEXTURE_LOCATION = Stream.of("white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black", "coral", "beige", "olive", "turquoise").map((p_110784_) -> {
+    public static final List<Material> SHULKER_TEXTURE_LOCATION = Stream.of("white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black", "coral", "beige", "olive", "turquoise", "amber").map((p_110784_) -> {
         return new Material(Sheets.SHULKER_SHEET, new ResourceLocation("entity/shulker/shulker_" + p_110784_));
     }).collect(ImmutableList.toImmutableList());
 

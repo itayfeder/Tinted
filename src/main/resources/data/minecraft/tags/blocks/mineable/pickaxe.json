@@ -7,29 +7,38 @@
     "tinted:beige_concrete",
     "tinted:olive_terracotta",
     "tinted:olive_concrete",
-
+    "tinted:turquoise_terracotta",
+    "tinted:turquoise_concrete",
+	"tinted:amber_terracotta",
+    "tinted:amber_concrete",
+	
     {"id":"quark:coral_framed_glass","required":false},
 	{"id":"quark:beige_framed_glass","required":false},
 	{"id":"quark:olive_framed_glass","required":false},
 	{"id":"quark:turquoise_framed_glass","required":false},
+	{"id":"quark:amber_framed_glass","required":false},
 	{"id":"quark:coral_framed_glass_pane","required":false},
 	{"id":"quark:beige_framed_glass_pane","required":false},
 	{"id":"quark:olive_framed_glass_pane","required":false},
 	{"id":"quark:turquoise_framed_glass_pane","required":false},
+	{"id":"quark:amber_framed_glass_pane","required":false},
 	
 	{"id":"create:coral_valve_handle","required":false},
 	{"id":"create:beige_valve_handle","required":false},
 	{"id":"create:olive_valve_handle","required":false},
 	{"id":"create:turquoise_valve_handle","required":false},
+	{"id":"create:amber_valve_handle","required":false},
 	{"id":"create:coral_nixie_tube","required":false},
 	{"id":"create:beige_nixie_tube","required":false},
 	{"id":"create:olive_nixie_tube","required":false},
 	{"id":"create:turquoise_nixie_tube","required":false},
+	{"id":"create:amber_nixie_tube","required":false},
 	
 	{"id":"waystones:coral_sharestone","required":false},
 	{"id":"waystones:beige_sharestone","required":false},
 	{"id":"waystones:olive_sharestone","required":false},
-	{"id":"waystones:turquoise_sharestone","required":false}
+	{"id":"waystones:turquoise_sharestone","required":false},
+	{"id":"waystones:amber_sharestone","required":false}
 
   ]
 }
