@@ -1,4 +1,4 @@
-// 1.19.2	2022-11-02T09:14:45.042067	LootTables
+// 1.19.2	2022-11-06T09:13:23.0821557	LootTables
 2264932b9016b0a11e0e350cde1391d0d70ade06 data/tinted/loot_tables/blocks/amber_banner.json
 d124487ecf42b748502e24cf334570c425d477f6 data/tinted/loot_tables/blocks/amber_bed.json
 5a4227fdfd5af78ec5d874cb7eddee13ea221b19 data/tinted/loot_tables/blocks/amber_candle.json
@@ -25,6 +25,19 @@ b97a7855616c2c2333d78d32414f199c2f5a8334 data/tinted/loot_tables/blocks/beige_co
 4ca2f0e2b1f0d8ed4bbae846723dbb1918530d5b data/tinted/loot_tables/blocks/beige_terracotta.json
 d07331008b2b70eb4010ef0c9cf6c1b359b925ce data/tinted/loot_tables/blocks/beige_wall_banner.json
 3420678aec59b3dbebc8f4fe87d502937beee071 data/tinted/loot_tables/blocks/beige_wool.json
+6830a014d3f5121edf831beb4af15ab8106226e6 data/tinted/loot_tables/blocks/bubblegum_banner.json
+2956d257b20bbfea1d06b5e196864242e6a668a4 data/tinted/loot_tables/blocks/bubblegum_bed.json
+4ce18fe66c33240fd0cd2823e85889b41fcfa5f5 data/tinted/loot_tables/blocks/bubblegum_candle.json
+ac312bfc120d8b6ff0f88a3c53fa3f06cc60ab34 data/tinted/loot_tables/blocks/bubblegum_candle_cake.json
+6fd9078110cffd2d8e32fa5cc8cd25033c39a430 data/tinted/loot_tables/blocks/bubblegum_carpet.json
+24db2adcb773c962af529660faf892d4002c7323 data/tinted/loot_tables/blocks/bubblegum_concrete.json
+1f2d2384ec773c965a67be66db545059ed6ccf0b data/tinted/loot_tables/blocks/bubblegum_concrete_powder.json
+d3d53b6ecb68b6d8711d54f883952bf7c25ae8f4 data/tinted/loot_tables/blocks/bubblegum_shulker_box.json
+59ae70161f5350e1aa7efc5c7f703f58ff608b8d data/tinted/loot_tables/blocks/bubblegum_stained_glass.json
+667eb91260861f8b57e8593f9119f225c714d8e1 data/tinted/loot_tables/blocks/bubblegum_stained_glass_pane.json
+fa05be3a271b7a55e6a410bb442c0547f5c01f54 data/tinted/loot_tables/blocks/bubblegum_terracotta.json
+6830a014d3f5121edf831beb4af15ab8106226e6 data/tinted/loot_tables/blocks/bubblegum_wall_banner.json
+3ccfcdba37d7e31acd52db6bfe44f4fd259ca6c5 data/tinted/loot_tables/blocks/bubblegum_wool.json
 a5f7eef0d39595100b2478ed11d5eb63b4402eca data/tinted/loot_tables/blocks/coral_banner.json
 83925dd2bb534aa550cee93d2cb2a431106063a4 data/tinted/loot_tables/blocks/coral_bed.json
 6be1274249dba0b227f483ace6c8f979e54c400d data/tinted/loot_tables/blocks/coral_candle.json

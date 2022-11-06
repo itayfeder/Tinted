@@ -10,7 +10,10 @@
 		"ShulkerBoxBlockMixin",
 		"entities.ShulkerMixin",
 
-		"compat/create/DyeHelperMixin"
+        "accessors.SheepAccessor",
+
+		"compat/create/DyeHelperMixin",
+        "compat/quark/ColorRunesModuleMixin"
 	],
 	"client": [
 		"client.SheetsMixin",

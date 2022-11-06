@@ -44,6 +44,7 @@ public class AnotherFurnitureCompat {
         curtainList.add(OLIVE_CURTAIN.get());
         curtainList.add(TURQUOISE_CURTAIN.get());
         curtainList.add(AMBER_CURTAIN.get());
+        curtainList.add(BUBBLEGUM_CURTAIN.get());
         AFBlockEntityTypes.CURTAIN.get().validBlocks = ImmutableSet.copyOf(curtainList);
     }
 
@@ -133,6 +134,24 @@ public class AnotherFurnitureCompat {
     public static final Supplier<Block> AMBER_TALL_STOOL = BLOCKS.register("amber_tall_stool", () -> {
         return new TallStoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
     });
+    public static final RegistryObject<Block> BUBBLEGUM_STOOL = BLOCKS.register("bubblegum_stool", () -> {
+        return new StoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> BUBBLEGUM_CURTAIN = BLOCKS.register("bubblegum_curtain", () -> {
+        return new CurtainBlock(ExtraDyeColors.BUBBLEGUM, BlockBehaviour.Properties.of(Material.WOOL).strength(0.1F).sound(SoundType.WOOL).noOcclusion());
+    });
+    public static final Supplier<Block> BUBBLEGUM_LAMP = BLOCKS.register("bubblegum_lamp", () -> {
+        return new LampBlock(ExtraDyeColors.BUBBLEGUM, BlockBehaviour.Properties.of(Material.WOOD).lightLevel((blockState) -> {
+            return (Boolean)blockState.getValue(BlockStateProperties.LIT) ? (Integer)blockState.getValue(ModBlockStateProperties.LEVEL_1_3) * 5 : 0;
+        }).strength(2.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> BUBBLEGUM_SOFA = BLOCKS.register("bubblegum_sofa", () -> {
+        return new SofaBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> BUBBLEGUM_TALL_STOOL = BLOCKS.register("bubblegum_tall_stool", () -> {
+        return new TallStoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+
 
     //ITEMS
     public static final RegistryObject<Item> CORAL_STOOL_ITEM = ITEMS.register("coral_stool", () -> new BlockItem(CORAL_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
@@ -160,5 +179,10 @@ public class AnotherFurnitureCompat {
     public static final RegistryObject<Item> AMBER_LAMP_ITEM = ITEMS.register("amber_lamp", () -> new BlockItem(AMBER_LAMP.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
     public static final RegistryObject<Item> AMBER_SOFA_ITEM = ITEMS.register("amber_sofa", () -> new BlockItem(AMBER_SOFA.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
     public static final RegistryObject<Item> AMBER_TALL_STOOL_ITEM = ITEMS.register("amber_tall_stool", () -> new BlockItem(AMBER_TALL_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BUBBLEGUM_STOOL_ITEM = ITEMS.register("bubblegum_stool", () -> new BlockItem(BUBBLEGUM_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BUBBLEGUM_CURTAIN_ITEM = ITEMS.register("bubblegum_curtain", () -> new BlockItem(BUBBLEGUM_CURTAIN.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BUBBLEGUM_LAMP_ITEM = ITEMS.register("bubblegum_lamp", () -> new BlockItem(BUBBLEGUM_LAMP.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BUBBLEGUM_SOFA_ITEM = ITEMS.register("bubblegum_sofa", () -> new BlockItem(BUBBLEGUM_SOFA.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BUBBLEGUM_TALL_STOOL_ITEM = ITEMS.register("bubblegum_tall_stool", () -> new BlockItem(BUBBLEGUM_TALL_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
 
 }

@@ -46,6 +46,7 @@ public abstract class DyeHelperMixin {
                 .put(ExtraDyeColors.BEIGE, Couple.create(15062720, 12367533))
                 .put(ExtraDyeColors.OLIVE, Couple.create(9868800, 7170824))
                 .put(ExtraDyeColors.TURQUOISE, Couple.create(4251856, 4437930))
-                .put(ExtraDyeColors.AMBER, Couple.create(15836416, 13208336)).build();
+                .put(ExtraDyeColors.AMBER, Couple.create(15836416, 13208336))
+                .put(ExtraDyeColors.BUBBLEGUM, Couple.create(15021722, 12204937)).build();
     }
 }

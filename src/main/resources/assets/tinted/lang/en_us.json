@@ -1,4 +1,6 @@
 {
+  "item.tinted.paintbrush": "Paintbrush",
+
   "comment___": "---------------------CORAL---------------------",
   "block.tinted.coral_stained_glass": "Coral Stained Glass",
   "block.tinted.coral_stained_glass_pane": "Coral Stained Glass Pane",
@@ -304,6 +306,67 @@
   "block.minecraft.banner.piglin.amber": "Amber Snout",
 
 
+  "comment___": "---------------------BUBBLEGUM---------------------",
+  "block.tinted.bubblegum_stained_glass": "Bubblegum Stained Glass",
+  "block.tinted.bubblegum_stained_glass_pane": "Bubblegum Stained Glass Pane",
+  "block.tinted.bubblegum_carpet": "Bubblegum Carpet",
+  "block.tinted.bubblegum_terracotta": "Bubblegum Terracotta",
+  "block.tinted.bubblegum_wool": "Bubblegum Wool",
+  "block.tinted.bubblegum_shulker_box": "Bubblegum Shulker Box",
+  "block.tinted.bubblegum_concrete": "Bubblegum Concrete",
+  "block.tinted.bubblegum_concrete_powder": "Bubblegum Concrete Powder",
+  "block.tinted.bubblegum_candle": "Bubblegum Candle",
+  "block.tinted.bubblegum_candle_cake": "Cake with Bubblegum Candle",
+  "item.tinted.bubblegum_dye": "Bubblegum Dye",
+  "block.tinted.bubblegum_bed": "Bubblegum Bed",
+  "item.minecraft.firework_star.bubblegum": "Bubblegum",
+  "block.tinted.bubblegum_banner": "Bubblegum Banner",
+  "item.minecraft.shield.bubblegum": "Bubblegum Shield",
+  "color.minecraft.bubblegum": "Bubblegum",
+
+  "block.minecraft.banner.base.bubblegum": "Fully Bubblegum Field",
+  "block.minecraft.banner.square_bottom_left.bubblegum": "Bubblegum Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.bubblegum": "Bubblegum Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.bubblegum": "Bubblegum Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.bubblegum": "Bubblegum Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.bubblegum": "Bubblegum Base",
+  "block.minecraft.banner.stripe_top.bubblegum": "Bubblegum Chief",
+  "block.minecraft.banner.stripe_left.bubblegum": "Bubblegum Pale Dexter",
+  "block.minecraft.banner.stripe_right.bubblegum": "Bubblegum Pale Sinister",
+  "block.minecraft.banner.stripe_center.bubblegum": "Bubblegum Pale",
+  "block.minecraft.banner.stripe_middle.bubblegum": "Bubblegum Fess",
+  "block.minecraft.banner.stripe_downright.bubblegum": "Bubblegum Bend",
+  "block.minecraft.banner.stripe_downleft.bubblegum": "Bubblegum Bend Sinister",
+  "block.minecraft.banner.small_stripes.bubblegum": "Bubblegum Paly",
+  "block.minecraft.banner.cross.bubblegum": "Bubblegum Saltire",
+  "block.minecraft.banner.triangle_bottom.bubblegum": "Bubblegum Chevron",
+  "block.minecraft.banner.triangle_top.bubblegum": "Bubblegum Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.bubblegum": "Bubblegum Base Indented",
+  "block.minecraft.banner.triangles_top.bubblegum": "Bubblegum Chief Indented",
+  "block.minecraft.banner.diagonal_left.bubblegum": "Bubblegum Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.bubblegum": "Bubblegum Per Bend",
+  "block.minecraft.banner.diagonal_up_left.bubblegum": "Bubblegum Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.bubblegum": "Bubblegum Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.bubblegum": "Bubblegum Roundel",
+  "block.minecraft.banner.rhombus.bubblegum": "Bubblegum Lozenge",
+  "block.minecraft.banner.half_vertical.bubblegum": "Bubblegum Per Pale",
+  "block.minecraft.banner.half_horizontal.bubblegum": "Bubblegum Per Fess",
+  "block.minecraft.banner.half_vertical_right.bubblegum": "Bubblegum Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.bubblegum": "Bubblegum Per Fess Inverted",
+  "block.minecraft.banner.creeper.bubblegum": "Bubblegum Creeper Charge",
+  "block.minecraft.banner.bricks.bubblegum": "Bubblegum Field Masoned",
+  "block.minecraft.banner.gradient.bubblegum": "Bubblegum Gradient",
+  "block.minecraft.banner.gradient_up.bubblegum": "Bubblegum Base Gradient",
+  "block.minecraft.banner.skull.bubblegum": "Bubblegum Skull Charge",
+  "block.minecraft.banner.flower.bubblegum": "Bubblegum Flower Charge",
+  "block.minecraft.banner.border.bubblegum": "Bubblegum Bordure",
+  "block.minecraft.banner.curly_border.bubblegum": "Bubblegum Bordure Indented",
+  "block.minecraft.banner.mojang.bubblegum": "Bubblegum Thing",
+  "block.minecraft.banner.straight_cross.bubblegum": "Bubblegum Cross",
+  "block.minecraft.banner.globe.bubblegum": "Bubblegum Globe",
+  "block.minecraft.banner.piglin.bubblegum": "Bubblegum Snout",
+
+
 
   "comment___": "---------------------COMPAT: SUPPLEMENTARIES---------------------",
   "block.supplementaries.flag_coral": "Coral Flag",
@@ -330,6 +393,11 @@
   "block.supplementaries.present_amber": "Amber Present",
   "block.supplementaries.trapped_present_amber": "Trapped Amber Present",
   "block.supplementaries.candle_holder_amber": "Amber Candle Holder",
+
+  "block.supplementaries.flag_bubblegum": "Bubblegum Flag",
+  "block.supplementaries.present_bubblegum": "Bubblegum Present",
+  "block.supplementaries.trapped_present_bubblegum": "Trapped Bubblegum Present",
+  "block.supplementaries.candle_holder_bubblegum": "Bubblegum Candle Holder",
 
 
 
@@ -364,6 +432,12 @@
   "block.another_furniture.amber_lamp": "Amber Lamp",
   "block.another_furniture.amber_tall_stool": "Amber Tall Stool",
 
+  "block.another_furniture.bubblegum_sofa": "Bubblegum Sofa",
+  "block.another_furniture.bubblegum_stool": "Bubblegum Stool",
+  "block.another_furniture.bubblegum_curtain": "Bubblegum Curtain",
+  "block.another_furniture.bubblegum_lamp": "Bubblegum Lamp",
+  "block.another_furniture.bubblegum_tall_stool": "Bubblegum Tall Stool",
+
 
 
   "comment___": "---------------------COMPAT: QUARK---------------------",
@@ -397,6 +471,12 @@
   "block.quark.amber_framed_glass_pane": "Amber Framed Glass Pane",
   "block.quark.amber_stool": "Amber Stool",
 
+  "item.quark.bubblegum_shard": "Bubblegum Glass Shard",
+  "item.quark.bubblegum_rune": "Bubblegum Rune",
+  "block.quark.bubblegum_framed_glass": "Bubblegum Framed Glass",
+  "block.quark.bubblegum_framed_glass_pane": "Bubblegum Framed Glass Pane",
+  "block.quark.bubblegum_stool": "Bubblegum Stool",
+
 
 
   "comment___": "---------------------COMPAT: CREATE---------------------",
@@ -425,6 +505,11 @@
   "block.create.amber_toolbox": "Amber Toolbox",
   "block.create.amber_valve_handle": "Amber Valve Handle",
 
+  "block.create.bubblegum_sail": "Bubblegum Sail",
+  "block.create.bubblegum_seat": "Bubblegum Seat",
+  "block.create.bubblegum_toolbox": "Bubblegum Toolbox",
+  "block.create.bubblegum_valve_handle": "Bubblegum Valve Handle",
+
 
 
   "comment___": "---------------------COMPAT: WAYSTONES---------------------",
@@ -441,5 +526,19 @@
   "tooltip.waystones.turquoise_sharestone": "Teleport to any other Turquoise Sharestone",
 
   "block.waystones.amber_sharestone": "Amber Sharestone",
-  "tooltip.waystones.amber_sharestone": "Teleport to any other Amber Sharestone"
+  "tooltip.waystones.amber_sharestone": "Teleport to any other Amber Sharestone",
+
+  "block.waystones.bubblegum_sharestone": "Bubblegum Sharestone",
+  "tooltip.waystones.bubblegum_sharestone": "Teleport to any other Bubblegum Sharestone",
+
+
+
+  "comment___": "---------------------COMPAT: OPEN ELEVATORS---------------------",
+  "block.elevatorid.elevator_coral": "Coral Elevator",
+  "block.elevatorid.elevator_beige": "Beige Elevator",
+  "block.elevatorid.elevator_olive": "Olive Elevator",
+  "block.elevatorid.elevator_turquoise": "Turquoise Elevator",
+  "block.elevatorid.elevator_amber": "Amber Elevator",
+  "block.elevatorid.elevator_bubblegum": "Bubblegum Elevator"
+
 }

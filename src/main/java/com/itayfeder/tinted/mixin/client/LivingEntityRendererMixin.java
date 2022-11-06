@@ -1,6 +1,7 @@
 package com.itayfeder.tinted.mixin.client;
 
 import com.itayfeder.tinted.events.RainbowTickEvent;
+import com.itayfeder.tinted.util.ExtraDyeColors;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.minecraft.client.Minecraft;
@@ -50,7 +51,7 @@ public abstract class LivingEntityRendererMixin<T extends LivingEntity, M extend
     private void getColorInject(T p_115308_, float p_115309_, float p_115310_, PoseStack p_115311_, MultiBufferSource p_115312_, int p_115313_, CallbackInfo ci, boolean shouldSit, float f, float f1, float f2, float f6, float f7, float f8, float f5, Minecraft minecraft, boolean flag, boolean flag1, boolean flag2) {
         /*if (p_115308_ instanceof Shulker) {
             Shulker shulker = (Shulker) p_115308_;
-            if (shulker.getColor() == DyeColor.WHITE) {
+            if (shulker.getColor() == ExtraDyeColors.CHROMATIC) {
                 RenderType rendertype = this.getRenderType(p_115308_, flag, flag1, flag2);
                 if (rendertype != null) {
                     VertexConsumer vertexconsumer = p_115312_.getBuffer(rendertype);
@@ -72,7 +73,7 @@ public abstract class LivingEntityRendererMixin<T extends LivingEntity, M extend
     private RenderType flag0Inject(RenderType value, T p_115308_, float p_115309_, float p_115310_, PoseStack p_115311_, MultiBufferSource p_115312_, int p_115313_) {
         /*if (p_115308_ instanceof Shulker) {
             Shulker shulker = (Shulker) p_115308_;
-            if (shulker.getColor() == DyeColor.WHITE) {
+            if (shulker.getColor() == ExtraDyeColors.CHROMATIC) {
                 return null;
             }
         }*/

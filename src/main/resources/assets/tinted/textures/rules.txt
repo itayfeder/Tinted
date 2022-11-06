@@ -19,3 +19,16 @@ Amber:
 - After:
 - - Brightness: -15
 - - Contrast: 5
+
+Chromatic:
+- Base: Gray
+- After:
+- - Block:
+- - - Brightness: 30
+- - - Contrast: 10
+- - Item:
+- - - Brightness: -15
+- - - Contrast: 10
+
+Bubblegum:
+- Base: Magenta (Grayscale)

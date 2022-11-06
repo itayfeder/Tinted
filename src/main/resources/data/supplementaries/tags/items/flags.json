@@ -5,6 +5,7 @@
     {"id":"supplementaries:flag_beige","required":false},
     {"id":"supplementaries:flag_olive","required":false},
     {"id":"supplementaries:flag_turquoise","required":false},
-    {"id":"supplementaries:flag_amber","required":false}
+    {"id":"supplementaries:flag_amber","required":false},
+    {"id":"supplementaries:flag_bubblegum","required":false}
   ]
 }

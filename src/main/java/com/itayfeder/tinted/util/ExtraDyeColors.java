@@ -15,6 +15,7 @@ public class ExtraDyeColors {
     public static DyeColor OLIVE;
     public static DyeColor TURQUOISE;
     public static DyeColor AMBER;
+    public static DyeColor BUBBLEGUM;
 
     //public static DyeColor CHROMATIC;
 
@@ -24,6 +25,7 @@ public class ExtraDyeColors {
         OLIVE = DyeColor.byId(18);
         TURQUOISE = DyeColor.byId(19);
         AMBER = DyeColor.byId(20);
+        BUBBLEGUM = DyeColor.byId(21);
     }
 
 }

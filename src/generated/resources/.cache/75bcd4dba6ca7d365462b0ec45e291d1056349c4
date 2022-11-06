@@ -1,12 +1,14 @@
-// 1.19.2	2022-11-02T09:14:45.0430645	Tags for minecraft:block
-026fe0f1cf5fc226c9977a2f934fd6c3edb24a97 data/forge/tags/blocks/stained_glass.json
-34a5e2adc69847b095870df1f9c7e083b01530e7 data/forge/tags/blocks/stained_glass_panes.json
-ed01b79d04828dcff3d9470016fbb083293facab data/minecraft/tags/blocks/banners.json
-b656ec41b551157040a6b40aaffe04dcca89366c data/minecraft/tags/blocks/beds.json
-7cfce4f2f0b0b3b62e0b0dc8df8ab14131628e05 data/minecraft/tags/blocks/candles.json
-231dae1180ac5faf9746020cba919572e7a76491 data/minecraft/tags/blocks/candle_cakes.json
-cbc7c7e98a7d0dddc60f60f6aa2a3d0b407561b1 data/minecraft/tags/blocks/mineable/shovel.json
-3bda7dd9b2409d88f8f0d0adc599cf5d7498b4e2 data/minecraft/tags/blocks/shulker_boxes.json
-fb2b30a197f97ea15a8efcc695381b69806529ca data/minecraft/tags/blocks/terracotta.json
-0eee64a67d00919620aeb1f7c4839db4b481684d data/minecraft/tags/blocks/wool.json
-c5ed1e2f62e40e0b34b746ab740bb975d6271d3e data/minecraft/tags/blocks/wool_carpets.json
+// 1.19.2	2022-11-06T12:10:08.3085574	Tags for minecraft:block
+cad41a349b1bcd67e7ddb2e2c5096a9689b0fa8d data/forge/tags/blocks/stained_glass.json
+4b9e8e16ba007f98640a4630ec3d6da2753d8deb data/forge/tags/blocks/stained_glass_panes.json
+dad51f6c66e71b0ff51f24a6b09749b046cf58b4 data/minecraft/tags/blocks/banners.json
+e90c68d624732df033a6c4c89f78a2c570e54ab7 data/minecraft/tags/blocks/beds.json
+0d9310378f12f04a9747b2a729ef7bc4a794f0c6 data/minecraft/tags/blocks/candles.json
+58467da6a877da8d1da0c13e105b8849ad10f1b8 data/minecraft/tags/blocks/candle_cakes.json
+32a0c2b2d3e8c0446660c218253ec5561e47a303 data/minecraft/tags/blocks/mineable/shovel.json
+22f027b667b34f1e64a535fe1b79b9f0146aa8cf data/minecraft/tags/blocks/shulker_boxes.json
+bb7db4ee452cf960787267074358617a8fe8e08a data/minecraft/tags/blocks/terracotta.json
+893be4b99caa913590cf60e4394044e0da4b4412 data/minecraft/tags/blocks/wool.json
+1c2992c470c2417b4deda0e18fe34211f5075979 data/minecraft/tags/blocks/wool_carpets.json
+fdbc8a67d6b21b4d11f31a3275861b4d2b6ce769 data/tinted/tags/blocks/concrete.json
+0e5de1daacc9e17abb9bdb1060c99b4178f41b9f data/tinted/tags/blocks/concrete_powder.json

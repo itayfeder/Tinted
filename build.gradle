@@ -161,6 +161,8 @@ dependencies {
 
     implementation fg.deobf("curse.maven:waystones-245755:3901921")
     implementation fg.deobf("curse.maven:balm-531761:3914527")
+
+    implementation fg.deobf("curse.maven:openblocks-elevator-250832:3934086")
     // ADDED MYSELF (PERSONALLY PICKED)
     implementation fg.deobf("curse.maven:another-furniture-610492:4034009")
 
