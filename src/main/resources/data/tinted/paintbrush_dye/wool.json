@@ -1,0 +1,28 @@
+{
+  "recplaceTag": "minecraft:wool",
+  "colored": {
+    "white": "minecraft:white_wool",
+    "orange": "minecraft:orange_wool",
+    "magenta": "minecraft:magenta_wool",
+    "light_blue": "minecraft:light_blue_wool",
+    "yellow": "minecraft:yellow_wool",
+    "lime": "minecraft:lime_wool",
+    "pink": "minecraft:pink_wool",
+    "gray": "minecraft:gray_wool",
+    "light_gray": "minecraft:light_gray_wool",
+    "cyan": "minecraft:cyan_wool",
+    "purple": "minecraft:purple_wool",
+    "blue": "minecraft:blue_wool",
+    "brown": "minecraft:brown_wool",
+    "green": "minecraft:green_wool",
+    "red": "minecraft:red_wool",
+    "black": "minecraft:black_wool",
+	
+    "coral": "tinted:coral_wool",
+    "beige": "tinted:beige_wool",
+    "olive": "tinted:olive_wool",
+    "turquoise": "tinted:turquoise_wool",
+    "amber": "tinted:amber_wool",
+    "bubblegum": "tinted:bubblegum_wool"
+  }
+}

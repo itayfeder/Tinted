@@ -1,0 +1,28 @@
+{
+  "recplaceTag": "tinted:concrete",
+  "colored": {
+    "white": "minecraft:white_concrete",
+    "orange": "minecraft:orange_concrete",
+    "magenta": "minecraft:magenta_concrete",
+    "light_blue": "minecraft:light_blue_concrete",
+    "yellow": "minecraft:yellow_concrete",
+    "lime": "minecraft:lime_concrete",
+    "pink": "minecraft:pink_concrete",
+    "gray": "minecraft:gray_concrete",
+    "light_gray": "minecraft:light_gray_concrete",
+    "cyan": "minecraft:cyan_concrete",
+    "purple": "minecraft:purple_concrete",
+    "blue": "minecraft:blue_concrete",
+    "brown": "minecraft:brown_concrete",
+    "green": "minecraft:green_concrete",
+    "red": "minecraft:red_concrete",
+    "black": "minecraft:black_concrete",
+	
+    "coral": "tinted:coral_concrete",
+    "beige": "tinted:beige_concrete",
+    "olive": "tinted:olive_concrete",
+    "turquoise": "tinted:turquoise_concrete",
+    "amber": "tinted:amber_concrete",
+    "bubblegum": "tinted:bubblegum_concrete"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "recplaceTag": "forge:stained_glass",
+  "colored": {
+    "white": "minecraft:white_stained_glass",
+    "orange": "minecraft:orange_stained_glass",
+    "magenta": "minecraft:magenta_stained_glass",
+    "light_blue": "minecraft:light_blue_stained_glass",
+    "yellow": "minecraft:yellow_stained_glass",
+    "lime": "minecraft:lime_stained_glass",
+    "pink": "minecraft:pink_stained_glass",
+    "gray": "minecraft:gray_stained_glass",
+    "light_gray": "minecraft:light_gray_stained_glass",
+    "cyan": "minecraft:cyan_stained_glass",
+    "purple": "minecraft:purple_stained_glass",
+    "blue": "minecraft:blue_stained_glass",
+    "brown": "minecraft:brown_stained_glass",
+    "green": "minecraft:green_stained_glass",
+    "red": "minecraft:red_stained_glass",
+    "black": "minecraft:black_stained_glass",
+	
+    "coral": "tinted:coral_stained_glass",
+    "beige": "tinted:beige_stained_glass",
+    "olive": "tinted:olive_stained_glass",
+    "turquoise": "tinted:turquoise_stained_glass",
+    "amber": "tinted:amber_stained_glass",
+    "bubblegum": "tinted:bubblegum_stained_glass"
+  }
+}

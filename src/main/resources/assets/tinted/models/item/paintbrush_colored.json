@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinted:item/paintbrush_underlay",
+        "layer1": "tinted:item/paintbrush_overlay"
+    }
+}

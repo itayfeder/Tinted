@@ -1,0 +1,28 @@
+{
+  "recplaceTag": "minecraft:terracotta",
+  "colored": {
+    "white": "minecraft:white_terracotta",
+    "orange": "minecraft:orange_terracotta",
+    "magenta": "minecraft:magenta_terracotta",
+    "light_blue": "minecraft:light_blue_terracotta",
+    "yellow": "minecraft:yellow_terracotta",
+    "lime": "minecraft:lime_terracotta",
+    "pink": "minecraft:pink_terracotta",
+    "gray": "minecraft:gray_terracotta",
+    "light_gray": "minecraft:light_gray_terracotta",
+    "cyan": "minecraft:cyan_terracotta",
+    "purple": "minecraft:purple_terracotta",
+    "blue": "minecraft:blue_terracotta",
+    "brown": "minecraft:brown_terracotta",
+    "green": "minecraft:green_terracotta",
+    "red": "minecraft:red_terracotta",
+    "black": "minecraft:black_terracotta",
+	
+    "coral": "tinted:coral_terracotta",
+    "beige": "tinted:beige_terracotta",
+    "olive": "tinted:olive_terracotta",
+    "turquoise": "tinted:turquoise_terracotta",
+    "amber": "tinted:amber_terracotta",
+    "bubblegum": "tinted:bubblegum_terracotta"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "tinted:item/paintbrush"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "colored": 1
+            },
+            "model": "tinted:item/paintbrush_colored"
+        }
+    ]
+}
