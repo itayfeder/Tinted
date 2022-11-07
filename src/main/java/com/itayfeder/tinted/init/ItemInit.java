@@ -91,4 +91,30 @@ public class ItemInit {
     public static final RegistryObject<Item> BUBBLEGUM_CANDLE = ITEMS.register("bubblegum_candle", () -> new BlockItem(BlockInit.BUBBLEGUM_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
     public static final RegistryObject<Item> BUBBLEGUM_DYE = ITEMS.register("bubblegum_dye", () -> new DyeItem(ExtraDyeColors.BUBBLEGUM, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
 
+    public static final RegistryObject<Item> BORDEAUX_WOOL = ITEMS.register("bordeaux_wool", () -> new BlockItem(BlockInit.BORDEAUX_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> BORDEAUX_TERRACOTTA = ITEMS.register("bordeaux_terracotta", () -> new BlockItem(BlockInit.BORDEAUX_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> BORDEAUX_STAINED_GLASS = ITEMS.register("bordeaux_stained_glass", () -> new BlockItem(BlockInit.BORDEAUX_STAINED_GLASS.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> BORDEAUX_CONCRETE = ITEMS.register("bordeaux_concrete", () -> new BlockItem(BlockInit.BORDEAUX_CONCRETE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> BORDEAUX_CONCRETE_POWDER = ITEMS.register("bordeaux_concrete_powder", () -> new BlockItem(BlockInit.BORDEAUX_CONCRETE_POWDER.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> BORDEAUX_CARPET = ITEMS.register("bordeaux_carpet", () -> new BlockItem(BlockInit.BORDEAUX_CARPET.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> BORDEAUX_STAINED_GLASS_PANE = ITEMS.register("bordeaux_stained_glass_pane", () -> new BlockItem(BlockInit.BORDEAUX_STAINED_GLASS_PANE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> BORDEAUX_SHULKER_BOX = ITEMS.register("bordeaux_shulker_box", () -> new BlockItem(BlockInit.BORDEAUX_SHULKER_BOX.get(), (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> BORDEAUX_BED = ITEMS.register("bordeaux_bed", () -> new BedItem(BlockInit.BORDEAUX_BED.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> BORDEAUX_BANNER = ITEMS.register("bordeaux_banner", () -> new BannerItem(BlockInit.BORDEAUX_BANNER.get(), BlockInit.BORDEAUX_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> BORDEAUX_CANDLE = ITEMS.register("bordeaux_candle", () -> new BlockItem(BlockInit.BORDEAUX_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> BORDEAUX_DYE = ITEMS.register("bordeaux_dye", () -> new DyeItem(ExtraDyeColors.BORDEAUX, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
+
+    public static final RegistryObject<Item> ENDER_WOOL = ITEMS.register("ender_wool", () -> new BlockItem(BlockInit.ENDER_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> ENDER_TERRACOTTA = ITEMS.register("ender_terracotta", () -> new BlockItem(BlockInit.ENDER_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> ENDER_STAINED_GLASS = ITEMS.register("ender_stained_glass", () -> new BlockItem(BlockInit.ENDER_STAINED_GLASS.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> ENDER_CONCRETE = ITEMS.register("ender_concrete", () -> new BlockItem(BlockInit.ENDER_CONCRETE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> ENDER_CONCRETE_POWDER = ITEMS.register("ender_concrete_powder", () -> new BlockItem(BlockInit.ENDER_CONCRETE_POWDER.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> ENDER_CARPET = ITEMS.register("ender_carpet", () -> new BlockItem(BlockInit.ENDER_CARPET.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> ENDER_STAINED_GLASS_PANE = ITEMS.register("ender_stained_glass_pane", () -> new BlockItem(BlockInit.ENDER_STAINED_GLASS_PANE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> ENDER_SHULKER_BOX = ITEMS.register("ender_shulker_box", () -> new BlockItem(BlockInit.ENDER_SHULKER_BOX.get(), (new Item.Properties()).stacksTo(1).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> ENDER_BED = ITEMS.register("ender_bed", () -> new BedItem(BlockInit.ENDER_BED.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> ENDER_BANNER = ITEMS.register("ender_banner", () -> new BannerItem(BlockInit.ENDER_BANNER.get(), BlockInit.ENDER_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> ENDER_CANDLE = ITEMS.register("ender_candle", () -> new BlockItem(BlockInit.ENDER_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS)));
+    public static final RegistryObject<Item> ENDER_DYE = ITEMS.register("ender_dye", () -> new DyeItem(ExtraDyeColors.ENDER, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS)));
+
 }

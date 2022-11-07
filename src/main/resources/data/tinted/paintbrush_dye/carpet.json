@@ -23,6 +23,8 @@
     "olive": "tinted:olive_carpet",
     "turquoise": "tinted:turquoise_carpet",
     "amber": "tinted:amber_carpet",
-    "bubblegum": "tinted:bubblegum_carpet"
+    "bubblegum": "tinted:bubblegum_carpet",
+    "bordeaux": "tinted:bordeaux_carpet",
+    "ender": "tinted:ender_carpet"
   }
 }

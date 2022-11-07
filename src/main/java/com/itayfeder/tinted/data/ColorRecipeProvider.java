@@ -5,7 +5,9 @@ import com.itayfeder.tinted.init.ItemInit;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
@@ -19,6 +21,15 @@ public class ColorRecipeProvider extends RecipeProvider {
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> p_176532_) {
+        ShapelessRecipeBuilder.shapeless(ItemInit.CORAL_DYE.get(), 2).requires(Items.ORANGE_DYE).requires(Items.PINK_DYE).unlockedBy("has_orange_dye", has(Items.ORANGE_DYE)).unlockedBy("has_pink_dye", has(Items.PINK_DYE)).save(p_176532_);
+        ShapelessRecipeBuilder.shapeless(ItemInit.BEIGE_DYE.get(), 3).requires(Items.BROWN_DYE).requires(Items.WHITE_DYE, 2).unlockedBy("has_white_dye", has(Items.WHITE_DYE)).unlockedBy("has_brown_dye", has(Items.BROWN_DYE)).save(p_176532_);
+        ShapelessRecipeBuilder.shapeless(ItemInit.OLIVE_DYE.get(), 2).requires(Items.GREEN_DYE).requires(Items.LIME_DYE).unlockedBy("has_green_dye", has(Items.GREEN_DYE)).unlockedBy("has_lime_dye", has(Items.LIME_DYE)).save(p_176532_);
+        oneToOneConversionRecipe(p_176532_, ItemInit.TURQUOISE_DYE.get(), Blocks.WARPED_FUNGUS, "turquoise_dye");
+        ShapelessRecipeBuilder.shapeless(ItemInit.AMBER_DYE.get(), 2).requires(Items.ORANGE_DYE).requires(Items.YELLOW_DYE).unlockedBy("has_orange_dye", has(Items.ORANGE_DYE)).unlockedBy("has_yellow_dye", has(Items.YELLOW_DYE)).save(p_176532_);
+        ShapelessRecipeBuilder.shapeless(ItemInit.BUBBLEGUM_DYE.get(), 2).requires(Items.MAGENTA_DYE).requires(Items.RED_DYE).unlockedBy("has_magenta_dye", has(Items.MAGENTA_DYE)).unlockedBy("has_red_dye", has(Items.RED_DYE)).save(p_176532_);
+        ShapelessRecipeBuilder.shapeless(ItemInit.BORDEAUX_DYE.get(), 2).requires(Items.BLACK_DYE).requires(Items.RED_DYE).unlockedBy("has_black_dye", has(Items.BLACK_DYE)).unlockedBy("has_red_dye", has(Items.RED_DYE)).save(p_176532_);
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.ENDER_PEARL.asItem()), ItemInit.ENDER_DYE.get(), 1.0F, 200).unlockedBy("has_ender_pearl", has(Items.ENDER_PEARL)).save(p_176532_);
+
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.CORAL_WOOL.get(), ItemInit.CORAL_DYE.get());
         carpet(p_176532_, BlockInit.CORAL_CARPET.get(), BlockInit.CORAL_WOOL.get());
         coloredCarpetFromWhiteCarpetAndDye(p_176532_, BlockInit.CORAL_CARPET.get(), ItemInit.CORAL_DYE.get());
@@ -97,7 +108,31 @@ public class ColorRecipeProvider extends RecipeProvider {
         concretePowder(p_176532_, BlockInit.BUBBLEGUM_CONCRETE_POWDER.get(), ItemInit.BUBBLEGUM_DYE.get());
         candle(p_176532_, BlockInit.BUBBLEGUM_CANDLE.get(), ItemInit.BUBBLEGUM_DYE.get());
 
+        coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.BORDEAUX_WOOL.get(), ItemInit.BORDEAUX_DYE.get());
+        carpet(p_176532_, BlockInit.BORDEAUX_CARPET.get(), BlockInit.BORDEAUX_WOOL.get());
+        coloredCarpetFromWhiteCarpetAndDye(p_176532_, BlockInit.BORDEAUX_CARPET.get(), ItemInit.BORDEAUX_DYE.get());
+        bedFromPlanksAndWool(p_176532_, ItemInit.BORDEAUX_BED.get(), BlockInit.BORDEAUX_WOOL.get());
+        bedFromWhiteBedAndDye(p_176532_, ItemInit.BORDEAUX_BED.get(), ItemInit.BORDEAUX_DYE.get());
+        banner(p_176532_, ItemInit.BORDEAUX_BANNER.get(), BlockInit.BORDEAUX_WOOL.get());
+        stainedGlassFromGlassAndDye(p_176532_, BlockInit.BORDEAUX_STAINED_GLASS.get(), ItemInit.BORDEAUX_DYE.get());
+        stainedGlassPaneFromStainedGlass(p_176532_, BlockInit.BORDEAUX_STAINED_GLASS_PANE.get(), BlockInit.BORDEAUX_STAINED_GLASS.get());
+        stainedGlassPaneFromGlassPaneAndDye(p_176532_, BlockInit.BORDEAUX_STAINED_GLASS_PANE.get(), ItemInit.BORDEAUX_DYE.get());
+        coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.BORDEAUX_TERRACOTTA.get(), ItemInit.BORDEAUX_DYE.get());
+        concretePowder(p_176532_, BlockInit.BORDEAUX_CONCRETE_POWDER.get(), ItemInit.BORDEAUX_DYE.get());
+        candle(p_176532_, BlockInit.BORDEAUX_CANDLE.get(), ItemInit.BORDEAUX_DYE.get());
 
+        coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.ENDER_WOOL.get(), ItemInit.ENDER_DYE.get());
+        carpet(p_176532_, BlockInit.ENDER_CARPET.get(), BlockInit.ENDER_WOOL.get());
+        coloredCarpetFromWhiteCarpetAndDye(p_176532_, BlockInit.ENDER_CARPET.get(), ItemInit.ENDER_DYE.get());
+        bedFromPlanksAndWool(p_176532_, ItemInit.ENDER_BED.get(), BlockInit.ENDER_WOOL.get());
+        bedFromWhiteBedAndDye(p_176532_, ItemInit.ENDER_BED.get(), ItemInit.ENDER_DYE.get());
+        banner(p_176532_, ItemInit.ENDER_BANNER.get(), BlockInit.ENDER_WOOL.get());
+        stainedGlassFromGlassAndDye(p_176532_, BlockInit.ENDER_STAINED_GLASS.get(), ItemInit.ENDER_DYE.get());
+        stainedGlassPaneFromStainedGlass(p_176532_, BlockInit.ENDER_STAINED_GLASS_PANE.get(), BlockInit.ENDER_STAINED_GLASS.get());
+        stainedGlassPaneFromGlassPaneAndDye(p_176532_, BlockInit.ENDER_STAINED_GLASS_PANE.get(), ItemInit.ENDER_DYE.get());
+        coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.ENDER_TERRACOTTA.get(), ItemInit.ENDER_DYE.get());
+        concretePowder(p_176532_, BlockInit.ENDER_CONCRETE_POWDER.get(), ItemInit.ENDER_DYE.get());
+        candle(p_176532_, BlockInit.ENDER_CANDLE.get(), ItemInit.ENDER_DYE.get());
 
 
     }

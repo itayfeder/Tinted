@@ -1,8 +1,8 @@
-// 1.19.2	2022-11-06T09:13:23.0801767	Tags for minecraft:item
-4f4a149a779f81b69b1fb8e24b70448b5499cdfb data/forge/tags/items/dyes.json
-1c852bc07e3e4e29acebae683813b40e6e5313ba data/minecraft/tags/items/banners.json
-e90c68d624732df033a6c4c89f78a2c570e54ab7 data/minecraft/tags/items/beds.json
-0d9310378f12f04a9747b2a729ef7bc4a794f0c6 data/minecraft/tags/items/candles.json
-bb7db4ee452cf960787267074358617a8fe8e08a data/minecraft/tags/items/terracotta.json
-893be4b99caa913590cf60e4394044e0da4b4412 data/minecraft/tags/items/wool.json
-1c2992c470c2417b4deda0e18fe34211f5075979 data/minecraft/tags/items/wool_carpets.json
+// 1.19.2	2022-11-07T12:02:25.1318487	Tags for minecraft:item
+03f50fa99adb98041eebc6446989127e18e3058a data/forge/tags/items/dyes.json
+16484e1d07b77abde1dddae22ea447cd007c5390 data/minecraft/tags/items/banners.json
+99bf0a55bb9558f57b4c4484754f9dc310f9f9a9 data/minecraft/tags/items/beds.json
+ec499ef2da1d3608f1ccca1b357824ecb43454c8 data/minecraft/tags/items/candles.json
+6c8a6abeab3de614a60ae440c63ae85173865d05 data/minecraft/tags/items/terracotta.json
+4ed6ee687ee52b1fba1614f82b3d1b526c1dd7b8 data/minecraft/tags/items/wool.json
+433ef10b063992659a6f9ad2f2052a45fc39b0a0 data/minecraft/tags/items/wool_carpets.json

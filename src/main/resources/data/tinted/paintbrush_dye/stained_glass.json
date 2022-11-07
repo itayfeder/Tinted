@@ -23,6 +23,8 @@
     "olive": "tinted:olive_stained_glass",
     "turquoise": "tinted:turquoise_stained_glass",
     "amber": "tinted:amber_stained_glass",
-    "bubblegum": "tinted:bubblegum_stained_glass"
+    "bubblegum": "tinted:bubblegum_stained_glass",
+    "bordeaux": "tinted:bordeaux_stained_glass",
+    "ender": "tinted:ender_stained_glass"
   }
 }

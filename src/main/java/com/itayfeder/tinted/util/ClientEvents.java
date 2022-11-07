@@ -31,6 +31,10 @@ public class ClientEvents {
         ItemBlockRenderTypes.setRenderLayer(BlockInit.AMBER_STAINED_GLASS_PANE.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.BUBBLEGUM_STAINED_GLASS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(BlockInit.BUBBLEGUM_STAINED_GLASS_PANE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.BORDEAUX_STAINED_GLASS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.BORDEAUX_STAINED_GLASS_PANE.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.ENDER_STAINED_GLASS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(BlockInit.ENDER_STAINED_GLASS_PANE.get(), RenderType.translucent());
 
         event.enqueueWork(() -> {
             ItemProperties.register(ItemInit.PAINTBRUSH.get(), new ResourceLocation("colored"), (p_174610_, p_174611_, p_174612_, p_174613_) -> {

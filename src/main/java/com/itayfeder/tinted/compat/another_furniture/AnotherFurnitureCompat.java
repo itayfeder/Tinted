@@ -45,6 +45,8 @@ public class AnotherFurnitureCompat {
         curtainList.add(TURQUOISE_CURTAIN.get());
         curtainList.add(AMBER_CURTAIN.get());
         curtainList.add(BUBBLEGUM_CURTAIN.get());
+        curtainList.add(BORDEAUX_CURTAIN.get());
+        curtainList.add(ENDER_CURTAIN.get());
         AFBlockEntityTypes.CURTAIN.get().validBlocks = ImmutableSet.copyOf(curtainList);
     }
 
@@ -151,7 +153,40 @@ public class AnotherFurnitureCompat {
     public static final Supplier<Block> BUBBLEGUM_TALL_STOOL = BLOCKS.register("bubblegum_tall_stool", () -> {
         return new TallStoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
     });
-
+    public static final RegistryObject<Block> BORDEAUX_STOOL = BLOCKS.register("bordeaux_stool", () -> {
+        return new StoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> BORDEAUX_CURTAIN = BLOCKS.register("bordeaux_curtain", () -> {
+        return new CurtainBlock(ExtraDyeColors.BORDEAUX, BlockBehaviour.Properties.of(Material.WOOL).strength(0.1F).sound(SoundType.WOOL).noOcclusion());
+    });
+    public static final Supplier<Block> BORDEAUX_LAMP = BLOCKS.register("bordeaux_lamp", () -> {
+        return new LampBlock(ExtraDyeColors.BORDEAUX, BlockBehaviour.Properties.of(Material.WOOD).lightLevel((blockState) -> {
+            return (Boolean)blockState.getValue(BlockStateProperties.LIT) ? (Integer)blockState.getValue(ModBlockStateProperties.LEVEL_1_3) * 5 : 0;
+        }).strength(2.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> BORDEAUX_SOFA = BLOCKS.register("bordeaux_sofa", () -> {
+        return new SofaBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> BORDEAUX_TALL_STOOL = BLOCKS.register("bordeaux_tall_stool", () -> {
+        return new TallStoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final RegistryObject<Block> ENDER_STOOL = BLOCKS.register("ender_stool", () -> {
+        return new StoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> ENDER_CURTAIN = BLOCKS.register("ender_curtain", () -> {
+        return new CurtainBlock(ExtraDyeColors.ENDER, BlockBehaviour.Properties.of(Material.WOOL).strength(0.1F).sound(SoundType.WOOL).noOcclusion());
+    });
+    public static final Supplier<Block> ENDER_LAMP = BLOCKS.register("ender_lamp", () -> {
+        return new LampBlock(ExtraDyeColors.ENDER, BlockBehaviour.Properties.of(Material.WOOD).lightLevel((blockState) -> {
+            return (Boolean)blockState.getValue(BlockStateProperties.LIT) ? (Integer)blockState.getValue(ModBlockStateProperties.LEVEL_1_3) * 5 : 0;
+        }).strength(2.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> ENDER_SOFA = BLOCKS.register("ender_sofa", () -> {
+        return new SofaBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
+    public static final Supplier<Block> ENDER_TALL_STOOL = BLOCKS.register("ender_tall_stool", () -> {
+        return new TallStoolBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(1.0F, 3.0F).sound(SoundType.WOOD));
+    });
 
     //ITEMS
     public static final RegistryObject<Item> CORAL_STOOL_ITEM = ITEMS.register("coral_stool", () -> new BlockItem(CORAL_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
@@ -184,5 +219,15 @@ public class AnotherFurnitureCompat {
     public static final RegistryObject<Item> BUBBLEGUM_LAMP_ITEM = ITEMS.register("bubblegum_lamp", () -> new BlockItem(BUBBLEGUM_LAMP.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
     public static final RegistryObject<Item> BUBBLEGUM_SOFA_ITEM = ITEMS.register("bubblegum_sofa", () -> new BlockItem(BUBBLEGUM_SOFA.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
     public static final RegistryObject<Item> BUBBLEGUM_TALL_STOOL_ITEM = ITEMS.register("bubblegum_tall_stool", () -> new BlockItem(BUBBLEGUM_TALL_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BORDEAUX_STOOL_ITEM = ITEMS.register("bordeaux_stool", () -> new BlockItem(BORDEAUX_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BORDEAUX_CURTAIN_ITEM = ITEMS.register("bordeaux_curtain", () -> new BlockItem(BORDEAUX_CURTAIN.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BORDEAUX_LAMP_ITEM = ITEMS.register("bordeaux_lamp", () -> new BlockItem(BORDEAUX_LAMP.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BORDEAUX_SOFA_ITEM = ITEMS.register("bordeaux_sofa", () -> new BlockItem(BORDEAUX_SOFA.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> BORDEAUX_TALL_STOOL_ITEM = ITEMS.register("bordeaux_tall_stool", () -> new BlockItem(BORDEAUX_TALL_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> ENDER_STOOL_ITEM = ITEMS.register("ender_stool", () -> new BlockItem(ENDER_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> ENDER_CURTAIN_ITEM = ITEMS.register("ender_curtain", () -> new BlockItem(ENDER_CURTAIN.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> ENDER_LAMP_ITEM = ITEMS.register("ender_lamp", () -> new BlockItem(ENDER_LAMP.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> ENDER_SOFA_ITEM = ITEMS.register("ender_sofa", () -> new BlockItem(ENDER_SOFA.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
+    public static final RegistryObject<Item> ENDER_TALL_STOOL_ITEM = ITEMS.register("ender_tall_stool", () -> new BlockItem(ENDER_TALL_STOOL.get(), (new Item.Properties()).tab(AnotherFurniture.TAB)));
 
 }

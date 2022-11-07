@@ -117,7 +117,7 @@ public class PaintbrushItem extends Item {
                         sheep.level.playSound(p_41086_, sheep, SoundEvents.DYE_USE, SoundSource.PLAYERS, 1.0F, 1.0F);
                         if (!p_41086_.level.isClientSide) {
                             sheep.setColor(color);
-                            p_41085_.shrink(1);
+                            setUses(p_41085_, getUses(p_41085_)-1);
                         }
 
                         return InteractionResult.sidedSuccess(p_41086_.level.isClientSide);
@@ -129,7 +129,7 @@ public class PaintbrushItem extends Item {
                         shulker.level.playSound(p_41086_, shulker, SoundEvents.DYE_USE, SoundSource.PLAYERS, 1.0F, 1.0F);
                         if (!p_41086_.level.isClientSide) {
                             shulker.setColor(color);
-                            p_41085_.shrink(1);
+                            setUses(p_41085_, getUses(p_41085_)-1);
                         }
 
                         return InteractionResult.sidedSuccess(p_41086_.level.isClientSide);

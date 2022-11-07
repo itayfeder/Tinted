@@ -32,3 +32,11 @@ Chromatic:
 
 Bubblegum:
 - Base: Magenta (Grayscale)
+
+Bordeaux:
+- Base: Green (Grayscale)
+- After:
+- - Contrast: 15
+
+Ender:
+- Base: Orange (Grayscale)

@@ -113,6 +113,38 @@ public class ColorBlockLoot extends BlockLoot {
         this.add(BlockInit.BUBBLEGUM_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.BUBBLEGUM_CANDLE.get()));
 
 
+        this.dropSelf(BlockInit.BORDEAUX_WOOL.get());
+        this.dropSelf(BlockInit.BORDEAUX_TERRACOTTA.get());
+        this.dropSelf(BlockInit.BORDEAUX_CARPET.get());
+        this.dropSelf(BlockInit.BORDEAUX_CONCRETE.get());
+        this.dropSelf(BlockInit.BORDEAUX_CONCRETE_POWDER.get());
+        this.add(BlockInit.BORDEAUX_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.BORDEAUX_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.BORDEAUX_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.BORDEAUX_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.BORDEAUX_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.BORDEAUX_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.BORDEAUX_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.BORDEAUX_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.BORDEAUX_CANDLE.get()));
+
+
+        this.dropSelf(BlockInit.ENDER_WOOL.get());
+        this.dropSelf(BlockInit.ENDER_TERRACOTTA.get());
+        this.dropSelf(BlockInit.ENDER_CARPET.get());
+        this.dropSelf(BlockInit.ENDER_CONCRETE.get());
+        this.dropSelf(BlockInit.ENDER_CONCRETE_POWDER.get());
+        this.add(BlockInit.ENDER_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.ENDER_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.ENDER_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.ENDER_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.ENDER_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.ENDER_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.ENDER_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.ENDER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.ENDER_CANDLE.get()));
 
 
 

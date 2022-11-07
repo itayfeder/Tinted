@@ -6,6 +6,8 @@
     {"id":"supplementaries:flag_olive","required":false},
     {"id":"supplementaries:flag_turquoise","required":false},
     {"id":"supplementaries:flag_amber","required":false},
-    {"id":"supplementaries:flag_bubblegum","required":false}
+    {"id":"supplementaries:flag_bubblegum","required":false},
+    {"id":"supplementaries:flag_bordeaux","required":false},
+    {"id":"supplementaries:flag_ender","required":false}
   ]
 }

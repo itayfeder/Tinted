@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ##",
+        " /#",
+        "i  "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "tinted:paintbrush",
+        "count": 1
+    }
+}

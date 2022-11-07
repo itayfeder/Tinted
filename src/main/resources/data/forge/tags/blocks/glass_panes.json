@@ -7,12 +7,16 @@
     "tinted:turquoise_stained_glass_pane",
     "tinted:amber_stained_glass_pane",
     "tinted:bubblegum_stained_glass_pane",
+    "tinted:bordeaux_stained_glass_pane",
+    "tinted:ender_stained_glass_pane",
 
 	{"id":"quark:coral_framed_glass_pane","required":false},
 	{"id":"quark:beige_framed_glass_pane","required":false},
 	{"id":"quark:olive_framed_glass_pane","required":false},
 	{"id":"quark:turquoise_framed_glass_pane","required":false},
 	{"id":"quark:amber_framed_glass_pane","required":false},
-	{"id":"quark:bubblegum_framed_glass_pane","required":false}
+	{"id":"quark:bubblegum_framed_glass_pane","required":false},
+	{"id":"quark:bordeaux_framed_glass_pane","required":false},
+	{"id":"quark:ender_framed_glass_pane","required":false}
   ]
 }

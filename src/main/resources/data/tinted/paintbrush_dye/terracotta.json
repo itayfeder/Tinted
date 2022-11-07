@@ -23,6 +23,8 @@
     "olive": "tinted:olive_terracotta",
     "turquoise": "tinted:turquoise_terracotta",
     "amber": "tinted:amber_terracotta",
-    "bubblegum": "tinted:bubblegum_terracotta"
+    "bubblegum": "tinted:bubblegum_terracotta",
+    "bordeaux": "tinted:bordeaux_terracotta",
+    "ender": "tinted:ender_terracotta"
   }
 }

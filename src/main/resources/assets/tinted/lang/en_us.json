@@ -367,6 +367,128 @@
   "block.minecraft.banner.piglin.bubblegum": "Bubblegum Snout",
 
 
+  "comment___": "---------------------BORDEAUX---------------------",
+  "block.tinted.bordeaux_stained_glass": "Bordeaux Stained Glass",
+  "block.tinted.bordeaux_stained_glass_pane": "Bordeaux Stained Glass Pane",
+  "block.tinted.bordeaux_carpet": "Bordeaux Carpet",
+  "block.tinted.bordeaux_terracotta": "Bordeaux Terracotta",
+  "block.tinted.bordeaux_wool": "Bordeaux Wool",
+  "block.tinted.bordeaux_shulker_box": "Bordeaux Shulker Box",
+  "block.tinted.bordeaux_concrete": "Bordeaux Concrete",
+  "block.tinted.bordeaux_concrete_powder": "Bordeaux Concrete Powder",
+  "block.tinted.bordeaux_candle": "Bordeaux Candle",
+  "block.tinted.bordeaux_candle_cake": "Cake with Bordeaux Candle",
+  "item.tinted.bordeaux_dye": "Bordeaux Dye",
+  "block.tinted.bordeaux_bed": "Bordeaux Bed",
+  "item.minecraft.firework_star.bordeaux": "Bordeaux",
+  "block.tinted.bordeaux_banner": "Bordeaux Banner",
+  "item.minecraft.shield.bordeaux": "Bordeaux Shield",
+  "color.minecraft.bordeaux": "Bordeaux",
+
+  "block.minecraft.banner.base.bordeaux": "Fully Bordeaux Field",
+  "block.minecraft.banner.square_bottom_left.bordeaux": "Bordeaux Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.bordeaux": "Bordeaux Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.bordeaux": "Bordeaux Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.bordeaux": "Bordeaux Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.bordeaux": "Bordeaux Base",
+  "block.minecraft.banner.stripe_top.bordeaux": "Bordeaux Chief",
+  "block.minecraft.banner.stripe_left.bordeaux": "Bordeaux Pale Dexter",
+  "block.minecraft.banner.stripe_right.bordeaux": "Bordeaux Pale Sinister",
+  "block.minecraft.banner.stripe_center.bordeaux": "Bordeaux Pale",
+  "block.minecraft.banner.stripe_middle.bordeaux": "Bordeaux Fess",
+  "block.minecraft.banner.stripe_downright.bordeaux": "Bordeaux Bend",
+  "block.minecraft.banner.stripe_downleft.bordeaux": "Bordeaux Bend Sinister",
+  "block.minecraft.banner.small_stripes.bordeaux": "Bordeaux Paly",
+  "block.minecraft.banner.cross.bordeaux": "Bordeaux Saltire",
+  "block.minecraft.banner.triangle_bottom.bordeaux": "Bordeaux Chevron",
+  "block.minecraft.banner.triangle_top.bordeaux": "Bordeaux Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.bordeaux": "Bordeaux Base Indented",
+  "block.minecraft.banner.triangles_top.bordeaux": "Bordeaux Chief Indented",
+  "block.minecraft.banner.diagonal_left.bordeaux": "Bordeaux Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.bordeaux": "Bordeaux Per Bend",
+  "block.minecraft.banner.diagonal_up_left.bordeaux": "Bordeaux Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.bordeaux": "Bordeaux Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.bordeaux": "Bordeaux Roundel",
+  "block.minecraft.banner.rhombus.bordeaux": "Bordeaux Lozenge",
+  "block.minecraft.banner.half_vertical.bordeaux": "Bordeaux Per Pale",
+  "block.minecraft.banner.half_horizontal.bordeaux": "Bordeaux Per Fess",
+  "block.minecraft.banner.half_vertical_right.bordeaux": "Bordeaux Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.bordeaux": "Bordeaux Per Fess Inverted",
+  "block.minecraft.banner.creeper.bordeaux": "Bordeaux Creeper Charge",
+  "block.minecraft.banner.bricks.bordeaux": "Bordeaux Field Masoned",
+  "block.minecraft.banner.gradient.bordeaux": "Bordeaux Gradient",
+  "block.minecraft.banner.gradient_up.bordeaux": "Bordeaux Base Gradient",
+  "block.minecraft.banner.skull.bordeaux": "Bordeaux Skull Charge",
+  "block.minecraft.banner.flower.bordeaux": "Bordeaux Flower Charge",
+  "block.minecraft.banner.border.bordeaux": "Bordeaux Bordure",
+  "block.minecraft.banner.curly_border.bordeaux": "Bordeaux Bordure Indented",
+  "block.minecraft.banner.mojang.bordeaux": "Bordeaux Thing",
+  "block.minecraft.banner.straight_cross.bordeaux": "Bordeaux Cross",
+  "block.minecraft.banner.globe.bordeaux": "Bordeaux Globe",
+  "block.minecraft.banner.piglin.bordeaux": "Bordeaux Snout",
+
+
+  "comment___": "---------------------ENDER---------------------",
+  "block.tinted.ender_stained_glass": "Ender Stained Glass",
+  "block.tinted.ender_stained_glass_pane": "Ender Stained Glass Pane",
+  "block.tinted.ender_carpet": "Ender Carpet",
+  "block.tinted.ender_terracotta": "Ender Terracotta",
+  "block.tinted.ender_wool": "Ender Wool",
+  "block.tinted.ender_shulker_box": "Ender Shulker Box",
+  "block.tinted.ender_concrete": "Ender Concrete",
+  "block.tinted.ender_concrete_powder": "Ender Concrete Powder",
+  "block.tinted.ender_candle": "Ender Candle",
+  "block.tinted.ender_candle_cake": "Cake with Ender Candle",
+  "item.tinted.ender_dye": "Ender Dye",
+  "block.tinted.ender_bed": "Ender Bed",
+  "item.minecraft.firework_star.ender": "Ender",
+  "block.tinted.ender_banner": "Ender Banner",
+  "item.minecraft.shield.ender": "Ender Shield",
+  "color.minecraft.ender": "Ender",
+
+  "block.minecraft.banner.base.ender": "Fully Ender Field",
+  "block.minecraft.banner.square_bottom_left.ender": "Ender Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.ender": "Ender Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.ender": "Ender Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.ender": "Ender Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.ender": "Ender Base",
+  "block.minecraft.banner.stripe_top.ender": "Ender Chief",
+  "block.minecraft.banner.stripe_left.ender": "Ender Pale Dexter",
+  "block.minecraft.banner.stripe_right.ender": "Ender Pale Sinister",
+  "block.minecraft.banner.stripe_center.ender": "Ender Pale",
+  "block.minecraft.banner.stripe_middle.ender": "Ender Fess",
+  "block.minecraft.banner.stripe_downright.ender": "Ender Bend",
+  "block.minecraft.banner.stripe_downleft.ender": "Ender Bend Sinister",
+  "block.minecraft.banner.small_stripes.ender": "Ender Paly",
+  "block.minecraft.banner.cross.ender": "Ender Saltire",
+  "block.minecraft.banner.triangle_bottom.ender": "Ender Chevron",
+  "block.minecraft.banner.triangle_top.ender": "Ender Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.ender": "Ender Base Indented",
+  "block.minecraft.banner.triangles_top.ender": "Ender Chief Indented",
+  "block.minecraft.banner.diagonal_left.ender": "Ender Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.ender": "Ender Per Bend",
+  "block.minecraft.banner.diagonal_up_left.ender": "Ender Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.ender": "Ender Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.ender": "Ender Roundel",
+  "block.minecraft.banner.rhombus.ender": "Ender Lozenge",
+  "block.minecraft.banner.half_vertical.ender": "Ender Per Pale",
+  "block.minecraft.banner.half_horizontal.ender": "Ender Per Fess",
+  "block.minecraft.banner.half_vertical_right.ender": "Ender Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.ender": "Ender Per Fess Inverted",
+  "block.minecraft.banner.creeper.ender": "Ender Creeper Charge",
+  "block.minecraft.banner.bricks.ender": "Ender Field Masoned",
+  "block.minecraft.banner.gradient.ender": "Ender Gradient",
+  "block.minecraft.banner.gradient_up.ender": "Ender Base Gradient",
+  "block.minecraft.banner.skull.ender": "Ender Skull Charge",
+  "block.minecraft.banner.flower.ender": "Ender Flower Charge",
+  "block.minecraft.banner.border.ender": "Ender Bordure",
+  "block.minecraft.banner.curly_border.ender": "Ender Bordure Indented",
+  "block.minecraft.banner.mojang.ender": "Ender Thing",
+  "block.minecraft.banner.straight_cross.ender": "Ender Cross",
+  "block.minecraft.banner.globe.ender": "Ender Globe",
+  "block.minecraft.banner.piglin.ender": "Ender Snout",
+
+
 
   "comment___": "---------------------COMPAT: SUPPLEMENTARIES---------------------",
   "block.supplementaries.flag_coral": "Coral Flag",
@@ -398,6 +520,16 @@
   "block.supplementaries.present_bubblegum": "Bubblegum Present",
   "block.supplementaries.trapped_present_bubblegum": "Trapped Bubblegum Present",
   "block.supplementaries.candle_holder_bubblegum": "Bubblegum Candle Holder",
+
+  "block.supplementaries.flag_bordeaux": "Bordeaux Flag",
+  "block.supplementaries.present_bordeaux": "Bordeaux Present",
+  "block.supplementaries.trapped_present_bordeaux": "Trapped Bordeaux Present",
+  "block.supplementaries.candle_holder_bordeaux": "Bordeaux Candle Holder",
+
+  "block.supplementaries.flag_ender": "Ender Flag",
+  "block.supplementaries.present_ender": "Ender Present",
+  "block.supplementaries.trapped_present_ender": "Trapped Ender Present",
+  "block.supplementaries.candle_holder_ender": "Ender Candle Holder",
 
 
 
@@ -438,6 +570,18 @@
   "block.another_furniture.bubblegum_lamp": "Bubblegum Lamp",
   "block.another_furniture.bubblegum_tall_stool": "Bubblegum Tall Stool",
 
+  "block.another_furniture.bordeaux_sofa": "Bordeaux Sofa",
+  "block.another_furniture.bordeaux_stool": "Bordeaux Stool",
+  "block.another_furniture.bordeaux_curtain": "Bordeaux Curtain",
+  "block.another_furniture.bordeaux_lamp": "Bordeaux Lamp",
+  "block.another_furniture.bordeaux_tall_stool": "Bordeaux Tall Stool",
+
+  "block.another_furniture.ender_sofa": "Ender Sofa",
+  "block.another_furniture.ender_stool": "Ender Stool",
+  "block.another_furniture.ender_curtain": "Ender Curtain",
+  "block.another_furniture.ender_lamp": "Ender Lamp",
+  "block.another_furniture.ender_tall_stool": "Ender Tall Stool",
+
 
 
   "comment___": "---------------------COMPAT: QUARK---------------------",
@@ -477,6 +621,18 @@
   "block.quark.bubblegum_framed_glass_pane": "Bubblegum Framed Glass Pane",
   "block.quark.bubblegum_stool": "Bubblegum Stool",
 
+  "item.quark.bordeaux_shard": "Bordeaux Glass Shard",
+  "item.quark.bordeaux_rune": "Bordeaux Rune",
+  "block.quark.bordeaux_framed_glass": "Bordeaux Framed Glass",
+  "block.quark.bordeaux_framed_glass_pane": "Bordeaux Framed Glass Pane",
+  "block.quark.bordeaux_stool": "Bordeaux Stool",
+
+  "item.quark.ender_shard": "Ender Glass Shard",
+  "item.quark.ender_rune": "Ender Rune",
+  "block.quark.ender_framed_glass": "Ender Framed Glass",
+  "block.quark.ender_framed_glass_pane": "Ender Framed Glass Pane",
+  "block.quark.ender_stool": "Ender Stool",
+
 
 
   "comment___": "---------------------COMPAT: CREATE---------------------",
@@ -510,6 +666,16 @@
   "block.create.bubblegum_toolbox": "Bubblegum Toolbox",
   "block.create.bubblegum_valve_handle": "Bubblegum Valve Handle",
 
+  "block.create.bordeaux_sail": "Bordeaux Sail",
+  "block.create.bordeaux_seat": "Bordeaux Seat",
+  "block.create.bordeaux_toolbox": "Bordeaux Toolbox",
+  "block.create.bordeaux_valve_handle": "Bordeaux Valve Handle",
+
+  "block.create.ender_sail": "Ender Sail",
+  "block.create.ender_seat": "Ender Seat",
+  "block.create.ender_toolbox": "Ender Toolbox",
+  "block.create.ender_valve_handle": "Ender Valve Handle",
+
 
 
   "comment___": "---------------------COMPAT: WAYSTONES---------------------",
@@ -531,6 +697,12 @@
   "block.waystones.bubblegum_sharestone": "Bubblegum Sharestone",
   "tooltip.waystones.bubblegum_sharestone": "Teleport to any other Bubblegum Sharestone",
 
+  "block.waystones.bordeaux_sharestone": "Bordeaux Sharestone",
+  "tooltip.waystones.bordeaux_sharestone": "Teleport to any other Bordeaux Sharestone",
+
+  "block.waystones.ender_sharestone": "Ender Sharestone",
+  "tooltip.waystones.ender_sharestone": "Teleport to any other Ender Sharestone",
+
 
 
   "comment___": "---------------------COMPAT: OPEN ELEVATORS---------------------",
@@ -539,6 +711,7 @@
   "block.elevatorid.elevator_olive": "Olive Elevator",
   "block.elevatorid.elevator_turquoise": "Turquoise Elevator",
   "block.elevatorid.elevator_amber": "Amber Elevator",
-  "block.elevatorid.elevator_bubblegum": "Bubblegum Elevator"
-
+  "block.elevatorid.elevator_bubblegum": "Bubblegum Elevator",
+  "block.elevatorid.elevator_bordeaux": "Bordeaux Elevator",
+  "block.elevatorid.elevator_ender": "Ender Elevator"
 }

@@ -11,6 +11,10 @@
     "tinted:amber_banner",
     "tinted:amber_wall_banner",
     "tinted:bubblegum_banner",
-    "tinted:bubblegum_wall_banner"
+    "tinted:bubblegum_wall_banner",
+    "tinted:bordeaux_banner",
+    "tinted:bordeaux_wall_banner",
+    "tinted:ender_banner",
+    "tinted:ender_wall_banner"
   ]
 }

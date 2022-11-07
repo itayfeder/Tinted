@@ -23,6 +23,8 @@
     "olive": "tinted:olive_concrete",
     "turquoise": "tinted:turquoise_concrete",
     "amber": "tinted:amber_concrete",
-    "bubblegum": "tinted:bubblegum_concrete"
+    "bubblegum": "tinted:bubblegum_concrete",
+    "bordeaux": "tinted:bordeaux_concrete",
+    "ender": "tinted:ender_concrete"
   }
 }

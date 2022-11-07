@@ -18,7 +18,7 @@ public class SheetsMixin {
     @Shadow
     @Final
     @Mutable
-    public static final List<Material> SHULKER_TEXTURE_LOCATION = Stream.of("white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black", "coral", "beige", "olive", "turquoise", "amber", "bubblegum").map((p_110784_) -> {
+    public static final List<Material> SHULKER_TEXTURE_LOCATION = Stream.of("white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black", "coral", "beige", "olive", "turquoise", "amber", "bubblegum", "bordeaux", "ender").map((p_110784_) -> {
         return new Material(Sheets.SHULKER_SHEET, new ResourceLocation("entity/shulker/shulker_" + p_110784_));
     }).collect(ImmutableList.toImmutableList());
 

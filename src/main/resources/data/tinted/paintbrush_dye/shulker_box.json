@@ -23,6 +23,8 @@
     "olive": "tinted:olive_shulker_box",
     "turquoise": "tinted:turquoise_shulker_box",
     "amber": "tinted:amber_shulker_box",
-    "bubblegum": "tinted:bubblegum_shulker_box"
+    "bubblegum": "tinted:bubblegum_shulker_box",
+    "bordeaux": "tinted:bordeaux_shulker_box",
+    "ender": "tinted:ender_shulker_box"
   }
 }

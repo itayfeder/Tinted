@@ -1,6 +1,7 @@
 package com.itayfeder.tinted.mixin;
 
 import com.itayfeder.tinted.TintedMod;
+import com.itayfeder.tinted.util.ExtraDyeColors;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import net.minecraft.world.item.BannerItem;
 import net.minecraft.world.item.DyeColor;
@@ -34,6 +35,8 @@ public abstract class DyeColorMixin {
     private static final DyeColor TURQUOISE = addVariant("TURQUOISE", "turquoise", 4251856, MaterialColor.COLOR_LIGHT_BLUE, 4251856, 4251856);
     private static final DyeColor AMBER = addVariant("AMBER", "amber", 15836416, MaterialColor.TERRACOTTA_YELLOW, 15836416, 15836416);
     private static final DyeColor BUBBLEGUM = addVariant("BUBBLEGUM", "bubblegum", 15021722, MaterialColor.TERRACOTTA_MAGENTA, 15021722, 15021722);
+    private static final DyeColor BORDEAUX = addVariant("BORDEAUX", "bordeaux", 7799592, MaterialColor.TERRACOTTA_RED, 7799592, 7799592);
+    private static final DyeColor ENDER = addVariant("ENDER", "ender", 2777685, MaterialColor.COLOR_GREEN, 2777685, 2777685);
 
     //private static final DyeColor CHROMATIC = addVariant("CHROMATIC", "chromatic", 16777215, MaterialColor.TERRACOTTA_WHITE, 16777215, 16777215);
 
@@ -65,6 +68,7 @@ public abstract class DyeColorMixin {
         DyeColor color = DyeColorMixin.invokeInit(internalName, variants.get(variants.size() - 1).ordinal() + 1, variants.get(variants.size() - 1).ordinal() + 1, p_41047_, p_41048_, p_41049_, p_41050_, p_41051_);
         variants.add(color);
         DyeColorMixin.$VALUES = variants.toArray(new DyeColor[0]);
+        ExtraDyeColors.MY_NEW_DYES.add(color);
         return color;
     }
 

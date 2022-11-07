@@ -7,8 +7,11 @@ import net.minecraft.world.level.material.MaterialColor;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 
 public class ExtraDyeColors {
+
+    public static final List<DyeColor> MY_NEW_DYES = new ArrayList<>();
 
     public static DyeColor CORAL;
     public static DyeColor BEIGE;
@@ -16,6 +19,8 @@ public class ExtraDyeColors {
     public static DyeColor TURQUOISE;
     public static DyeColor AMBER;
     public static DyeColor BUBBLEGUM;
+    public static DyeColor BORDEAUX;
+    public static DyeColor ENDER;
 
     //public static DyeColor CHROMATIC;
 
@@ -26,6 +31,8 @@ public class ExtraDyeColors {
         TURQUOISE = DyeColor.byId(19);
         AMBER = DyeColor.byId(20);
         BUBBLEGUM = DyeColor.byId(21);
+        BORDEAUX = DyeColor.byId(22);
+        ENDER = DyeColor.byId(23);
     }
 
 }

@@ -6,6 +6,8 @@
     "create:olive_valve_handle",
     "create:turquoise_valve_handle",
     "create:amber_valve_handle",
-    "create:bubblegum_valve_handle"
+    "create:bubblegum_valve_handle",
+    "create:bordeaux_valve_handle",
+    "create:ender_valve_handle"
   ]
 }

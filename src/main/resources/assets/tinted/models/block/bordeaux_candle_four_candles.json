@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_four_candles",
+  "textures": {
+    "all": "tinted:block/bordeaux_candle",
+    "particle": "tinted:block/bordeaux_candle"
+  }
+}
