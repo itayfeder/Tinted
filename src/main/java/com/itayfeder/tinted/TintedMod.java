@@ -1,6 +1,7 @@
 package com.itayfeder.tinted;
 
 import com.itayfeder.tinted.compat.another_furniture.AnotherFurnitureCompat;
+import com.itayfeder.tinted.compat.quark.QuarkCompat;
 import com.itayfeder.tinted.data.ColorRecipeProvider;
 import com.itayfeder.tinted.data.lootTables.ColorLootTableProvider;
 import com.itayfeder.tinted.data.tags.ColorBlockTagProvider;
@@ -56,6 +57,10 @@ public class TintedMod
             System.out.println(color.toString() + " " + color.getId());
         }
         System.out.println("-----------------------------------------------");
+
+        if (ModList.get().isLoaded("quark")) {
+            QuarkCompat.ChangeRuneValues();
+        }
 
         event.enqueueWork(() -> {
             BlockEntityAdder.AddToBlockEntities();

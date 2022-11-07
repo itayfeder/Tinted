@@ -13,7 +13,8 @@
         "accessors.SheepAccessor",
 
 		"compat/create/DyeHelperMixin",
-        "compat/quark/ColorRunesModuleMixin"
+        "compat/quark/ColorRunesModuleMixin",
+        "compat.quark.RuneItemAccessor"
 	],
 	"client": [
 		"client.SheetsMixin",

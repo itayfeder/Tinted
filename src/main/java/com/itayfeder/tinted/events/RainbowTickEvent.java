@@ -2,7 +2,6 @@ package com.itayfeder.tinted.events;
 
 import com.itayfeder.tinted.TintedMod;
 import com.itayfeder.tinted.compat.another_furniture.AnotherFurnitureCompat;
-import com.itayfeder.tinted.compat.create.CreateCompat;
 import com.itayfeder.tinted.mixin.accessors.SheepAccessor;
 import com.itayfeder.tinted.util.ExtraDyeColors;
 import net.minecraft.client.Minecraft;
@@ -39,10 +38,7 @@ public class RainbowTickEvent {
             /*Map<DyeColor, float[]> sheepColorValues = SheepAccessor.getColorarrayByColor();
             sheepColorValues.put(ExtraDyeColors.CHROMATIC, new float[] {newColor.getRed() / 255f, newColor.getGreen() / 255f, newColor.getBlue() / 255f});
             SheepAccessor.setColorarrayByColor(sheepColorValues);
-            ExtraDyeColors.CHROMATIC.textureDiffuseColors = new float[] {newColor.getRed() / 255f, newColor.getGreen() / 255f, newColor.getBlue() / 255f};
-            if (ModList.get().isLoaded("create")) {
-                CreateCompat.ChangeNixieTubeColor(newColor, darkerColor);
-            }*/
+            ExtraDyeColors.CHROMATIC.textureDiffuseColors = new float[] {newColor.getRed() / 255f, newColor.getGreen() / 255f, newColor.getBlue() / 255f};*/
 
         }
     }
