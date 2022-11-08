@@ -489,6 +489,67 @@
   "block.minecraft.banner.piglin.ender": "Ender Snout",
 
 
+  "comment___": "---------------------MINT---------------------",
+  "block.tinted.mint_stained_glass": "Mint Stained Glass",
+  "block.tinted.mint_stained_glass_pane": "Mint Stained Glass Pane",
+  "block.tinted.mint_carpet": "Mint Carpet",
+  "block.tinted.mint_terracotta": "Mint Terracotta",
+  "block.tinted.mint_wool": "Mint Wool",
+  "block.tinted.mint_shulker_box": "Mint Shulker Box",
+  "block.tinted.mint_concrete": "Mint Concrete",
+  "block.tinted.mint_concrete_powder": "Mint Concrete Powder",
+  "block.tinted.mint_candle": "Mint Candle",
+  "block.tinted.mint_candle_cake": "Cake with Mint Candle",
+  "item.tinted.mint_dye": "Mint Dye",
+  "block.tinted.mint_bed": "Mint Bed",
+  "item.minecraft.firework_star.mint": "Mint",
+  "block.tinted.mint_banner": "Mint Banner",
+  "item.minecraft.shield.mint": "Mint Shield",
+  "color.minecraft.mint": "Mint",
+
+  "block.minecraft.banner.base.mint": "Fully Mint Field",
+  "block.minecraft.banner.square_bottom_left.mint": "Mint Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.mint": "Mint Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.mint": "Mint Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.mint": "Mint Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.mint": "Mint Base",
+  "block.minecraft.banner.stripe_top.mint": "Mint Chief",
+  "block.minecraft.banner.stripe_left.mint": "Mint Pale Dexter",
+  "block.minecraft.banner.stripe_right.mint": "Mint Pale Sinister",
+  "block.minecraft.banner.stripe_center.mint": "Mint Pale",
+  "block.minecraft.banner.stripe_middle.mint": "Mint Fess",
+  "block.minecraft.banner.stripe_downright.mint": "Mint Bend",
+  "block.minecraft.banner.stripe_downleft.mint": "Mint Bend Sinister",
+  "block.minecraft.banner.small_stripes.mint": "Mint Paly",
+  "block.minecraft.banner.cross.mint": "Mint Saltire",
+  "block.minecraft.banner.triangle_bottom.mint": "Mint Chevron",
+  "block.minecraft.banner.triangle_top.mint": "Mint Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.mint": "Mint Base Indented",
+  "block.minecraft.banner.triangles_top.mint": "Mint Chief Indented",
+  "block.minecraft.banner.diagonal_left.mint": "Mint Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.mint": "Mint Per Bend",
+  "block.minecraft.banner.diagonal_up_left.mint": "Mint Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.mint": "Mint Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.mint": "Mint Roundel",
+  "block.minecraft.banner.rhombus.mint": "Mint Lozenge",
+  "block.minecraft.banner.half_vertical.mint": "Mint Per Pale",
+  "block.minecraft.banner.half_horizontal.mint": "Mint Per Fess",
+  "block.minecraft.banner.half_vertical_right.mint": "Mint Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.mint": "Mint Per Fess Inverted",
+  "block.minecraft.banner.creeper.mint": "Mint Creeper Charge",
+  "block.minecraft.banner.bricks.mint": "Mint Field Masoned",
+  "block.minecraft.banner.gradient.mint": "Mint Gradient",
+  "block.minecraft.banner.gradient_up.mint": "Mint Base Gradient",
+  "block.minecraft.banner.skull.mint": "Mint Skull Charge",
+  "block.minecraft.banner.flower.mint": "Mint Flower Charge",
+  "block.minecraft.banner.border.mint": "Mint Bordure",
+  "block.minecraft.banner.curly_border.mint": "Mint Bordure Indented",
+  "block.minecraft.banner.mojang.mint": "Mint Thing",
+  "block.minecraft.banner.straight_cross.mint": "Mint Cross",
+  "block.minecraft.banner.globe.mint": "Mint Globe",
+  "block.minecraft.banner.piglin.mint": "Mint Snout",
+
+
 
   "comment___": "---------------------COMPAT: SUPPLEMENTARIES---------------------",
   "block.supplementaries.flag_coral": "Coral Flag",
@@ -530,6 +591,11 @@
   "block.supplementaries.present_ender": "Ender Present",
   "block.supplementaries.trapped_present_ender": "Trapped Ender Present",
   "block.supplementaries.candle_holder_ender": "Ender Candle Holder",
+
+  "block.supplementaries.flag_mint": "Mint Flag",
+  "block.supplementaries.present_mint": "Mint Present",
+  "block.supplementaries.trapped_present_mint": "Trapped Mint Present",
+  "block.supplementaries.candle_holder_mint": "Mint Candle Holder",
 
 
 
@@ -582,6 +648,12 @@
   "block.another_furniture.ender_lamp": "Ender Lamp",
   "block.another_furniture.ender_tall_stool": "Ender Tall Stool",
 
+  "block.another_furniture.mint_sofa": "Mint Sofa",
+  "block.another_furniture.mint_stool": "Mint Stool",
+  "block.another_furniture.mint_curtain": "Mint Curtain",
+  "block.another_furniture.mint_lamp": "Mint Lamp",
+  "block.another_furniture.mint_tall_stool": "Mint Tall Stool",
+
 
 
   "comment___": "---------------------COMPAT: QUARK---------------------",
@@ -633,6 +705,12 @@
   "block.quark.ender_framed_glass_pane": "Ender Framed Glass Pane",
   "block.quark.ender_stool": "Ender Stool",
 
+  "item.quark.mint_shard": "Mint Glass Shard",
+  "item.quark.mint_rune": "Mint Rune",
+  "block.quark.mint_framed_glass": "Mint Framed Glass",
+  "block.quark.mint_framed_glass_pane": "Mint Framed Glass Pane",
+  "block.quark.mint_stool": "Mint Stool",
+
 
 
   "comment___": "---------------------COMPAT: CREATE---------------------",
@@ -676,6 +754,11 @@
   "block.create.ender_toolbox": "Ender Toolbox",
   "block.create.ender_valve_handle": "Ender Valve Handle",
 
+  "block.create.mint_sail": "Mint Sail",
+  "block.create.mint_seat": "Mint Seat",
+  "block.create.mint_toolbox": "Mint Toolbox",
+  "block.create.mint_valve_handle": "Mint Valve Handle",
+
 
 
   "comment___": "---------------------COMPAT: WAYSTONES---------------------",
@@ -703,6 +786,9 @@
   "block.waystones.ender_sharestone": "Ender Sharestone",
   "tooltip.waystones.ender_sharestone": "Teleport to any other Ender Sharestone",
 
+  "block.waystones.mint_sharestone": "Mint Sharestone",
+  "tooltip.waystones.mint_sharestone": "Teleport to any other Mint Sharestone",
+
 
 
   "comment___": "---------------------COMPAT: OPEN ELEVATORS---------------------",
@@ -713,5 +799,6 @@
   "block.elevatorid.elevator_amber": "Amber Elevator",
   "block.elevatorid.elevator_bubblegum": "Bubblegum Elevator",
   "block.elevatorid.elevator_bordeaux": "Bordeaux Elevator",
-  "block.elevatorid.elevator_ender": "Ender Elevator"
+  "block.elevatorid.elevator_ender": "Ender Elevator",
+  "block.elevatorid.elevator_mint": "Mint Elevator"
 }

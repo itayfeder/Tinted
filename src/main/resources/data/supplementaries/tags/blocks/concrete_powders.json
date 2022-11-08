@@ -8,6 +8,7 @@
     {"id":"tinted:amber_concrete_powder","required":false},
     {"id":"tinted:bubblegum_concrete_powder","required":false},
     {"id":"tinted:bordeaux_concrete_powder","required":false},
-    {"id":"tinted:ender_concrete_powder","required":false}
+    {"id":"tinted:ender_concrete_powder","required":false},
+    {"id":"tinted:mint_concrete_powder","required":false}
   ]
 }

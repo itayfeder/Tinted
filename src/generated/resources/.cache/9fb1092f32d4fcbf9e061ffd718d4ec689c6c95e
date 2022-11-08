@@ -1,4 +1,4 @@
-// 1.19.2	2022-11-07T12:02:25.1328468	Recipes
+// 1.19.2	2022-11-07T19:23:00.7984283	Recipes
 6c8268741ed70506347bc68984dbcee75919ad0d data/minecraft/advancements/recipes/decorations/amber_bed_from_white_bed.json
 f1dcc904e29f7ab33fba2adeec891ba50cc885fd data/minecraft/advancements/recipes/decorations/amber_carpet_from_white_carpet.json
 1fed49f9b146552a471d9bda618b3780d7ed7d88 data/minecraft/advancements/recipes/decorations/amber_stained_glass_pane_from_glass_pane.json
@@ -127,6 +127,7 @@ eadbaef2a6ec11a3d4171aa6216d1a2d5e18bd28 data/tinted/advancements/recipes/misc/a
 e330bbc48933d7d343cf4ffa0bce0a7f10aa1506 data/tinted/advancements/recipes/misc/bubblegum_dye.json
 2bb0176082cbb23a016e8c2175ad6d53fab9fe52 data/tinted/advancements/recipes/misc/coral_dye.json
 7ce5f67f58b322e8b0203d708a15bebb4f7be382 data/tinted/advancements/recipes/misc/ender_dye.json
+37317abe27fda9e519e71a227a9cd487d1c1be55 data/tinted/advancements/recipes/misc/mint_dye.json
 cb084dea1c6df04eeda1a70e65a9c0241e7df00c data/tinted/advancements/recipes/misc/olive_dye.json
 309754d0ec7296899815179177e2abef053cc3aa data/tinted/recipes/amber_banner.json
 0b15371fbd14dce6995b26f4df0d316cf6223c53 data/tinted/recipes/amber_bed.json
@@ -188,6 +189,7 @@ edc5d78943ebd0c894c17c6ca172c7a318fa1e66 data/tinted/recipes/ender_concrete_powd
 167cdfd4f82a19c4ae6ffa3e77bdf17f81ec22de data/tinted/recipes/ender_stained_glass_pane.json
 b14662fe219df0ea061e0be67a810de5632205fc data/tinted/recipes/ender_terracotta.json
 ce5f7bff0970e38d61cb9a6758877b8e660bd7ad data/tinted/recipes/ender_wool.json
+adc0f80261a8ac8a5605f98350e87ce8e01c7625 data/tinted/recipes/mint_dye.json
 86873daa73b5c21f93fa601e574de2fafb59b63e data/tinted/recipes/olive_banner.json
 295d2102441486c30e1fab5d397a9169ae60e53f data/tinted/recipes/olive_bed.json
 f212977fdc35490b8acf4ec8e951f67293b3bac4 data/tinted/recipes/olive_candle.json

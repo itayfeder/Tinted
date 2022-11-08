@@ -8,6 +8,7 @@
     "create:amber_toolbox",
     "create:bubblegum_toolbox",
     "create:bordeaux_toolbox",
-    "create:ender_toolbox"
+    "create:ender_toolbox",
+    "create:mint_toolbox"
   ]
 }

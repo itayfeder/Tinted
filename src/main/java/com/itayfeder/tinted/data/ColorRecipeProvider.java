@@ -29,6 +29,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         ShapelessRecipeBuilder.shapeless(ItemInit.BUBBLEGUM_DYE.get(), 2).requires(Items.MAGENTA_DYE).requires(Items.RED_DYE).unlockedBy("has_magenta_dye", has(Items.MAGENTA_DYE)).unlockedBy("has_red_dye", has(Items.RED_DYE)).save(p_176532_);
         ShapelessRecipeBuilder.shapeless(ItemInit.BORDEAUX_DYE.get(), 2).requires(Items.BLACK_DYE).requires(Items.RED_DYE).unlockedBy("has_black_dye", has(Items.BLACK_DYE)).unlockedBy("has_red_dye", has(Items.RED_DYE)).save(p_176532_);
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.ENDER_PEARL.asItem()), ItemInit.ENDER_DYE.get(), 1.0F, 200).unlockedBy("has_ender_pearl", has(Items.ENDER_PEARL)).save(p_176532_);
+        ShapelessRecipeBuilder.shapeless(ItemInit.MINT_DYE.get(), 2).requires(Items.WHITE_DYE).requires(Items.LIME_DYE).unlockedBy("has_white_dye", has(Items.WHITE_DYE)).unlockedBy("has_lime_dye", has(Items.LIME_DYE)).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.CORAL_WOOL.get(), ItemInit.CORAL_DYE.get());
         carpet(p_176532_, BlockInit.CORAL_CARPET.get(), BlockInit.CORAL_WOOL.get());

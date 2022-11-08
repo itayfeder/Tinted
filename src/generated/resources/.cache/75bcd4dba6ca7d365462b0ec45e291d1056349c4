@@ -1,14 +1,14 @@
-// 1.19.2	2022-11-07T12:02:25.13484	Tags for minecraft:block
-3d48b8271cf992647cbdba665e34cfcb13a091f9 data/forge/tags/blocks/stained_glass.json
-6dd954cf842899d070f92135643906b5db9dabed data/forge/tags/blocks/stained_glass_panes.json
-160eee3c9f93ad7ffaed62cf50ad666d9d524dc6 data/minecraft/tags/blocks/banners.json
-99bf0a55bb9558f57b4c4484754f9dc310f9f9a9 data/minecraft/tags/blocks/beds.json
-ec499ef2da1d3608f1ccca1b357824ecb43454c8 data/minecraft/tags/blocks/candles.json
-a933b38bdada7b90aeca7493ae2cc9efc2e3767e data/minecraft/tags/blocks/candle_cakes.json
-3cc59dbee6ae7e25e39dc9f66b4fef76ef43bb49 data/minecraft/tags/blocks/mineable/shovel.json
-be92ac15c69ecf5fddcd229da77164be24e417eb data/minecraft/tags/blocks/shulker_boxes.json
-6c8a6abeab3de614a60ae440c63ae85173865d05 data/minecraft/tags/blocks/terracotta.json
-4ed6ee687ee52b1fba1614f82b3d1b526c1dd7b8 data/minecraft/tags/blocks/wool.json
-433ef10b063992659a6f9ad2f2052a45fc39b0a0 data/minecraft/tags/blocks/wool_carpets.json
-31b9bd28b3a7d8ce83c17e9ec64175d7f4c63c89 data/tinted/tags/blocks/concrete.json
-a68cc90a09f4744077337d663a437d06b6208437 data/tinted/tags/blocks/concrete_powder.json
+// 1.19.2	2022-11-07T19:23:00.8004216	Tags for minecraft:block
+d3befa92ec752fa791a2ed7dd77e6a8dbb20fb41 data/forge/tags/blocks/stained_glass.json
+b97212a19ac2b3b676331a9a7b458cab3629bb75 data/forge/tags/blocks/stained_glass_panes.json
+8c8ea9bbbb6fbb87bfff56664cca682114024ef1 data/minecraft/tags/blocks/banners.json
+da6fd32c6b19d26658d583251fe5d39b785e5296 data/minecraft/tags/blocks/beds.json
+ecaa17ec1b8f76ec009bccb609d3f79e6e3a55e7 data/minecraft/tags/blocks/candles.json
+255b869e2dff5b20eb5e5204872ccfa37b158705 data/minecraft/tags/blocks/candle_cakes.json
+6cbb817ffa47e017ed24f91325c0719d42507d9e data/minecraft/tags/blocks/mineable/shovel.json
+35b224b771ebee0dfbb426c493f6249c169ad1fe data/minecraft/tags/blocks/shulker_boxes.json
+f7afa4156095f41020087e69f4348323241e7e39 data/minecraft/tags/blocks/terracotta.json
+ea169bd6a4925a9b1f7fe51173b785519a31bd07 data/minecraft/tags/blocks/wool.json
+86bff225146e0e2d424895a064f204f80a201e5a data/minecraft/tags/blocks/wool_carpets.json
+cbac9c6e5530a0bff2479746a2239ef21dfb9b04 data/tinted/tags/blocks/concrete.json
+2f87adb2b47c37ebec8f5092567aace0758b2619 data/tinted/tags/blocks/concrete_powder.json

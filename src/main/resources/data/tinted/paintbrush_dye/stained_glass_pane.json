@@ -25,6 +25,7 @@
     "amber": "tinted:amber_stained_glass_pane",
     "bubblegum": "tinted:bubblegum_stained_glass_pane",
     "bordeaux": "tinted:bordeaux_stained_glass_pane",
-    "ender": "tinted:ender_stained_glass_pane"
+    "ender": "tinted:ender_stained_glass_pane",
+    "mint": "tinted:mint_stained_glass_pane"
   }
 }

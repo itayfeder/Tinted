@@ -147,6 +147,21 @@ public class ColorBlockLoot extends BlockLoot {
         this.add(BlockInit.ENDER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.ENDER_CANDLE.get()));
 
 
+        this.dropSelf(BlockInit.MINT_WOOL.get());
+        this.dropSelf(BlockInit.MINT_TERRACOTTA.get());
+        this.dropSelf(BlockInit.MINT_CARPET.get());
+        this.dropSelf(BlockInit.MINT_CONCRETE.get());
+        this.dropSelf(BlockInit.MINT_CONCRETE_POWDER.get());
+        this.add(BlockInit.MINT_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.MINT_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.MINT_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.MINT_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.MINT_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.MINT_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.MINT_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.MINT_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.MINT_CANDLE.get()));
 
     }
 

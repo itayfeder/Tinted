@@ -159,6 +159,22 @@ public class BlockInit {
     public static final RegistryObject<Block> ENDER_CANDLE = BLOCKS.register("ender_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> ENDER_CANDLE_CAKE = BLOCKS.register("ender_candle_cake", () -> new CandleCakeBlock(ENDER_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
 
+    public static final RegistryObject<Block> MINT_WOOL = BLOCKS.register("mint_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> MINT_TERRACOTTA = BLOCKS.register("mint_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
+    public static final RegistryObject<Block> MINT_STAINED_GLASS = BLOCKS.register("mint_stained_glass", () -> new StainedGlassBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_GREEN).strength(0.3F).sound(SoundType.GLASS).noOcclusion().isValidSpawn(BlockInit::never).isRedstoneConductor(BlockInit::never).isSuffocating(BlockInit::never).isViewBlocking(BlockInit::never)));
+    public static final RegistryObject<Block> MINT_CONCRETE = BLOCKS.register("mint_concrete", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GREEN).requiresCorrectToolForDrops().strength(1.8F)));
+    public static final RegistryObject<Block> MINT_CONCRETE_POWDER = BLOCKS.register("mint_concrete_powder", () -> new ConcretePowderBlock(MINT_CONCRETE.get(), BlockBehaviour.Properties.of(Material.SAND, DyeColor.GREEN).strength(0.5F).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> MINT_CARPET = BLOCKS.register("mint_carpet", () -> new WoolCarpetBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.CLOTH_DECORATION, MaterialColor.COLOR_GREEN).strength(0.1F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> MINT_STAINED_GLASS_PANE = BLOCKS.register("mint_stained_glass_pane", () -> new StainedGlassPaneBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.GLASS).strength(0.3F).sound(SoundType.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> MINT_SHULKER_BOX = BLOCKS.register("mint_shulker_box", () -> new ShulkerBoxBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.SHULKER_SHELL, MaterialColor.COLOR_GREEN).strength(2.0F).dynamicShape().noOcclusion().isSuffocating(blockbehaviour$statepredicate).isViewBlocking(blockbehaviour$statepredicate)));
+    public static final RegistryObject<Block> MINT_BED = BLOCKS.register("mint_bed", () -> new BedBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.WOOL, (p_152613_) -> {
+        return p_152613_.getValue(BedBlock.PART) == BedPart.FOOT ? ExtraDyeColors.MINT.getMaterialColor() : MaterialColor.WOOL;
+    }).sound(SoundType.WOOD).strength(0.2F).noOcclusion()));
+    public static final RegistryObject<Block> MINT_BANNER = BLOCKS.register("mint_banner", () -> new BannerBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MINT_WALL_BANNER = BLOCKS.register("mint_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MINT_CANDLE = BLOCKS.register("mint_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
+    public static final RegistryObject<Block> MINT_CANDLE_CAKE = BLOCKS.register("mint_candle_cake", () -> new CandleCakeBlock(MINT_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+
 
 
 

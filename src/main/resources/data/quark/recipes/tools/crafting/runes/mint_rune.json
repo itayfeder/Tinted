@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quark:blank_rune"
+    },
+    {
+      "item": "tinted:mint_dye"
+    }
+  ],
+  "result": {
+    "item": "quark:mint_rune",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "color_runes"
+    }
+  ]
+} 

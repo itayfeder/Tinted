@@ -1,4 +1,4 @@
-// 1.19.2	2022-11-07T12:02:25.1278588	LootTables
+// 1.19.2	2022-11-07T19:23:00.7934407	LootTables
 2264932b9016b0a11e0e350cde1391d0d70ade06 data/tinted/loot_tables/blocks/amber_banner.json
 d124487ecf42b748502e24cf334570c425d477f6 data/tinted/loot_tables/blocks/amber_bed.json
 5a4227fdfd5af78ec5d874cb7eddee13ea221b19 data/tinted/loot_tables/blocks/amber_candle.json
@@ -77,6 +77,19 @@ eea3280c8f6476abadbc87bdbce67025e4d4faa0 data/tinted/loot_tables/blocks/ender_st
 4911a62bce4245ebea7451bd655e6c8aabbe3763 data/tinted/loot_tables/blocks/ender_terracotta.json
 fd1dec93d19243c16573782c427c5d74a1b6b7e5 data/tinted/loot_tables/blocks/ender_wall_banner.json
 c195005f44ba9c07126afe5de147f041a561ad07 data/tinted/loot_tables/blocks/ender_wool.json
+70525de9aa9166d50051379ddf47f8ae24cc014e data/tinted/loot_tables/blocks/mint_banner.json
+dd7a4e67104ce7fcc241a6d143c2970812a06628 data/tinted/loot_tables/blocks/mint_bed.json
+106a3e035b5cab98b1b5862f11495149d49183fa data/tinted/loot_tables/blocks/mint_candle.json
+40d60abd1521a3858b79fd697f89104ccf2d3929 data/tinted/loot_tables/blocks/mint_candle_cake.json
+63c24e6a1ac9d9c45f7b0d7f184b62fb0fcec876 data/tinted/loot_tables/blocks/mint_carpet.json
+b59ef173bb23368ec3e5fa606d6b37902bcd010f data/tinted/loot_tables/blocks/mint_concrete.json
+31fe016d48fe80ddb72a5f5ed847ff5c74b8f343 data/tinted/loot_tables/blocks/mint_concrete_powder.json
+0d6ebb9ae54316272884b0d45e64995f8e29eb03 data/tinted/loot_tables/blocks/mint_shulker_box.json
+8bcaf6d0f7b693890f947cdc78a9afd776845d9a data/tinted/loot_tables/blocks/mint_stained_glass.json
+1c16dca2279bb2c80ed48cc656fe3f2dd8697f09 data/tinted/loot_tables/blocks/mint_stained_glass_pane.json
+d8b5739d28c8275480f40f1c59248684f1da0d03 data/tinted/loot_tables/blocks/mint_terracotta.json
+70525de9aa9166d50051379ddf47f8ae24cc014e data/tinted/loot_tables/blocks/mint_wall_banner.json
+4860c858e2e3bfd43050248ff8b771705bb65cb3 data/tinted/loot_tables/blocks/mint_wool.json
 d3ae9a11c89e7f6e252db4e95a1bb42caef34673 data/tinted/loot_tables/blocks/olive_banner.json
 1ab22ea1562f2470d76f8ac6c4451fb93e2b15f8 data/tinted/loot_tables/blocks/olive_bed.json
 80c227996282b02285ff34f03db5ca0e73988306 data/tinted/loot_tables/blocks/olive_candle.json

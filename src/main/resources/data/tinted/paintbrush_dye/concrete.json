@@ -25,6 +25,7 @@
     "amber": "tinted:amber_concrete",
     "bubblegum": "tinted:bubblegum_concrete",
     "bordeaux": "tinted:bordeaux_concrete",
-    "ender": "tinted:ender_concrete"
+    "ender": "tinted:ender_concrete",
+    "mint": "tinted:mint_concrete"
   }
 }

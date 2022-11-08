@@ -8,6 +8,7 @@
     {"id":"supplementaries:flag_amber","required":false},
     {"id":"supplementaries:flag_bubblegum","required":false},
     {"id":"supplementaries:flag_bordeaux","required":false},
-    {"id":"supplementaries:flag_ender","required":false}
+    {"id":"supplementaries:flag_ender","required":false},
+    {"id":"supplementaries:flag_mint","required":false}
   ]
 }

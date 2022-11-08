@@ -40,3 +40,27 @@ Bordeaux:
 
 Ender:
 - Base: Orange (Grayscale)
+
+Mint:
+- Base: Lime (Grayscale)
+- Before:
+- - Brightness: -20
+- - Contrast: 10
+
+Brass (E1C16E):
+- Base: Orange (Grayscale)
+- Before:
+- - Brightness: -30
+- - Contrast: -20
+
+Indigo (4B0082):
+- Base: Green (Grayscale)
+- Before:
+- - Brightness: 0
+- - Contrast: 10
+
+Gipple (74AAD3):
+- Base: Pink (Grayscale)
+- Before:
+- - Brightness: -10
+- - Contrast: 0

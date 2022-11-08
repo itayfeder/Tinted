@@ -21,6 +21,7 @@ public class ExtraDyeColors {
     public static DyeColor BUBBLEGUM;
     public static DyeColor BORDEAUX;
     public static DyeColor ENDER;
+    public static DyeColor MINT;
 
     //public static DyeColor CHROMATIC;
 
@@ -33,6 +34,7 @@ public class ExtraDyeColors {
         BUBBLEGUM = DyeColor.byId(21);
         BORDEAUX = DyeColor.byId(22);
         ENDER = DyeColor.byId(23);
+        MINT = DyeColor.byId(24);
     }
 
 }

@@ -27,9 +27,11 @@ public class ColorItemTagProvider extends ItemTagsProvider {
         this.copy(BlockTags.TERRACOTTA, ItemTags.TERRACOTTA);
 
         this.tag(ItemTags.BANNERS).add(ItemInit.CORAL_BANNER.get(), ItemInit.BEIGE_BANNER.get(), ItemInit.OLIVE_BANNER.get(), ItemInit.TURQUOISE_BANNER.get(),
-                ItemInit.AMBER_BANNER.get(), ItemInit.BUBBLEGUM_BANNER.get(), ItemInit.BORDEAUX_BANNER.get(), ItemInit.ENDER_BANNER.get());
+                ItemInit.AMBER_BANNER.get(), ItemInit.BUBBLEGUM_BANNER.get(), ItemInit.BORDEAUX_BANNER.get(), ItemInit.ENDER_BANNER.get(),
+                ItemInit.MINT_BANNER.get());
 
         this.tag(Tags.Items.DYES).add(ItemInit.CORAL_DYE.get(), ItemInit.BEIGE_DYE.get(), ItemInit.OLIVE_DYE.get(), ItemInit.TURQUOISE_DYE.get(),
-                ItemInit.AMBER_DYE.get(), ItemInit.BUBBLEGUM_DYE.get(), ItemInit.BORDEAUX_DYE.get(), ItemInit.ENDER_DYE.get());
+                ItemInit.AMBER_DYE.get(), ItemInit.BUBBLEGUM_DYE.get(), ItemInit.BORDEAUX_DYE.get(), ItemInit.ENDER_DYE.get(),
+                ItemInit.MINT_DYE.get());
     }
 }

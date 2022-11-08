@@ -9,6 +9,7 @@
     "tinted:bubblegum_stained_glass",
     "tinted:bordeaux_stained_glass",
     "tinted:ender_stained_glass",
+    "tinted:mint_stained_glass",
 	
 	{"id":"quark:coral_framed_glass","required":false},
 	{"id":"quark:beige_framed_glass","required":false},
@@ -17,6 +18,7 @@
 	{"id":"quark:amber_framed_glass","required":false},
 	{"id":"quark:bubblegum_framed_glass","required":false},
 	{"id":"quark:bordeaux_framed_glass","required":false},
-	{"id":"quark:ender_framed_glass","required":false}
+	{"id":"quark:ender_framed_glass","required":false},
+	{"id":"quark:mint_framed_glass","required":false}
   ]
 }

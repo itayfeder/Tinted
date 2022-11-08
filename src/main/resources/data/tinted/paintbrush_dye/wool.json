@@ -25,6 +25,7 @@
     "amber": "tinted:amber_wool",
     "bubblegum": "tinted:bubblegum_wool",
     "bordeaux": "tinted:bordeaux_wool",
-    "ender": "tinted:ender_wool"
+    "ender": "tinted:ender_wool",
+    "mint": "tinted:mint_wool"
   }
 }
