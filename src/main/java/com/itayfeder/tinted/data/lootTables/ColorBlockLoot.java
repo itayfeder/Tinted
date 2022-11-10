@@ -163,6 +163,57 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.MINT_STAINED_GLASS_PANE.get());
         this.add(BlockInit.MINT_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.MINT_CANDLE.get()));
 
+
+        this.dropSelf(BlockInit.INDIGO_WOOL.get());
+        this.dropSelf(BlockInit.INDIGO_TERRACOTTA.get());
+        this.dropSelf(BlockInit.INDIGO_CARPET.get());
+        this.dropSelf(BlockInit.INDIGO_CONCRETE.get());
+        this.dropSelf(BlockInit.INDIGO_CONCRETE_POWDER.get());
+        this.add(BlockInit.INDIGO_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.INDIGO_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.INDIGO_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.INDIGO_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.INDIGO_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.INDIGO_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.INDIGO_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.INDIGO_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.INDIGO_CANDLE.get()));
+
+
+        this.dropSelf(BlockInit.OCHRE_WOOL.get());
+        this.dropSelf(BlockInit.OCHRE_TERRACOTTA.get());
+        this.dropSelf(BlockInit.OCHRE_CARPET.get());
+        this.dropSelf(BlockInit.OCHRE_CONCRETE.get());
+        this.dropSelf(BlockInit.OCHRE_CONCRETE_POWDER.get());
+        this.add(BlockInit.OCHRE_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.OCHRE_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.OCHRE_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.OCHRE_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.OCHRE_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.OCHRE_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.OCHRE_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.OCHRE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.OCHRE_CANDLE.get()));
+
+
+        this.dropSelf(BlockInit.LAVENDER_WOOL.get());
+        this.dropSelf(BlockInit.LAVENDER_TERRACOTTA.get());
+        this.dropSelf(BlockInit.LAVENDER_CARPET.get());
+        this.dropSelf(BlockInit.LAVENDER_CONCRETE.get());
+        this.dropSelf(BlockInit.LAVENDER_CONCRETE_POWDER.get());
+        this.add(BlockInit.LAVENDER_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.LAVENDER_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.LAVENDER_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.LAVENDER_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.LAVENDER_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.LAVENDER_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.LAVENDER_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.LAVENDER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.LAVENDER_CANDLE.get()));
+
     }
 
     @Override

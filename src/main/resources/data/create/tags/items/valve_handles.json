@@ -9,6 +9,9 @@
     "create:bubblegum_valve_handle",
     "create:bordeaux_valve_handle",
     "create:ender_valve_handle",
-    "create:mint_valve_handle"
+    "create:mint_valve_handle",
+    "create:indigo_valve_handle",
+    "create:ochre_valve_handle",
+    "create:lavender_valve_handle"
   ]
 }

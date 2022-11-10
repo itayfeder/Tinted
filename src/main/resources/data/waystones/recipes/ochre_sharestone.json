@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "waystones:ochre_sharestone"
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:ochre_dye"
+    },
+    {
+      "tag": "waystones:sharestone"
+    }
+  ]
+}

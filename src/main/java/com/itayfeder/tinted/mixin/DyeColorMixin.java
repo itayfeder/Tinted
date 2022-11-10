@@ -38,6 +38,9 @@ public abstract class DyeColorMixin {
     private static final DyeColor BORDEAUX = addVariant("BORDEAUX", "bordeaux", 7799592, MaterialColor.TERRACOTTA_RED, 7799592, 7799592);
     private static final DyeColor ENDER = addVariant("ENDER", "ender", 2777685, MaterialColor.COLOR_GREEN, 2777685, 2777685);
     private static final DyeColor MINT = addVariant("MINT", "mint", 8574640, MaterialColor.COLOR_LIGHT_GREEN, 8574640, 8574640);
+    private static final DyeColor INDIGO = addVariant("INDIGO", "indigo", 4915330, MaterialColor.TERRACOTTA_BLUE, 4915330, 4915330);
+    private static final DyeColor OCHRE = addVariant("OCHRE", "ochre", 12815920, MaterialColor.TERRACOTTA_YELLOW, 12815920, 12815920);
+    private static final DyeColor LAVENDER = addVariant("LAVENDER", "lavender", 14790910, MaterialColor.COLOR_PINK, 14790910, 14790910);
 
     //private static final DyeColor CHROMATIC = addVariant("CHROMATIC", "chromatic", 16777215, MaterialColor.TERRACOTTA_WHITE, 16777215, 16777215);
 

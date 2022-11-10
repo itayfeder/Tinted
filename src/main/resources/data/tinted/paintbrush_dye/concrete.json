@@ -26,6 +26,9 @@
     "bubblegum": "tinted:bubblegum_concrete",
     "bordeaux": "tinted:bordeaux_concrete",
     "ender": "tinted:ender_concrete",
-    "mint": "tinted:mint_concrete"
+    "mint": "tinted:mint_concrete",
+    "indigo": "tinted:indigo_concrete",
+    "ochre": "tinted:ochre_concrete",
+    "lavender": "tinted:lavender_concrete"
   }
 }

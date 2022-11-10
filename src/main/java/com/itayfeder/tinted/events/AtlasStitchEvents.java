@@ -25,6 +25,9 @@ public class AtlasStitchEvents {
             event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "bordeaux"));
             event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "ender"));
             event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "mint"));
+            event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "indigo"));
+            event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "ochre"));
+            event.addSprite(new ResourceLocation("entity/shulker/shulker_" + "lavender"));
         }
     }
 }

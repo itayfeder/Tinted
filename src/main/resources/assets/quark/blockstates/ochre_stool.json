@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "big=true": { "model": "quark:block/ochre_big_stool" },
+        "big=false": { "model": "quark:block/ochre_stool" }
+    }
+}

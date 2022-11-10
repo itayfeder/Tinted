@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "tinted:block/indigo_candle_cake"
+    },
+    "lit=true": {
+      "model": "tinted:block/indigo_candle_cake_lit"
+    }
+  }
+}

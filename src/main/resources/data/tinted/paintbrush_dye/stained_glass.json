@@ -26,6 +26,9 @@
     "bubblegum": "tinted:bubblegum_stained_glass",
     "bordeaux": "tinted:bordeaux_stained_glass",
     "ender": "tinted:ender_stained_glass",
-    "mint": "tinted:mint_stained_glass"
+    "mint": "tinted:mint_stained_glass",
+    "indigo": "tinted:indigo_stained_glass",
+    "ochre": "tinted:ochre_stained_glass",
+    "lavender": "tinted:lavender_stained_glass"
   }
 }

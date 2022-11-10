@@ -26,6 +26,9 @@
     "bubblegum": "tinted:bubblegum_terracotta",
     "bordeaux": "tinted:bordeaux_terracotta",
     "ender": "tinted:ender_terracotta",
-    "mint": "tinted:mint_terracotta"
+    "mint": "tinted:mint_terracotta",
+    "indigo": "tinted:indigo_terracotta",
+    "ochre": "tinted:ochre_terracotta",
+    "lavender": "tinted:lavender_terracotta"
   }
 }

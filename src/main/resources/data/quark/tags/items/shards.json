@@ -9,6 +9,9 @@
 		"quark:bubblegum_shard",
 		"quark:bordeaux_shard",
 		"quark:ender_shard",
-		"quark:mint_shard"
+		"quark:mint_shard",
+		"quark:indigo_shard",
+		"quark:ochre_shard",
+		"quark:lavender_shard"
 	]
 }

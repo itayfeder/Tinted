@@ -9,6 +9,9 @@
     "create:bubblegum_seat",
     "create:bordeaux_seat",
     "create:ender_seat",
-    "create:mint_seat"
+    "create:mint_seat",
+    "create:indigo_seat",
+    "create:ochre_seat",
+    "create:lavender_seat"
   ]
 }

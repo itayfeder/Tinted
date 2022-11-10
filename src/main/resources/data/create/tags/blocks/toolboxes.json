@@ -9,6 +9,9 @@
     "create:bubblegum_toolbox",
     "create:bordeaux_toolbox",
     "create:ender_toolbox",
-    "create:mint_toolbox"
+    "create:mint_toolbox",
+    "create:indigo_toolbox",
+    "create:ochre_toolbox",
+    "create:lavender_toolbox"
   ]
 }

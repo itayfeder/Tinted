@@ -10,6 +10,9 @@
 	{"id":"create:bordeaux_seat","required":false},
 	{"id":"create:ender_seat","required":false},
 	{"id":"create:mint_seat","required":false},
+	{"id":"create:indigo_seat","required":false},
+	{"id":"create:ochre_seat","required":false},
+	{"id":"create:lavender_seat","required":false},
 	
 	{"id":"create:coral_sail","required":false},
 	{"id":"create:beige_sail","required":false},
@@ -19,6 +22,9 @@
 	{"id":"create:bubblegum_sail","required":false},
 	{"id":"create:bordeaux_sail","required":false},
 	{"id":"create:ender_sail","required":false},
-	{"id":"create:mint_sail","required":false}
+	{"id":"create:mint_sail","required":false},
+	{"id":"create:indigo_sail","required":false},
+	{"id":"create:ochre_sail","required":false},
+	{"id":"create:lavender_sail","required":false}
   ]
 }

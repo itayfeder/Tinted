@@ -50,6 +50,9 @@ public abstract class DyeHelperMixin {
                 .put(ExtraDyeColors.BUBBLEGUM, Couple.create(15021722, 12204937))
                 .put(ExtraDyeColors.BORDEAUX, Couple.create(7799592, 4982817))
                 .put(ExtraDyeColors.ENDER, Couple.create(2777685, 1783086))
-                .put(ExtraDyeColors.MINT, Couple.create(8574640, 7645325)).build();
+                .put(ExtraDyeColors.MINT, Couple.create(8574640, 7645325))
+                .put(ExtraDyeColors.INDIGO, Couple.create(4915330, 3016276))
+                .put(ExtraDyeColors.OCHRE, Couple.create(12815920, 10055218))
+                .put(ExtraDyeColors.LAVENDER, Couple.create(14790910, 12428241)).build();
     }
 }

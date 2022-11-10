@@ -9,6 +9,9 @@
     {"id":"tinted:bubblegum_concrete_powder","required":false},
     {"id":"tinted:bordeaux_concrete_powder","required":false},
     {"id":"tinted:ender_concrete_powder","required":false},
-    {"id":"tinted:mint_concrete_powder","required":false}
+    {"id":"tinted:mint_concrete_powder","required":false},
+    {"id":"tinted:indigo_concrete_powder","required":false},
+    {"id":"tinted:ochre_concrete_powder","required":false},
+    {"id":"tinted:lavender_concrete_powder","required":false}
   ]
 }

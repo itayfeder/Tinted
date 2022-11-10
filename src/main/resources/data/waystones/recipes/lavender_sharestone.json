@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "waystones:lavender_sharestone"
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:lavender_dye"
+    },
+    {
+      "tag": "waystones:sharestone"
+    }
+  ]
+}

@@ -9,6 +9,9 @@
     {"id":"supplementaries:flag_bubblegum","required":false},
     {"id":"supplementaries:flag_bordeaux","required":false},
     {"id":"supplementaries:flag_ender","required":false},
-    {"id":"supplementaries:flag_mint","required":false}
+    {"id":"supplementaries:flag_mint","required":false},
+    {"id":"supplementaries:flag_indigo","required":false},
+    {"id":"supplementaries:flag_ochre","required":false},
+    {"id":"supplementaries:flag_lavender","required":false}
   ]
 }

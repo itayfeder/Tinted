@@ -9,6 +9,9 @@
     "create:bubblegum_sail",
     "create:bordeaux_sail",
     "create:ender_sail",
-    "create:mint_sail"
+    "create:mint_sail",
+    "create:indigo_sail",
+    "create:ochre_sail",
+    "create:lavender_sail"
   ]
 }

@@ -47,20 +47,24 @@ Mint:
 - - Brightness: -20
 - - Contrast: 10
 
-Brass (E1C16E):
-- Base: Orange (Grayscale)
-- Before:
-- - Brightness: -30
-- - Contrast: -20
-
 Indigo (4B0082):
 - Base: Green (Grayscale)
 - Before:
 - - Brightness: 0
 - - Contrast: 10
 
-Gipple (74AAD3):
-- Base: Pink (Grayscale)
+Orche (E1C16E):
+- Base: Orange (Grayscale)
 - Before:
-- - Brightness: -10
-- - Contrast: 0
+- - Brightness: -20
+- - Contrast: 10
+
+Lavender (E1B0FE):
+- Base: Ligth Blue (Grayscale)
+- Before:
+- - Brightness: -20
+- - Contrast: -50
+- After:
+- - Hue: 0
+- - Saturation: 110
+- - Lightness: 5

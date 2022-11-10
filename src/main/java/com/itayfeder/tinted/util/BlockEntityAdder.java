@@ -25,6 +25,9 @@ public class BlockEntityAdder {
         shulkerList.add(BlockInit.BORDEAUX_SHULKER_BOX.get());
         shulkerList.add(BlockInit.ENDER_SHULKER_BOX.get());
         shulkerList.add(BlockInit.MINT_SHULKER_BOX.get());
+        shulkerList.add(BlockInit.INDIGO_SHULKER_BOX.get());
+        shulkerList.add(BlockInit.OCHRE_SHULKER_BOX.get());
+        shulkerList.add(BlockInit.LAVENDER_SHULKER_BOX.get());
 
         BlockEntityType.SHULKER_BOX.validBlocks = ImmutableSet.copyOf(shulkerList);
 
@@ -42,6 +45,9 @@ public class BlockEntityAdder {
         bedList.add(BlockInit.BORDEAUX_BED.get());
         bedList.add(BlockInit.ENDER_BED.get());
         bedList.add(BlockInit.MINT_BED.get());
+        bedList.add(BlockInit.INDIGO_BED.get());
+        bedList.add(BlockInit.OCHRE_BED.get());
+        bedList.add(BlockInit.LAVENDER_BED.get());
 
         BlockEntityType.BED.validBlocks = ImmutableSet.copyOf(bedList);
 
@@ -70,6 +76,12 @@ public class BlockEntityAdder {
         bannerList.add(BlockInit.ENDER_WALL_BANNER.get());
         bannerList.add(BlockInit.MINT_BANNER.get());
         bannerList.add(BlockInit.MINT_WALL_BANNER.get());
+        bannerList.add(BlockInit.INDIGO_BANNER.get());
+        bannerList.add(BlockInit.INDIGO_WALL_BANNER.get());
+        bannerList.add(BlockInit.OCHRE_BANNER.get());
+        bannerList.add(BlockInit.OCHRE_WALL_BANNER.get());
+        bannerList.add(BlockInit.LAVENDER_BANNER.get());
+        bannerList.add(BlockInit.LAVENDER_WALL_BANNER.get());
 
         BlockEntityType.BANNER.validBlocks = ImmutableSet.copyOf(bannerList);
     }

@@ -17,6 +17,12 @@
     "tinted:ender_banner",
     "tinted:ender_wall_banner",
     "tinted:mint_banner",
-    "tinted:mint_wall_banner"
+    "tinted:mint_wall_banner",
+    "tinted:indigo_banner",
+    "tinted:indigo_wall_banner",
+    "tinted:ochre_banner",
+    "tinted:ochre_wall_banner",
+    "tinted:lavender_banner",
+    "tinted:lavender_wall_banner"
   ]
 }

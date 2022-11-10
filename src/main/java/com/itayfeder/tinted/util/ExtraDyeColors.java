@@ -22,6 +22,9 @@ public class ExtraDyeColors {
     public static DyeColor BORDEAUX;
     public static DyeColor ENDER;
     public static DyeColor MINT;
+    public static DyeColor INDIGO;
+    public static DyeColor OCHRE;
+    public static DyeColor LAVENDER;
 
     //public static DyeColor CHROMATIC;
 
@@ -35,6 +38,9 @@ public class ExtraDyeColors {
         BORDEAUX = DyeColor.byId(22);
         ENDER = DyeColor.byId(23);
         MINT = DyeColor.byId(24);
+        INDIGO = DyeColor.byId(25);
+        OCHRE = DyeColor.byId(26);
+        LAVENDER = DyeColor.byId(27);
     }
 
 }
