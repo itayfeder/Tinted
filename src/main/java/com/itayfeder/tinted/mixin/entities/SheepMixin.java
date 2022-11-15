@@ -83,7 +83,7 @@ public abstract class SheepMixin extends Animal {
             cancellable = true
     )
     private void getColorInject(CallbackInfoReturnable<DyeColor> cir) {
-        cir.setReturnValue(DyeColor.byId(this.entityData.get(DATA_WOOL_ID) & 63));
+        cir.setReturnValue(DyeColor.byId(this.entityData.get(DATA_WOOL_ID)));
     }
 
     @Inject(locals = LocalCapture.CAPTURE_FAILHARD,
@@ -93,7 +93,7 @@ public abstract class SheepMixin extends Animal {
     )
     public void setColor(DyeColor p_29856_, CallbackInfo ci) {
         byte b0 = this.entityData.get(DATA_WOOL_ID);
-        byte data = (byte)(b0 & 240 | p_29856_.getId() & 63);
+        byte data = (byte)p_29856_.getId();
         this.entityData.set(DATA_WOOL_ID, data);
         ci.cancel();
     }
@@ -166,7 +166,7 @@ public abstract class SheepMixin extends Animal {
             if (this.getColor() == ExtraDyeColors.OCHRE) {
                 cir.setReturnValue(new ResourceLocation(TintedMod.MODID,"entities/sheep/ochre"));
             }
-            if (this.getColor() == ExtraDyeColors.OCHRE) {
+            if (this.getColor() == ExtraDyeColors.LAVENDER) {
                 cir.setReturnValue(new ResourceLocation(TintedMod.MODID,"entities/sheep/lavender"));
             }
         }

@@ -46,6 +46,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.CORAL_TERRACOTTA.get(), ItemInit.CORAL_DYE.get());
         concretePowder(p_176532_, BlockInit.CORAL_CONCRETE_POWDER.get(), ItemInit.CORAL_DYE.get());
         candle(p_176532_, BlockInit.CORAL_CANDLE.get(), ItemInit.CORAL_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.CORAL_TERRACOTTA.get()), BlockInit.CORAL_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.CORAL_TERRACOTTA.getId().getPath(), has(BlockInit.CORAL_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.BEIGE_WOOL.get(), ItemInit.BEIGE_DYE.get());
         carpet(p_176532_, BlockInit.BEIGE_CARPET.get(), BlockInit.BEIGE_WOOL.get());
@@ -59,6 +60,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.BEIGE_TERRACOTTA.get(), ItemInit.BEIGE_DYE.get());
         concretePowder(p_176532_, BlockInit.BEIGE_CONCRETE_POWDER.get(), ItemInit.BEIGE_DYE.get());
         candle(p_176532_, BlockInit.BEIGE_CANDLE.get(), ItemInit.BEIGE_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.BEIGE_TERRACOTTA.get()), BlockInit.BEIGE_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.BEIGE_TERRACOTTA.getId().getPath(), has(BlockInit.BEIGE_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.OLIVE_WOOL.get(), ItemInit.OLIVE_DYE.get());
         carpet(p_176532_, BlockInit.OLIVE_CARPET.get(), BlockInit.OLIVE_WOOL.get());
@@ -72,6 +74,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.OLIVE_TERRACOTTA.get(), ItemInit.OLIVE_DYE.get());
         concretePowder(p_176532_, BlockInit.OLIVE_CONCRETE_POWDER.get(), ItemInit.OLIVE_DYE.get());
         candle(p_176532_, BlockInit.OLIVE_CANDLE.get(), ItemInit.OLIVE_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.OLIVE_TERRACOTTA.get()), BlockInit.OLIVE_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.OLIVE_TERRACOTTA.getId().getPath(), has(BlockInit.OLIVE_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.TURQUOISE_WOOL.get(), ItemInit.TURQUOISE_DYE.get());
         carpet(p_176532_, BlockInit.TURQUOISE_CARPET.get(), BlockInit.TURQUOISE_WOOL.get());
@@ -85,6 +88,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.TURQUOISE_TERRACOTTA.get(), ItemInit.TURQUOISE_DYE.get());
         concretePowder(p_176532_, BlockInit.TURQUOISE_CONCRETE_POWDER.get(), ItemInit.TURQUOISE_DYE.get());
         candle(p_176532_, BlockInit.TURQUOISE_CANDLE.get(), ItemInit.TURQUOISE_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.TURQUOISE_TERRACOTTA.get()), BlockInit.TURQUOISE_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.TURQUOISE_TERRACOTTA.getId().getPath(), has(BlockInit.TURQUOISE_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.AMBER_WOOL.get(), ItemInit.AMBER_DYE.get());
         carpet(p_176532_, BlockInit.AMBER_CARPET.get(), BlockInit.AMBER_WOOL.get());
@@ -98,6 +102,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.AMBER_TERRACOTTA.get(), ItemInit.AMBER_DYE.get());
         concretePowder(p_176532_, BlockInit.AMBER_CONCRETE_POWDER.get(), ItemInit.AMBER_DYE.get());
         candle(p_176532_, BlockInit.AMBER_CANDLE.get(), ItemInit.AMBER_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.AMBER_TERRACOTTA.get()), BlockInit.AMBER_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.AMBER_TERRACOTTA.getId().getPath(), has(BlockInit.AMBER_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.BUBBLEGUM_WOOL.get(), ItemInit.BUBBLEGUM_DYE.get());
         carpet(p_176532_, BlockInit.BUBBLEGUM_CARPET.get(), BlockInit.BUBBLEGUM_WOOL.get());
@@ -111,6 +116,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.BUBBLEGUM_TERRACOTTA.get(), ItemInit.BUBBLEGUM_DYE.get());
         concretePowder(p_176532_, BlockInit.BUBBLEGUM_CONCRETE_POWDER.get(), ItemInit.BUBBLEGUM_DYE.get());
         candle(p_176532_, BlockInit.BUBBLEGUM_CANDLE.get(), ItemInit.BUBBLEGUM_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.BUBBLEGUM_TERRACOTTA.get()), BlockInit.BUBBLEGUM_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.BUBBLEGUM_TERRACOTTA.getId().getPath(), has(BlockInit.BUBBLEGUM_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.BORDEAUX_WOOL.get(), ItemInit.BORDEAUX_DYE.get());
         carpet(p_176532_, BlockInit.BORDEAUX_CARPET.get(), BlockInit.BORDEAUX_WOOL.get());
@@ -124,6 +130,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.BORDEAUX_TERRACOTTA.get(), ItemInit.BORDEAUX_DYE.get());
         concretePowder(p_176532_, BlockInit.BORDEAUX_CONCRETE_POWDER.get(), ItemInit.BORDEAUX_DYE.get());
         candle(p_176532_, BlockInit.BORDEAUX_CANDLE.get(), ItemInit.BORDEAUX_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.BORDEAUX_TERRACOTTA.get()), BlockInit.BORDEAUX_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.BORDEAUX_TERRACOTTA.getId().getPath(), has(BlockInit.BORDEAUX_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.ENDER_WOOL.get(), ItemInit.ENDER_DYE.get());
         carpet(p_176532_, BlockInit.ENDER_CARPET.get(), BlockInit.ENDER_WOOL.get());
@@ -137,6 +144,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.ENDER_TERRACOTTA.get(), ItemInit.ENDER_DYE.get());
         concretePowder(p_176532_, BlockInit.ENDER_CONCRETE_POWDER.get(), ItemInit.ENDER_DYE.get());
         candle(p_176532_, BlockInit.ENDER_CANDLE.get(), ItemInit.ENDER_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.ENDER_TERRACOTTA.get()), BlockInit.ENDER_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.ENDER_TERRACOTTA.getId().getPath(), has(BlockInit.ENDER_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.MINT_WOOL.get(), ItemInit.MINT_DYE.get());
         carpet(p_176532_, BlockInit.MINT_CARPET.get(), BlockInit.MINT_WOOL.get());
@@ -150,6 +158,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.MINT_TERRACOTTA.get(), ItemInit.MINT_DYE.get());
         concretePowder(p_176532_, BlockInit.MINT_CONCRETE_POWDER.get(), ItemInit.MINT_DYE.get());
         candle(p_176532_, BlockInit.MINT_CANDLE.get(), ItemInit.MINT_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.MINT_TERRACOTTA.get()), BlockInit.MINT_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.MINT_TERRACOTTA.getId().getPath(), has(BlockInit.MINT_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.INDIGO_WOOL.get(), ItemInit.INDIGO_DYE.get());
         carpet(p_176532_, BlockInit.INDIGO_CARPET.get(), BlockInit.INDIGO_WOOL.get());
@@ -163,6 +172,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.INDIGO_TERRACOTTA.get(), ItemInit.INDIGO_DYE.get());
         concretePowder(p_176532_, BlockInit.INDIGO_CONCRETE_POWDER.get(), ItemInit.INDIGO_DYE.get());
         candle(p_176532_, BlockInit.INDIGO_CANDLE.get(), ItemInit.INDIGO_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.INDIGO_TERRACOTTA.get()), BlockInit.INDIGO_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.INDIGO_TERRACOTTA.getId().getPath(), has(BlockInit.INDIGO_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.OCHRE_WOOL.get(), ItemInit.OCHRE_DYE.get());
         carpet(p_176532_, BlockInit.OCHRE_CARPET.get(), BlockInit.OCHRE_WOOL.get());
@@ -176,6 +186,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.OCHRE_TERRACOTTA.get(), ItemInit.OCHRE_DYE.get());
         concretePowder(p_176532_, BlockInit.OCHRE_CONCRETE_POWDER.get(), ItemInit.OCHRE_DYE.get());
         candle(p_176532_, BlockInit.OCHRE_CANDLE.get(), ItemInit.OCHRE_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.OCHRE_TERRACOTTA.get()), BlockInit.OCHRE_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.OCHRE_TERRACOTTA.getId().getPath(), has(BlockInit.OCHRE_TERRACOTTA.get())).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.LAVENDER_WOOL.get(), ItemInit.LAVENDER_DYE.get());
         carpet(p_176532_, BlockInit.LAVENDER_CARPET.get(), BlockInit.LAVENDER_WOOL.get());
@@ -189,5 +200,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.LAVENDER_TERRACOTTA.get(), ItemInit.LAVENDER_DYE.get());
         concretePowder(p_176532_, BlockInit.LAVENDER_CONCRETE_POWDER.get(), ItemInit.LAVENDER_DYE.get());
         candle(p_176532_, BlockInit.LAVENDER_CANDLE.get(), ItemInit.LAVENDER_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.LAVENDER_TERRACOTTA.get()), BlockInit.LAVENDER_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.LAVENDER_TERRACOTTA.getId().getPath(), has(BlockInit.LAVENDER_TERRACOTTA.get())).save(p_176532_);
+
     }
 }

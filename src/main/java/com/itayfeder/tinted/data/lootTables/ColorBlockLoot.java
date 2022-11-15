@@ -26,6 +26,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.CORAL_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.CORAL_STAINED_GLASS_PANE.get());
         this.add(BlockInit.CORAL_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.CORAL_CANDLE.get()));
+        this.dropSelf(BlockInit.CORAL_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.BEIGE_WOOL.get());
@@ -43,6 +44,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.BEIGE_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.BEIGE_STAINED_GLASS_PANE.get());
         this.add(BlockInit.BEIGE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.BEIGE_CANDLE.get()));
+        this.dropSelf(BlockInit.BEIGE_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.OLIVE_WOOL.get());
@@ -60,6 +62,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.OLIVE_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.OLIVE_STAINED_GLASS_PANE.get());
         this.add(BlockInit.OLIVE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.OLIVE_CANDLE.get()));
+        this.dropSelf(BlockInit.OLIVE_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.TURQUOISE_WOOL.get());
@@ -77,6 +80,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.TURQUOISE_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.TURQUOISE_STAINED_GLASS_PANE.get());
         this.add(BlockInit.TURQUOISE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.TURQUOISE_CANDLE.get()));
+        this.dropSelf(BlockInit.TURQUOISE_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.AMBER_WOOL.get());
@@ -94,6 +98,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.AMBER_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.AMBER_STAINED_GLASS_PANE.get());
         this.add(BlockInit.AMBER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.AMBER_CANDLE.get()));
+        this.dropSelf(BlockInit.AMBER_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.BUBBLEGUM_WOOL.get());
@@ -111,6 +116,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.BUBBLEGUM_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.BUBBLEGUM_STAINED_GLASS_PANE.get());
         this.add(BlockInit.BUBBLEGUM_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.BUBBLEGUM_CANDLE.get()));
+        this.dropSelf(BlockInit.BUBBLEGUM_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.BORDEAUX_WOOL.get());
@@ -128,6 +134,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.BORDEAUX_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.BORDEAUX_STAINED_GLASS_PANE.get());
         this.add(BlockInit.BORDEAUX_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.BORDEAUX_CANDLE.get()));
+        this.dropSelf(BlockInit.BORDEAUX_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.ENDER_WOOL.get());
@@ -145,6 +152,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.ENDER_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.ENDER_STAINED_GLASS_PANE.get());
         this.add(BlockInit.ENDER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.ENDER_CANDLE.get()));
+        this.dropSelf(BlockInit.ENDER_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.MINT_WOOL.get());
@@ -162,6 +170,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.MINT_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.MINT_STAINED_GLASS_PANE.get());
         this.add(BlockInit.MINT_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.MINT_CANDLE.get()));
+        this.dropSelf(BlockInit.MINT_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.INDIGO_WOOL.get());
@@ -179,6 +188,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.INDIGO_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.INDIGO_STAINED_GLASS_PANE.get());
         this.add(BlockInit.INDIGO_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.INDIGO_CANDLE.get()));
+        this.dropSelf(BlockInit.INDIGO_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.OCHRE_WOOL.get());
@@ -196,6 +206,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.OCHRE_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.OCHRE_STAINED_GLASS_PANE.get());
         this.add(BlockInit.OCHRE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.OCHRE_CANDLE.get()));
+        this.dropSelf(BlockInit.OCHRE_GLAZED_TERRACOTTA.get());
 
 
         this.dropSelf(BlockInit.LAVENDER_WOOL.get());
@@ -213,6 +224,7 @@ public class ColorBlockLoot extends BlockLoot {
         this.dropWhenSilkTouch(BlockInit.LAVENDER_STAINED_GLASS.get());
         this.dropWhenSilkTouch(BlockInit.LAVENDER_STAINED_GLASS_PANE.get());
         this.add(BlockInit.LAVENDER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.LAVENDER_CANDLE.get()));
+        this.dropSelf(BlockInit.LAVENDER_GLAZED_TERRACOTTA.get());
 
     }
 

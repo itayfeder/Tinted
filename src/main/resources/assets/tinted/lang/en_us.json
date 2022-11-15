@@ -6,6 +6,7 @@
   "block.tinted.coral_stained_glass_pane": "Coral Stained Glass Pane",
   "block.tinted.coral_carpet": "Coral Carpet",
   "block.tinted.coral_terracotta": "Coral Terracotta",
+  "block.tinted.coral_glazed_terracotta": "Coral Glazed Terracotta",
   "block.tinted.coral_wool": "Coral Wool",
   "block.tinted.coral_shulker_box": "Coral Shulker Box",
   "block.tinted.coral_concrete": "Coral Concrete",
@@ -67,6 +68,7 @@
   "block.tinted.beige_stained_glass_pane": "Beige Stained Glass Pane",
   "block.tinted.beige_carpet": "Beige Carpet",
   "block.tinted.beige_terracotta": "Beige Terracotta",
+  "block.tinted.beige_glazed_terracotta": "Beige Glazed Terracotta",
   "block.tinted.beige_wool": "Beige Wool",
   "block.tinted.beige_shulker_box": "Beige Shulker Box",
   "block.tinted.beige_concrete": "Beige Concrete",
@@ -128,6 +130,7 @@
   "block.tinted.olive_stained_glass_pane": "Olive Stained Glass Pane",
   "block.tinted.olive_carpet": "Olive Carpet",
   "block.tinted.olive_terracotta": "Olive Terracotta",
+  "block.tinted.olive_glazed_terracotta": "Olive Glazed Terracotta",
   "block.tinted.olive_wool": "Olive Wool",
   "block.tinted.olive_shulker_box": "Olive Shulker Box",
   "block.tinted.olive_concrete": "Olive Concrete",
@@ -189,6 +192,7 @@
   "block.tinted.turquoise_stained_glass_pane": "Turquoise Stained Glass Pane",
   "block.tinted.turquoise_carpet": "Turquoise Carpet",
   "block.tinted.turquoise_terracotta": "Turquoise Terracotta",
+  "block.tinted.turquoise_glazed_terracotta": "Turquoise Glazed Terracotta",
   "block.tinted.turquoise_wool": "Turquoise Wool",
   "block.tinted.turquoise_shulker_box": "Turquoise Shulker Box",
   "block.tinted.turquoise_concrete": "Turquoise Concrete",
@@ -250,6 +254,7 @@
   "block.tinted.amber_stained_glass_pane": "Amber Stained Glass Pane",
   "block.tinted.amber_carpet": "Amber Carpet",
   "block.tinted.amber_terracotta": "Amber Terracotta",
+  "block.tinted.amber_glazed_terracotta": "Amber Glazed Terracotta",
   "block.tinted.amber_wool": "Amber Wool",
   "block.tinted.amber_shulker_box": "Amber Shulker Box",
   "block.tinted.amber_concrete": "Amber Concrete",
@@ -311,6 +316,7 @@
   "block.tinted.bubblegum_stained_glass_pane": "Bubblegum Stained Glass Pane",
   "block.tinted.bubblegum_carpet": "Bubblegum Carpet",
   "block.tinted.bubblegum_terracotta": "Bubblegum Terracotta",
+  "block.tinted.bubblegum_glazed_terracotta": "Bubblegum Glazed Terracotta",
   "block.tinted.bubblegum_wool": "Bubblegum Wool",
   "block.tinted.bubblegum_shulker_box": "Bubblegum Shulker Box",
   "block.tinted.bubblegum_concrete": "Bubblegum Concrete",
@@ -372,6 +378,7 @@
   "block.tinted.bordeaux_stained_glass_pane": "Bordeaux Stained Glass Pane",
   "block.tinted.bordeaux_carpet": "Bordeaux Carpet",
   "block.tinted.bordeaux_terracotta": "Bordeaux Terracotta",
+  "block.tinted.bordeaux_glazed_terracotta": "Bordeaux Glazed Terracotta",
   "block.tinted.bordeaux_wool": "Bordeaux Wool",
   "block.tinted.bordeaux_shulker_box": "Bordeaux Shulker Box",
   "block.tinted.bordeaux_concrete": "Bordeaux Concrete",
@@ -433,6 +440,7 @@
   "block.tinted.ender_stained_glass_pane": "Ender Stained Glass Pane",
   "block.tinted.ender_carpet": "Ender Carpet",
   "block.tinted.ender_terracotta": "Ender Terracotta",
+  "block.tinted.ender_glazed_terracotta": "Ender Glazed Terracotta",
   "block.tinted.ender_wool": "Ender Wool",
   "block.tinted.ender_shulker_box": "Ender Shulker Box",
   "block.tinted.ender_concrete": "Ender Concrete",
@@ -494,6 +502,7 @@
   "block.tinted.mint_stained_glass_pane": "Mint Stained Glass Pane",
   "block.tinted.mint_carpet": "Mint Carpet",
   "block.tinted.mint_terracotta": "Mint Terracotta",
+  "block.tinted.mint_glazed_terracotta": "Mint Glazed Terracotta",
   "block.tinted.mint_wool": "Mint Wool",
   "block.tinted.mint_shulker_box": "Mint Shulker Box",
   "block.tinted.mint_concrete": "Mint Concrete",
@@ -555,6 +564,7 @@
   "block.tinted.indigo_stained_glass_pane": "Indigo Stained Glass Pane",
   "block.tinted.indigo_carpet": "Indigo Carpet",
   "block.tinted.indigo_terracotta": "Indigo Terracotta",
+  "block.tinted.indigo_glazed_terracotta": "Indigo Glazed Terracotta",
   "block.tinted.indigo_wool": "Indigo Wool",
   "block.tinted.indigo_shulker_box": "Indigo Shulker Box",
   "block.tinted.indigo_concrete": "Indigo Concrete",
@@ -616,6 +626,7 @@
   "block.tinted.ochre_stained_glass_pane": "Ochre Stained Glass Pane",
   "block.tinted.ochre_carpet": "Ochre Carpet",
   "block.tinted.ochre_terracotta": "Ochre Terracotta",
+  "block.tinted.ochre_glazed_terracotta": "Ochre Glazed Terracotta",
   "block.tinted.ochre_wool": "Ochre Wool",
   "block.tinted.ochre_shulker_box": "Ochre Shulker Box",
   "block.tinted.ochre_concrete": "Ochre Concrete",
@@ -677,6 +688,7 @@
   "block.tinted.lavender_stained_glass_pane": "Lavender Stained Glass Pane",
   "block.tinted.lavender_carpet": "Lavender Carpet",
   "block.tinted.lavender_terracotta": "Lavender Terracotta",
+  "block.tinted.lavender_glazed_terracotta": "Lavender Glazed Terracotta",
   "block.tinted.lavender_wool": "Lavender Wool",
   "block.tinted.lavender_shulker_box": "Lavender Shulker Box",
   "block.tinted.lavender_concrete": "Lavender Concrete",
@@ -1062,5 +1074,143 @@
   "block.elevatorid.elevator_mint": "Mint Elevator",
   "block.elevatorid.elevator_indigo": "Indigo Elevator",
   "block.elevatorid.elevator_ochre": "Ochre Elevator",
-  "block.elevatorid.elevator_lavender": "Lavender Elevator"
+  "block.elevatorid.elevator_lavender": "Lavender Elevator",
+
+
+
+  "comment___": "---------------------COMPAT: FARMER'S DELIGHT---------------------",
+  "block.farmersdelight.coral_canvas_sign": "Coral Canvas Sign",
+  "block.farmersdelight.beige_canvas_sign": "Beige Canvas Sign",
+  "block.farmersdelight.olive_canvas_sign": "Olive Canvas Sign",
+  "block.farmersdelight.turquoise_canvas_sign": "Turquoise Canvas Sign",
+  "block.farmersdelight.amber_canvas_sign": "Amber Canvas Sign",
+  "block.farmersdelight.bubblegum_canvas_sign": "Bubblegum Canvas Sign",
+  "block.farmersdelight.bordeaux_canvas_sign": "Bordeaux Canvas Sign",
+  "block.farmersdelight.ender_canvas_sign": "Ender Canvas Sign",
+  "block.farmersdelight.mint_canvas_sign": "Mint Canvas Sign",
+  "block.farmersdelight.indigo_canvas_sign": "Indigo Canvas Sign",
+  "block.farmersdelight.ochre_canvas_sign": "Ochre Canvas Sign",
+  "block.farmersdelight.lavender_canvas_sign": "Lavender Canvas Sign",
+
+
+
+  "comment___": "---------------------COMPAT: CHALK---------------------",
+  "item.chalk.coral_chalk": "Coral Chalk",
+  "item.chalk.beige_chalk": "Beige Chalk",
+  "item.chalk.olive_chalk": "Olive Chalk",
+  "item.chalk.turquoise_chalk": "Turquoise Chalk",
+  "item.chalk.amber_chalk": "Amber Chalk",
+  "item.chalk.bubblegum_chalk": "Bubblegum Chalk",
+  "item.chalk.bordeaux_chalk": "Bordeaux Chalk",
+  "item.chalk.ender_chalk": "Ender Chalk",
+  "item.chalk.mint_chalk": "Mint Chalk",
+  "item.chalk.indigo_chalk": "Indigo Chalk",
+  "item.chalk.ochre_chalk": "Ochre Chalk",
+  "item.chalk.lavender_chalk": "Lavender Chalk",
+
+
+
+  "comment___": "---------------------COMPAT: DOMESTICATION INNOVATION---------------------",
+  "block.domesticationinnovation.pet_bed_coral": "Coral Pet Bed",
+  "block.domesticationinnovation.pet_bed_beige": "Beige Pet Bed",
+  "block.domesticationinnovation.pet_bed_olive": "Olive Pet Bed",
+  "block.domesticationinnovation.pet_bed_turquoise": "Turquoise Pet Bed",
+  "block.domesticationinnovation.pet_bed_amber": "Amber Pet Bed",
+  "block.domesticationinnovation.pet_bed_bubblegum": "Bubblegum Pet Bed",
+  "block.domesticationinnovation.pet_bed_bordeaux": "Bordeaux Pet Bed",
+  "block.domesticationinnovation.pet_bed_ender": "Ender Pet Bed",
+  "block.domesticationinnovation.pet_bed_mint": "Mint Pet Bed",
+  "block.domesticationinnovation.pet_bed_indigo": "Indigo Pet Bed",
+  "block.domesticationinnovation.pet_bed_ochre": "Ochre Pet Bed",
+  "block.domesticationinnovation.pet_bed_lavender": "Lavender Pet Bed",
+
+
+
+  "comment___": "---------------------COMPAT: SNOWY SPIRIT---------------------",
+  "block.snowyspirit.gumdrop_coral": "Coral Gumdrop",
+  "block.snowyspirit.glow_lights_coral": "Coral Glow Lights",
+  "item.snowyspirit.glow_lights_coral": "Coral Glow Lights",
+
+  "block.snowyspirit.gumdrop_beige": "Beige Gumdrop",
+  "block.snowyspirit.glow_lights_beige": "Beige Glow Lights",
+  "item.snowyspirit.glow_lights_beige": "Beige Glow Lights",
+
+  "block.snowyspirit.gumdrop_olive": "Olive Gumdrop",
+  "block.snowyspirit.glow_lights_olive": "Olive Glow Lights",
+  "item.snowyspirit.glow_lights_olive": "Olive Glow Lights",
+
+  "block.snowyspirit.gumdrop_turquoise": "Turquoise Gumdrop",
+  "block.snowyspirit.glow_lights_turquoise": "Turquoise Glow Lights",
+  "item.snowyspirit.glow_lights_turquoise": "Turquoise Glow Lights",
+
+  "block.snowyspirit.gumdrop_amber": "Amber Gumdrop",
+  "block.snowyspirit.glow_lights_amber": "Amber Glow Lights",
+  "item.snowyspirit.glow_lights_amber": "Amber Glow Lights",
+
+  "block.snowyspirit.gumdrop_bubblegum": "Bubblegum Gumdrop",
+  "block.snowyspirit.glow_lights_bubblegum": "Bubblegum Glow Lights",
+  "item.snowyspirit.glow_lights_bubblegum": "Bubblegum Glow Lights",
+
+  "block.snowyspirit.gumdrop_bordeaux": "Bordeaux Gumdrop",
+  "block.snowyspirit.glow_lights_bordeaux": "Bordeaux Glow Lights",
+  "item.snowyspirit.glow_lights_bordeaux": "Bordeaux Glow Lights",
+
+  "block.snowyspirit.gumdrop_ender": "Ender Gumdrop",
+  "block.snowyspirit.glow_lights_ender": "Ender Glow Lights",
+  "item.snowyspirit.glow_lights_ender": "Ender Glow Lights",
+
+  "block.snowyspirit.gumdrop_mint": "Mint Gumdrop",
+  "block.snowyspirit.glow_lights_mint": "Mint Glow Lights",
+  "item.snowyspirit.glow_lights_mint": "Mint Glow Lights",
+
+  "block.snowyspirit.gumdrop_indigo": "Indigo Gumdrop",
+  "block.snowyspirit.glow_lights_indigo": "Indigo Glow Lights",
+  "item.snowyspirit.glow_lights_indigo": "Indigo Glow Lights",
+
+  "block.snowyspirit.gumdrop_ochre": "Ochre Gumdrop",
+  "block.snowyspirit.glow_lights_ochre": "Ochre Glow Lights",
+  "item.snowyspirit.glow_lights_ochre": "Ochre Glow Lights",
+
+  "block.snowyspirit.gumdrop_lavender": "Lavender Gumdrop",
+  "block.snowyspirit.glow_lights_lavender": "Lavender Glow Lights",
+  "item.snowyspirit.glow_lights_lavender": "Lavender Glow Lights",
+
+
+
+  "comment___": "---------------------COMPAT: COMFORTS---------------------",
+  "block.comforts.hammock_coral": "Coral Hammock Cloth",
+  "block.comforts.sleeping_bag_coral": "Coral Sleeping Bag",
+
+  "block.comforts.hammock_beige": "Beige Hammock Cloth",
+  "block.comforts.sleeping_bag_beige": "Beige Sleeping Bag",
+
+  "block.comforts.hammock_olive": "Olive Hammock Cloth",
+  "block.comforts.sleeping_bag_olive": "Olive Sleeping Bag",
+
+  "block.comforts.hammock_turquoise": "Turquoise Hammock Cloth",
+  "block.comforts.sleeping_bag_turquoise": "Turquoise Sleeping Bag",
+
+  "block.comforts.hammock_amber": "Amber Hammock Cloth",
+  "block.comforts.sleeping_bag_amber": "Amber Sleeping Bag",
+
+  "block.comforts.hammock_bubblegum": "Bubblegum Hammock Cloth",
+  "block.comforts.sleeping_bag_bubblegum": "Bubblegum Sleeping Bag",
+
+  "block.comforts.hammock_bordeaux": "Bordeaux Hammock Cloth",
+  "block.comforts.sleeping_bag_bordeaux": "Bordeaux Sleeping Bag",
+
+  "block.comforts.hammock_ender": "Ender Hammock Cloth",
+  "block.comforts.sleeping_bag_ender": "Ender Sleeping Bag",
+
+  "block.comforts.hammock_mint": "Mint Hammock Cloth",
+  "block.comforts.sleeping_bag_mint": "Mint Sleeping Bag",
+
+  "block.comforts.hammock_indigo": "Indigo Hammock Cloth",
+  "block.comforts.sleeping_bag_indigo": "Indigo Sleeping Bag",
+
+  "block.comforts.hammock_ochre": "Ochre Hammock Cloth",
+  "block.comforts.sleeping_bag_ochre": "Ochre Sleeping Bag",
+
+  "block.comforts.hammock_lavender": "Lavender Hammock Cloth",
+  "block.comforts.sleeping_bag_lavender": "Lavender Sleeping Bag"
 }

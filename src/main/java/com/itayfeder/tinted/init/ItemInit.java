@@ -29,6 +29,7 @@ public class ItemInit {
     public static final RegistryObject<Item> CORAL_BANNER = ITEMS.register("coral_banner", () -> new ParentedBannerItem(BlockInit.CORAL_BANNER.get(), BlockInit.CORAL_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> CORAL_CANDLE = ITEMS.register("coral_candle", () -> new ParentedBlockItem(BlockInit.CORAL_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> CORAL_DYE = ITEMS.register("coral_dye", () -> new ParentedDyeItem(ExtraDyeColors.CORAL, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> CORAL_GLAZED_TERRACOTTA = ITEMS.register("coral_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.CORAL_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> BEIGE_WOOL = ITEMS.register("beige_wool", () -> new ParentedBlockItem(BlockInit.BEIGE_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> BEIGE_TERRACOTTA = ITEMS.register("beige_terracotta", () -> new ParentedBlockItem(BlockInit.BEIGE_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -42,6 +43,7 @@ public class ItemInit {
     public static final RegistryObject<Item> BEIGE_BANNER = ITEMS.register("beige_banner", () -> new ParentedBannerItem(BlockInit.BEIGE_BANNER.get(), BlockInit.BEIGE_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> BEIGE_CANDLE = ITEMS.register("beige_candle", () -> new ParentedBlockItem(BlockInit.BEIGE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> BEIGE_DYE = ITEMS.register("beige_dye", () -> new ParentedDyeItem(ExtraDyeColors.BEIGE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> BEIGE_GLAZED_TERRACOTTA = ITEMS.register("beige_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.BEIGE_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> OLIVE_WOOL = ITEMS.register("olive_wool", () -> new ParentedBlockItem(BlockInit.OLIVE_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> OLIVE_TERRACOTTA = ITEMS.register("olive_terracotta", () -> new ParentedBlockItem(BlockInit.OLIVE_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -55,6 +57,7 @@ public class ItemInit {
     public static final RegistryObject<Item> OLIVE_BANNER = ITEMS.register("olive_banner", () -> new ParentedBannerItem(BlockInit.OLIVE_BANNER.get(), BlockInit.OLIVE_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> OLIVE_CANDLE = ITEMS.register("olive_candle", () -> new ParentedBlockItem(BlockInit.OLIVE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> OLIVE_DYE = ITEMS.register("olive_dye", () -> new ParentedDyeItem(ExtraDyeColors.OLIVE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> OLIVE_GLAZED_TERRACOTTA = ITEMS.register("olive_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.OLIVE_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> TURQUOISE_WOOL = ITEMS.register("turquoise_wool", () -> new ParentedBlockItem(BlockInit.TURQUOISE_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> TURQUOISE_TERRACOTTA = ITEMS.register("turquoise_terracotta", () -> new ParentedBlockItem(BlockInit.TURQUOISE_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -68,6 +71,7 @@ public class ItemInit {
     public static final RegistryObject<Item> TURQUOISE_BANNER = ITEMS.register("turquoise_banner", () -> new ParentedBannerItem(BlockInit.TURQUOISE_BANNER.get(), BlockInit.TURQUOISE_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> TURQUOISE_CANDLE = ITEMS.register("turquoise_candle", () -> new ParentedBlockItem(BlockInit.TURQUOISE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> TURQUOISE_DYE = ITEMS.register("turquoise_dye", () -> new ParentedDyeItem(ExtraDyeColors.TURQUOISE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> TURQUOISE_GLAZED_TERRACOTTA = ITEMS.register("turquoise_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.TURQUOISE_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> AMBER_WOOL = ITEMS.register("amber_wool", () -> new ParentedBlockItem(BlockInit.AMBER_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> AMBER_TERRACOTTA = ITEMS.register("amber_terracotta", () -> new ParentedBlockItem(BlockInit.AMBER_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -81,6 +85,7 @@ public class ItemInit {
     public static final RegistryObject<Item> AMBER_BANNER = ITEMS.register("amber_banner", () -> new ParentedBannerItem(BlockInit.AMBER_BANNER.get(), BlockInit.AMBER_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> AMBER_CANDLE = ITEMS.register("amber_candle", () -> new ParentedBlockItem(BlockInit.AMBER_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> AMBER_DYE = ITEMS.register("amber_dye", () -> new ParentedDyeItem(ExtraDyeColors.AMBER, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> AMBER_GLAZED_TERRACOTTA = ITEMS.register("amber_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.AMBER_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> BUBBLEGUM_WOOL = ITEMS.register("bubblegum_wool", () -> new ParentedBlockItem(BlockInit.BUBBLEGUM_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> BUBBLEGUM_TERRACOTTA = ITEMS.register("bubblegum_terracotta", () -> new ParentedBlockItem(BlockInit.BUBBLEGUM_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -94,6 +99,7 @@ public class ItemInit {
     public static final RegistryObject<Item> BUBBLEGUM_BANNER = ITEMS.register("bubblegum_banner", () -> new ParentedBannerItem(BlockInit.BUBBLEGUM_BANNER.get(), BlockInit.BUBBLEGUM_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> BUBBLEGUM_CANDLE = ITEMS.register("bubblegum_candle", () -> new ParentedBlockItem(BlockInit.BUBBLEGUM_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> BUBBLEGUM_DYE = ITEMS.register("bubblegum_dye", () -> new ParentedDyeItem(ExtraDyeColors.BUBBLEGUM, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> BUBBLEGUM_GLAZED_TERRACOTTA = ITEMS.register("bubblegum_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.BUBBLEGUM_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> BORDEAUX_WOOL = ITEMS.register("bordeaux_wool", () -> new ParentedBlockItem(BlockInit.BORDEAUX_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> BORDEAUX_TERRACOTTA = ITEMS.register("bordeaux_terracotta", () -> new ParentedBlockItem(BlockInit.BORDEAUX_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -107,6 +113,7 @@ public class ItemInit {
     public static final RegistryObject<Item> BORDEAUX_BANNER = ITEMS.register("bordeaux_banner", () -> new ParentedBannerItem(BlockInit.BORDEAUX_BANNER.get(), BlockInit.BORDEAUX_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> BORDEAUX_CANDLE = ITEMS.register("bordeaux_candle", () -> new ParentedBlockItem(BlockInit.BORDEAUX_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> BORDEAUX_DYE = ITEMS.register("bordeaux_dye", () -> new ParentedDyeItem(ExtraDyeColors.BORDEAUX, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> BORDEAUX_GLAZED_TERRACOTTA = ITEMS.register("bordeaux_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.BORDEAUX_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> ENDER_WOOL = ITEMS.register("ender_wool", () -> new ParentedBlockItem(BlockInit.ENDER_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> ENDER_TERRACOTTA = ITEMS.register("ender_terracotta", () -> new ParentedBlockItem(BlockInit.ENDER_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -120,6 +127,7 @@ public class ItemInit {
     public static final RegistryObject<Item> ENDER_BANNER = ITEMS.register("ender_banner", () -> new ParentedBannerItem(BlockInit.ENDER_BANNER.get(), BlockInit.ENDER_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> ENDER_CANDLE = ITEMS.register("ender_candle", () -> new ParentedBlockItem(BlockInit.ENDER_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> ENDER_DYE = ITEMS.register("ender_dye", () -> new ParentedDyeItem(ExtraDyeColors.ENDER, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> ENDER_GLAZED_TERRACOTTA = ITEMS.register("ender_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.ENDER_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> MINT_WOOL = ITEMS.register("mint_wool", () -> new ParentedBlockItem(BlockInit.MINT_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> MINT_TERRACOTTA = ITEMS.register("mint_terracotta", () -> new ParentedBlockItem(BlockInit.MINT_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -133,6 +141,7 @@ public class ItemInit {
     public static final RegistryObject<Item> MINT_BANNER = ITEMS.register("mint_banner", () -> new ParentedBannerItem(BlockInit.MINT_BANNER.get(), BlockInit.MINT_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> MINT_CANDLE = ITEMS.register("mint_candle", () -> new ParentedBlockItem(BlockInit.MINT_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> MINT_DYE = ITEMS.register("mint_dye", () -> new ParentedDyeItem(ExtraDyeColors.MINT, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> MINT_GLAZED_TERRACOTTA = ITEMS.register("mint_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.MINT_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> INDIGO_WOOL = ITEMS.register("indigo_wool", () -> new ParentedBlockItem(BlockInit.INDIGO_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> INDIGO_TERRACOTTA = ITEMS.register("indigo_terracotta", () -> new ParentedBlockItem(BlockInit.INDIGO_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -146,6 +155,7 @@ public class ItemInit {
     public static final RegistryObject<Item> INDIGO_BANNER = ITEMS.register("indigo_banner", () -> new ParentedBannerItem(BlockInit.INDIGO_BANNER.get(), BlockInit.INDIGO_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> INDIGO_CANDLE = ITEMS.register("indigo_candle", () -> new ParentedBlockItem(BlockInit.INDIGO_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> INDIGO_DYE = ITEMS.register("indigo_dye", () -> new ParentedDyeItem(ExtraDyeColors.INDIGO, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> INDIGO_GLAZED_TERRACOTTA = ITEMS.register("indigo_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.INDIGO_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> OCHRE_WOOL = ITEMS.register("ochre_wool", () -> new ParentedBlockItem(BlockInit.OCHRE_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> OCHRE_TERRACOTTA = ITEMS.register("ochre_terracotta", () -> new ParentedBlockItem(BlockInit.OCHRE_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -159,6 +169,7 @@ public class ItemInit {
     public static final RegistryObject<Item> OCHRE_BANNER = ITEMS.register("ochre_banner", () -> new ParentedBannerItem(BlockInit.OCHRE_BANNER.get(), BlockInit.OCHRE_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> OCHRE_CANDLE = ITEMS.register("ochre_candle", () -> new ParentedBlockItem(BlockInit.OCHRE_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> OCHRE_DYE = ITEMS.register("ochre_dye", () -> new ParentedDyeItem(ExtraDyeColors.OCHRE, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> OCHRE_GLAZED_TERRACOTTA = ITEMS.register("ochre_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.OCHRE_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
     public static final RegistryObject<Item> LAVENDER_WOOL = ITEMS.register("lavender_wool", () -> new ParentedBlockItem(BlockInit.LAVENDER_WOOL.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_WOOL));
     public static final RegistryObject<Item> LAVENDER_TERRACOTTA = ITEMS.register("lavender_terracotta", () -> new ParentedBlockItem(BlockInit.LAVENDER_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_BUILDING_BLOCKS), Items.BLACK_TERRACOTTA));
@@ -172,5 +183,6 @@ public class ItemInit {
     public static final RegistryObject<Item> LAVENDER_BANNER = ITEMS.register("lavender_banner", () -> new ParentedBannerItem(BlockInit.LAVENDER_BANNER.get(), BlockInit.LAVENDER_WALL_BANNER.get(), (new Item.Properties()).stacksTo(16).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_BANNER));
     public static final RegistryObject<Item> LAVENDER_CANDLE = ITEMS.register("lavender_candle", () -> new ParentedBlockItem(BlockInit.LAVENDER_CANDLE.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_CANDLE));
     public static final RegistryObject<Item> LAVENDER_DYE = ITEMS.register("lavender_dye", () -> new ParentedDyeItem(ExtraDyeColors.LAVENDER, (new Item.Properties()).tab(CreativeModeTab.TAB_MATERIALS), Items.BLACK_DYE));
+    public static final RegistryObject<Item> LAVENDER_GLAZED_TERRACOTTA = ITEMS.register("lavender_glazed_terracotta", () -> new ParentedBlockItem(BlockInit.LAVENDER_GLAZED_TERRACOTTA.get(), (new Item.Properties()).tab(CreativeModeTab.TAB_DECORATIONS), Items.BLACK_GLAZED_TERRACOTTA));
 
 }

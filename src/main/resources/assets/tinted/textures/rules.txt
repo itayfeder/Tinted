@@ -68,3 +68,15 @@ Lavender (E1B0FE):
 - - Hue: 0
 - - Saturation: 110
 - - Lightness: 5
+
+Tan (EDC28A):
+- Base: Orange (Grayscale)
+- Before:
+- - Brightness: -10
+- - Contrast: -30
+
+Chartreuse (D1ED49):
+- Base: Cyan (Grayscale)
+- Before:
+- - Brightness: 10
+- - Contrast: -20

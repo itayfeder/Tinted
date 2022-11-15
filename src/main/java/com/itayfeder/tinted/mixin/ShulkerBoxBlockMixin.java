@@ -46,7 +46,7 @@ public class ShulkerBoxBlockMixin {
                 cir.setReturnValue(BlockInit.BORDEAUX_SHULKER_BOX.get());
             }
             if (p_56191_ == ExtraDyeColors.ENDER) {
-                cir.setReturnValue(BlockInit.BORDEAUX_SHULKER_BOX.get());
+                cir.setReturnValue(BlockInit.ENDER_SHULKER_BOX.get());
             }
             if (p_56191_ == ExtraDyeColors.MINT) {
                 cir.setReturnValue(BlockInit.MINT_SHULKER_BOX.get());

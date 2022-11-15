@@ -1,6 +1,9 @@
 package com.itayfeder.tinted;
 
 import com.itayfeder.tinted.compat.another_furniture.AnotherFurnitureCompat;
+import com.itayfeder.tinted.compat.chalk.ChalkCompat;
+import com.itayfeder.tinted.compat.domesticationinnovation.DomesticationInnovationCompat;
+import com.itayfeder.tinted.compat.farmers_delight.FarmersDelightCompat;
 import com.itayfeder.tinted.compat.quark.QuarkCompat;
 import com.itayfeder.tinted.data.ColorRecipeProvider;
 import com.itayfeder.tinted.data.lootTables.ColorLootTableProvider;
@@ -11,8 +14,9 @@ import com.itayfeder.tinted.init.ItemInit;
 import com.itayfeder.tinted.util.BlockEntityAdder;
 import com.itayfeder.tinted.util.ExtraDyeColors;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.entity.layers.LlamaDecorLayer;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.world.entity.animal.Sheep;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -24,12 +28,16 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 @Mod(TintedMod.MODID)
 @Mod.EventBusSubscriber(modid = TintedMod.MODID)
 public class TintedMod
 {
     public static final String MODID = "tinted";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public TintedMod()
     {
@@ -45,6 +53,18 @@ public class TintedMod
 
         if (ModList.get().isLoaded("another_furniture")) {
             AnotherFurnitureCompat.RegisterRegistries(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("farmersdelight")) {
+            FarmersDelightCompat.RegisterRegistries(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("chalk")) {
+            ChalkCompat.RegisterRegistries(modEventBus);
+        }
+
+        if (ModList.get().isLoaded("domesticationinnovation")) {
+            DomesticationInnovationCompat.RegisterRegistries(modEventBus);
         }
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -67,6 +87,14 @@ public class TintedMod
 
             if (ModList.get().isLoaded("another_furniture")) {
                 AnotherFurnitureCompat.AddToBlockEntities();
+            }
+
+            if (ModList.get().isLoaded("farmersdelight")) {
+                FarmersDelightCompat.AddToBlockEntities();
+            }
+
+            if (ModList.get().isLoaded("domesticationinnovation")) {
+                DomesticationInnovationCompat.AddToBlockEntities();
             }
         });
     }

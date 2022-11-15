@@ -46,6 +46,7 @@ public class BlockInit {
     public static final RegistryObject<Block> CORAL_WALL_BANNER = BLOCKS.register("coral_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.CORAL, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> CORAL_CANDLE = BLOCKS.register("coral_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_ORANGE).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> CORAL_CANDLE_CAKE = BLOCKS.register("coral_candle_cake", () -> new CandleCakeBlock(CORAL_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> CORAL_GLAZED_TERRACOTTA = BLOCKS.register("coral_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.CORAL).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> BEIGE_WOOL = BLOCKS.register("beige_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.SAND).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> BEIGE_TERRACOTTA = BLOCKS.register("beige_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_WHITE).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -62,6 +63,7 @@ public class BlockInit {
     public static final RegistryObject<Block> BEIGE_WALL_BANNER = BLOCKS.register("beige_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.BEIGE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> BEIGE_CANDLE = BLOCKS.register("beige_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.SAND).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> BEIGE_CANDLE_CAKE = BLOCKS.register("beige_candle_cake", () -> new CandleCakeBlock(BEIGE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> BEIGE_GLAZED_TERRACOTTA = BLOCKS.register("beige_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.BEIGE).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> OLIVE_WOOL = BLOCKS.register("olive_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> OLIVE_TERRACOTTA = BLOCKS.register("olive_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -78,6 +80,7 @@ public class BlockInit {
     public static final RegistryObject<Block> OLIVE_WALL_BANNER = BLOCKS.register("olive_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.OLIVE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> OLIVE_CANDLE = BLOCKS.register("olive_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> OLIVE_CANDLE_CAKE = BLOCKS.register("olive_candle_cake", () -> new CandleCakeBlock(OLIVE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> OLIVE_GLAZED_TERRACOTTA = BLOCKS.register("olive_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.OLIVE).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> TURQUOISE_WOOL = BLOCKS.register("turquoise_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> TURQUOISE_TERRACOTTA = BLOCKS.register("turquoise_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -94,6 +97,7 @@ public class BlockInit {
     public static final RegistryObject<Block> TURQUOISE_WALL_BANNER = BLOCKS.register("turquoise_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.TURQUOISE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> TURQUOISE_CANDLE = BLOCKS.register("turquoise_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> TURQUOISE_CANDLE_CAKE = BLOCKS.register("turquoise_candle_cake", () -> new CandleCakeBlock(TURQUOISE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> TURQUOISE_GLAZED_TERRACOTTA = BLOCKS.register("turquoise_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.TURQUOISE).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> AMBER_WOOL = BLOCKS.register("amber_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> AMBER_TERRACOTTA = BLOCKS.register("amber_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -110,6 +114,7 @@ public class BlockInit {
     public static final RegistryObject<Block> AMBER_WALL_BANNER = BLOCKS.register("amber_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.AMBER, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> AMBER_CANDLE = BLOCKS.register("amber_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> AMBER_CANDLE_CAKE = BLOCKS.register("amber_candle_cake", () -> new CandleCakeBlock(AMBER_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> AMBER_GLAZED_TERRACOTTA = BLOCKS.register("amber_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.AMBER).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> BUBBLEGUM_WOOL = BLOCKS.register("bubblegum_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> BUBBLEGUM_TERRACOTTA = BLOCKS.register("bubblegum_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -126,6 +131,7 @@ public class BlockInit {
     public static final RegistryObject<Block> BUBBLEGUM_WALL_BANNER = BLOCKS.register("bubblegum_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.BUBBLEGUM, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> BUBBLEGUM_CANDLE = BLOCKS.register("bubblegum_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> BUBBLEGUM_CANDLE_CAKE = BLOCKS.register("bubblegum_candle_cake", () -> new CandleCakeBlock(BUBBLEGUM_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> BUBBLEGUM_GLAZED_TERRACOTTA = BLOCKS.register("bubblegum_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.BUBBLEGUM).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> BORDEAUX_WOOL = BLOCKS.register("bordeaux_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> BORDEAUX_TERRACOTTA = BLOCKS.register("bordeaux_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -142,6 +148,7 @@ public class BlockInit {
     public static final RegistryObject<Block> BORDEAUX_WALL_BANNER = BLOCKS.register("bordeaux_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.BORDEAUX, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> BORDEAUX_CANDLE = BLOCKS.register("bordeaux_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> BORDEAUX_CANDLE_CAKE = BLOCKS.register("bordeaux_candle_cake", () -> new CandleCakeBlock(BORDEAUX_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> BORDEAUX_GLAZED_TERRACOTTA = BLOCKS.register("bordeaux_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.BORDEAUX).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> ENDER_WOOL = BLOCKS.register("ender_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> ENDER_TERRACOTTA = BLOCKS.register("ender_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -158,6 +165,7 @@ public class BlockInit {
     public static final RegistryObject<Block> ENDER_WALL_BANNER = BLOCKS.register("ender_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.ENDER, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> ENDER_CANDLE = BLOCKS.register("ender_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> ENDER_CANDLE_CAKE = BLOCKS.register("ender_candle_cake", () -> new CandleCakeBlock(ENDER_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> ENDER_GLAZED_TERRACOTTA = BLOCKS.register("ender_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.ENDER).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> MINT_WOOL = BLOCKS.register("mint_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> MINT_TERRACOTTA = BLOCKS.register("mint_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -174,6 +182,7 @@ public class BlockInit {
     public static final RegistryObject<Block> MINT_WALL_BANNER = BLOCKS.register("mint_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.MINT, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> MINT_CANDLE = BLOCKS.register("mint_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> MINT_CANDLE_CAKE = BLOCKS.register("mint_candle_cake", () -> new CandleCakeBlock(MINT_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> MINT_GLAZED_TERRACOTTA = BLOCKS.register("mint_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.MINT).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> INDIGO_WOOL = BLOCKS.register("indigo_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> INDIGO_TERRACOTTA = BLOCKS.register("indigo_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -190,6 +199,7 @@ public class BlockInit {
     public static final RegistryObject<Block> INDIGO_WALL_BANNER = BLOCKS.register("indigo_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.INDIGO, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> INDIGO_CANDLE = BLOCKS.register("indigo_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> INDIGO_CANDLE_CAKE = BLOCKS.register("indigo_candle_cake", () -> new CandleCakeBlock(INDIGO_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> INDIGO_GLAZED_TERRACOTTA = BLOCKS.register("indigo_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.INDIGO).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> OCHRE_WOOL = BLOCKS.register("ochre_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> OCHRE_TERRACOTTA = BLOCKS.register("ochre_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -206,6 +216,7 @@ public class BlockInit {
     public static final RegistryObject<Block> OCHRE_WALL_BANNER = BLOCKS.register("ochre_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.OCHRE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> OCHRE_CANDLE = BLOCKS.register("ochre_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> OCHRE_CANDLE_CAKE = BLOCKS.register("ochre_candle_cake", () -> new CandleCakeBlock(OCHRE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> OCHRE_GLAZED_TERRACOTTA = BLOCKS.register("ochre_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.OCHRE).requiresCorrectToolForDrops().strength(1.4F)));
 
     public static final RegistryObject<Block> LAVENDER_WOOL = BLOCKS.register("lavender_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> LAVENDER_TERRACOTTA = BLOCKS.register("lavender_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
@@ -222,6 +233,7 @@ public class BlockInit {
     public static final RegistryObject<Block> LAVENDER_WALL_BANNER = BLOCKS.register("lavender_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.LAVENDER, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> LAVENDER_CANDLE = BLOCKS.register("lavender_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
     public static final RegistryObject<Block> LAVENDER_CANDLE_CAKE = BLOCKS.register("lavender_candle_cake", () -> new CandleCakeBlock(LAVENDER_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> LAVENDER_GLAZED_TERRACOTTA = BLOCKS.register("lavender_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.LAVENDER).requiresCorrectToolForDrops().strength(1.4F)));
 
 
 

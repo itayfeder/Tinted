@@ -14,7 +14,8 @@
 
 		"compat/create/DyeHelperMixin",
         "compat/quark/ColorRunesModuleMixin",
-        "compat.quark.RuneItemAccessor"
+        "compat.quark.RuneItemAccessor",
+        "compat/cloudstorage/SkyTempleBlockProcessorMixin"
 	],
 	"client": [
 		"client.SheetsMixin",
