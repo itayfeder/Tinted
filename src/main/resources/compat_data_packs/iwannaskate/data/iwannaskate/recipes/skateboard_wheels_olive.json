@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "iwannaskate:skateboard_wheels"
+    },
+    {
+      "tag": "forge:dyes/olive"
+    }
+  ],
+  "result": {
+    "item": "iwannaskate:skateboard_wheels_olive"
+  }
+}

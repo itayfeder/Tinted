@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"domesticationinnovation:pet_bed_coral","required":false},
+	{"id":"domesticationinnovation:pet_bed_beige","required":false},
+	{"id":"domesticationinnovation:pet_bed_olive","required":false},
+	{"id":"domesticationinnovation:pet_bed_turquoise","required":false},
+	{"id":"domesticationinnovation:pet_bed_amber","required":false},
+	{"id":"domesticationinnovation:pet_bed_bubblegum","required":false},
+	{"id":"domesticationinnovation:pet_bed_bordeaux","required":false},
+	{"id":"domesticationinnovation:pet_bed_ender","required":false},
+	{"id":"domesticationinnovation:pet_bed_mint","required":false},
+	{"id":"domesticationinnovation:pet_bed_indigo","required":false},
+	{"id":"domesticationinnovation:pet_bed_ochre","required":false},
+	{"id":"domesticationinnovation:pet_bed_lavender","required":false},
+	{"id":"domesticationinnovation:pet_bed_chartreuse","required":false}
+  ]
+}

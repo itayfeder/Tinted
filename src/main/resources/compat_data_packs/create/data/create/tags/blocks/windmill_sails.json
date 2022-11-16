@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "create:coral_sail",
+    "create:beige_sail",
+    "create:olive_sail",
+    "create:turquoise_sail",
+    "create:amber_sail",
+    "create:bubblegum_sail",
+    "create:bordeaux_sail",
+    "create:ender_sail",
+    "create:mint_sail",
+    "create:indigo_sail",
+    "create:ochre_sail",
+    "create:lavender_sail",
+    "create:chartreuse_sail"
+  ]
+}

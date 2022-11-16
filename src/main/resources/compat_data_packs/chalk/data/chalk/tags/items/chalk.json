@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "chalk:coral_chalk",
+	"chalk:beige_chalk",
+	"chalk:olive_chalk",
+	"chalk:turquoise_chalk",
+	"chalk:amber_chalk",
+	"chalk:bubblegum_chalk",
+	"chalk:bordeaux_chalk",
+	"chalk:ender_chalk",
+	"chalk:mint_chalk",
+	"chalk:indigo_chalk",
+	"chalk:ochre_chalk",
+	"chalk:lavender_chalk",
+	"chalk:chartreuse_chalk"
+  ]
+}

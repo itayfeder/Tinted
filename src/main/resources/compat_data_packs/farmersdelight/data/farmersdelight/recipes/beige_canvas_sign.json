@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "canvas_sign",
+  "ingredients": [
+    {
+      "tag": "farmersdelight:canvas_signs"
+    },
+    {
+      "item": "tinted:beige_dye"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:beige_canvas_sign"
+  }
+}

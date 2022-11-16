@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "domesticationinnovation:block/pet_bed_bubblegum",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "domesticationinnovation:block/pet_bed_bubblegum"
+    },
+    "facing=south": {
+      "model": "domesticationinnovation:block/pet_bed_bubblegum",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "domesticationinnovation:block/pet_bed_bubblegum",
+      "y": 270
+    }
+  }
+}

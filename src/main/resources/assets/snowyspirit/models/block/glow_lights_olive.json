@@ -1,0 +1,9 @@
+{
+	"loader": "snowyspirit:glow_lights",
+	"overlay": {
+		"parent": "minecraft:block/cube_all",
+		"textures": {
+			"all": "snowyspirit:blocks/lights_olive"
+		}
+	}
+}

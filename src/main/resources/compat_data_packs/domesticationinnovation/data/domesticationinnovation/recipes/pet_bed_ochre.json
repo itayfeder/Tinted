@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "PBP"
+  ],
+  "key": {
+    "W": {
+      "item": "tinted:ochre_wool"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "domesticationinnovation:pet_bed_ochre",
+    "count": 1
+  }
+}

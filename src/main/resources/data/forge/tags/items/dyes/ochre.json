@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"tinted:ochre_dye",
+		{"id":"chalk:ochre_chalk","required":false}
+	]
+}

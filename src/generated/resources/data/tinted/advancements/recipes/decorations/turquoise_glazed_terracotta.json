@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tinted:turquoise_glazed_terracotta"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_turquoise_terracotta": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tinted:turquoise_terracotta"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_turquoise_terracotta",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tinted:turquoise_glazed_terracotta"
+    ]
+  }
+}

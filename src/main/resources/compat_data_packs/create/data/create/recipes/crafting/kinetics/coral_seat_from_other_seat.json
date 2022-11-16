@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:coral_dye"
+    },
+    {
+      "tag": "create:seats"
+    }
+  ],
+  "result": {
+    "item": "create:coral_seat"
+  }
+}

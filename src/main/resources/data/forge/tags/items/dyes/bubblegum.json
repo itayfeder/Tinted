@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"tinted:bubblegum_dye",
+		{"id":"chalk:bubblegum_chalk","required":false}
+	]
+}

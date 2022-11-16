@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "tinted:beige_terracotta"
+  },
+  "result": "tinted:beige_glazed_terracotta"
+}

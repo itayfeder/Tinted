@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "iwannaskate:skateboard_wheels"
+    },
+    {
+      "tag": "forge:dyes/lavender"
+    }
+  ],
+  "result": {
+    "item": "iwannaskate:skateboard_wheels_lavender"
+  }
+}

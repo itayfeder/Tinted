@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_glass_pane",
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "tinted:chartreuse_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "tinted:chartreuse_stained_glass_pane"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "supplementaries:block/present_opened_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"bottom": "supplementaries:blocks/presents/present_bottom_chartreuse",
+		"inside": "supplementaries:blocks/presents/present_inside_chartreuse",
+		"particle": "supplementaries:blocks/presents/present_side_chartreuse",
+		"side": "supplementaries:blocks/presents/present_side_chartreuse"
+	}
+}

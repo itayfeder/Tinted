@@ -1,0 +1,18 @@
+{
+    "replace": false,
+	"values": [
+        "another_furniture:coral_lamp",
+        "another_furniture:beige_lamp",
+        "another_furniture:olive_lamp",
+        "another_furniture:turquoise_lamp",
+        "another_furniture:amber_lamp",
+        "another_furniture:bubblegum_lamp",
+        "another_furniture:bordeaux_lamp",
+        "another_furniture:ender_lamp",
+        "another_furniture:mint_lamp",
+        "another_furniture:indigo_lamp",
+        "another_furniture:ochre_lamp",
+        "another_furniture:lavender_lamp",
+        "another_furniture:chartreuse_lamp"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "waystones:chartreuse_sharestone"
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:chartreuse_dye"
+    },
+    {
+      "tag": "waystones:sharestone"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"tinted:beige_dye",
+		{"id":"chalk:beige_chalk","required":false}
+	]
+}

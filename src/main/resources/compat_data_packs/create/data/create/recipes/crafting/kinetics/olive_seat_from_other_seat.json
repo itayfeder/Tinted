@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:olive_dye"
+    },
+    {
+      "tag": "create:seats"
+    }
+  ],
+  "result": {
+    "item": "create:olive_seat"
+  }
+}

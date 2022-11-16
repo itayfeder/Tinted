@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glazed_terracotta",
+  "textures": {
+    "pattern": "tinted:block/indigo_glazed_terracotta"
+  }
+}

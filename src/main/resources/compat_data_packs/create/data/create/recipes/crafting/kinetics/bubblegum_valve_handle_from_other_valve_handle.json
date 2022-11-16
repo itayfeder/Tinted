@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:bubblegum_dye"
+    },
+    {
+      "tag": "create:valve_handles"
+    }
+  ],
+  "result": {
+    "item": "create:bubblegum_valve_handle"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:chartreuse_dye"
+    },
+    {
+      "tag": "create:valve_handles"
+    }
+  ],
+  "result": {
+    "item": "create:chartreuse_valve_handle"
+  }
+}

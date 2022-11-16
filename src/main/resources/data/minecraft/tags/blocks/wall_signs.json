@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"farmersdelight:coral_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:beige_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:olive_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:turquoise_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:amber_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:bubblegum_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:bordeaux_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:ender_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:mint_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:indigo_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:ochre_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:lavender_canvas_wall_sign","required":false},
+	{"id":"farmersdelight:chartreuse_canvas_wall_sign","required":false}
+  ]
+}

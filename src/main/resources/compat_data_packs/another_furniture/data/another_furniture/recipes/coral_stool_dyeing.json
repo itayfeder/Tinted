@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "tinted:coral_dye"
+    },
+    {
+      "item": "another_furniture:white_stool"
+    }
+  ],
+  "result": {
+    "item": "another_furniture:coral_stool"
+  }
+}

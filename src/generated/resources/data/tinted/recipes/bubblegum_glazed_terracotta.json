@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "tinted:bubblegum_terracotta"
+  },
+  "result": "tinted:bubblegum_glazed_terracotta"
+}

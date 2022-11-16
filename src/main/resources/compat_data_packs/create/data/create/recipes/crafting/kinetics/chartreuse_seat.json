@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:chartreuse_wool"
+    },
+    {
+      "tag": "minecraft:wooden_slabs"
+    }
+  ],
+  "result": {
+    "item": "create:chartreuse_seat"
+  }
+}

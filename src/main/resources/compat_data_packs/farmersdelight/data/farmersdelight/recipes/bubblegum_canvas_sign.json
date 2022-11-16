@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "canvas_sign",
+  "ingredients": [
+    {
+      "tag": "farmersdelight:canvas_signs"
+    },
+    {
+      "item": "tinted:bubblegum_dye"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:bubblegum_canvas_sign"
+  }
+}

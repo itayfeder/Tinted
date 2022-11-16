@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "waystones:bubblegum_sharestone"
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:bubblegum_dye"
+    },
+    {
+      "tag": "waystones:sharestone"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "tinted:lavender_terracotta"
+  },
+  "result": "tinted:lavender_glazed_terracotta"
+}

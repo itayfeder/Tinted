@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tinted:olive_dye"
+    },
+    {
+      "tag": "create:valve_handles"
+    }
+  ],
+  "result": {
+    "item": "create:olive_valve_handle"
+  }
+}

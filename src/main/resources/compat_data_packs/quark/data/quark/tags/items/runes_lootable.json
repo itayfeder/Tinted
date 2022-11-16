@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "quark:coral_rune",
+    "quark:beige_rune",
+    "quark:olive_rune",
+    "quark:turquoise_rune",
+    "quark:amber_rune",
+    "quark:bubblegum_rune",
+    "quark:bordeaux_rune",
+    "quark:ender_rune",
+    "quark:mint_rune",
+    "quark:indigo_rune",
+    "quark:ochre_rune",
+    "quark:lavender_rune",
+    "quark:chartreuse_rune"
+  ]
+}
