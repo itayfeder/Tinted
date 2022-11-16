@@ -22,7 +22,7 @@ mixin {
     add sourceSets.main, "tinted.refmap.json"
 }
 
-version = '1.1.2'
+version = '1.2.0'
 group = 'com.itayfeder.tinted' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tinted-1.19.2'
 
@@ -153,6 +153,7 @@ dependencies {
     //ADDED FROM BASE (SOME I LOVE, SOME I HATE)
     implementation fg.deobf("curse.maven:supplementaries-412082:4073933")
     implementation fg.deobf("curse.maven:selene-499980:4059669")
+    implementation fg.deobf("curse.maven:snowy-spirit-566142:4076897")
 
     implementation fg.deobf("curse.maven:quark-243121:3961436")
     implementation fg.deobf("curse.maven:autoreglib-250363:3857246")
@@ -180,10 +181,9 @@ dependencies {
 
     implementation fg.deobf("curse.maven:alexs-cloud-storage-606618:4061829")
     implementation fg.deobf("curse.maven:citadel-331936:4053064")
+    implementation fg.deobf("curse.maven:i-wanna-skate-695018:4069290")
 
     implementation fg.deobf("curse.maven:domestication-innovation-591149:4060630")
-
-    implementation fg.deobf("curse.maven:snowy-spirit-566142:4076897")
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency

@@ -13,6 +13,7 @@
 	{"id":"create:indigo_seat","required":false},
 	{"id":"create:ochre_seat","required":false},
 	{"id":"create:lavender_seat","required":false},
+	{"id":"create:chartreuse_seat","required":false},
 	
 	{"id":"create:coral_sail","required":false},
 	{"id":"create:beige_sail","required":false},
@@ -25,6 +26,7 @@
 	{"id":"create:mint_sail","required":false},
 	{"id":"create:indigo_sail","required":false},
 	{"id":"create:ochre_sail","required":false},
-	{"id":"create:lavender_sail","required":false}
+	{"id":"create:lavender_sail","required":false},
+	{"id":"create:chartreuse_sail","required":false}
   ]
 }

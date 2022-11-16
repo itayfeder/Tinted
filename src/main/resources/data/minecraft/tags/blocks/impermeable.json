@@ -12,6 +12,7 @@
     "tinted:indigo_stained_glass",
     "tinted:ochre_stained_glass",
     "tinted:lavender_stained_glass",
+    "tinted:chartreuse_stained_glass",
 
     {"id":"quark:coral_framed_glass","required":false},
 	{"id":"quark:beige_framed_glass","required":false},
@@ -24,6 +25,7 @@
 	{"id":"quark:mint_framed_glass","required":false},
 	{"id":"quark:indigo_framed_glass","required":false},
 	{"id":"quark:ochre_framed_glass","required":false},
-	{"id":"quark:lavender_framed_glass","required":false}
+	{"id":"quark:lavender_framed_glass","required":false},
+	{"id":"quark:chartreuse_framed_glass","required":false}
   ]
 }

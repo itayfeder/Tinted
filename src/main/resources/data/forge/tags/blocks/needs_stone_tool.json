@@ -13,6 +13,7 @@
 	{"id":"quark:indigo_framed_glass","required":false},	
 	{"id":"quark:ochre_framed_glass","required":false},	
 	{"id":"quark:lavender_framed_glass","required":false},	
+	{"id":"quark:chartreuse_framed_glass","required":false},	
 	
 	{"id":"quark:coral_framed_glass_pane","required":false},
 	{"id":"quark:beige_framed_glass_pane","required":false},
@@ -25,6 +26,7 @@
 	{"id":"quark:mint_framed_glass_pane","required":false},
 	{"id":"quark:indigo_framed_glass_pane","required":false},
 	{"id":"quark:ochre_framed_glass_pane","required":false},
-	{"id":"quark:lavender_framed_glass_pane","required":false}
+	{"id":"quark:lavender_framed_glass_pane","required":false},
+	{"id":"quark:chartreuse_framed_glass_pane","required":false}
   ]
 }

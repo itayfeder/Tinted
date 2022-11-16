@@ -41,6 +41,7 @@ public abstract class DyeColorMixin {
     private static final DyeColor INDIGO = addVariant("INDIGO", "indigo", 4915330, MaterialColor.TERRACOTTA_BLUE, 4915330, 4915330);
     private static final DyeColor OCHRE = addVariant("OCHRE", "ochre", 12815920, MaterialColor.TERRACOTTA_YELLOW, 12815920, 12815920);
     private static final DyeColor LAVENDER = addVariant("LAVENDER", "lavender", 14790910, MaterialColor.COLOR_PINK, 14790910, 14790910);
+    private static final DyeColor CHARTREUSE = addVariant("CHARTREUSE", "chartreuse", 13757769, MaterialColor.COLOR_YELLOW, 13757769, 13757769);
 
     //private static final DyeColor CHROMATIC = addVariant("CHROMATIC", "chromatic", 16777215, MaterialColor.TERRACOTTA_WHITE, 16777215, 16777215);
 
@@ -72,7 +73,6 @@ public abstract class DyeColorMixin {
         DyeColor color = DyeColorMixin.invokeInit(internalName, variants.get(variants.size() - 1).ordinal() + 1, variants.get(variants.size() - 1).ordinal() + 1, p_41047_, p_41048_, p_41049_, p_41050_, p_41051_);
         variants.add(color);
         DyeColorMixin.$VALUES = variants.toArray(new DyeColor[0]);
-        ExtraDyeColors.MY_NEW_DYES.add(color);
         return color;
     }
 

@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ExtraDyeColors {
 
-    public static final List<DyeColor> MY_NEW_DYES = new ArrayList<>();
+    public static List<DyeColor> MY_NEW_DYES = new ArrayList<>();
 
     public static DyeColor CORAL;
     public static DyeColor BEIGE;
@@ -25,22 +25,49 @@ public class ExtraDyeColors {
     public static DyeColor INDIGO;
     public static DyeColor OCHRE;
     public static DyeColor LAVENDER;
+    public static DyeColor CHARTREUSE;
 
     //public static DyeColor CHROMATIC;
 
     public static void InitColors() {
-        CORAL = DyeColor.byId(16);
-        BEIGE = DyeColor.byId(17);
-        OLIVE = DyeColor.byId(18);
-        TURQUOISE = DyeColor.byId(19);
-        AMBER = DyeColor.byId(20);
-        BUBBLEGUM = DyeColor.byId(21);
-        BORDEAUX = DyeColor.byId(22);
-        ENDER = DyeColor.byId(23);
-        MINT = DyeColor.byId(24);
-        INDIGO = DyeColor.byId(25);
-        OCHRE = DyeColor.byId(26);
-        LAVENDER = DyeColor.byId(27);
+        CORAL = DyeColor.byName("coral", DyeColor.WHITE);
+        MY_NEW_DYES.add(CORAL);
+
+        BEIGE = DyeColor.byName("beige", DyeColor.WHITE);
+        MY_NEW_DYES.add(BEIGE);
+
+        OLIVE = DyeColor.byName("olive", DyeColor.WHITE);
+        MY_NEW_DYES.add(OLIVE);
+
+        TURQUOISE = DyeColor.byName("turquoise", DyeColor.WHITE);
+        MY_NEW_DYES.add(TURQUOISE);
+
+        AMBER = DyeColor.byName("amber", DyeColor.WHITE);
+        MY_NEW_DYES.add(AMBER);
+
+        BUBBLEGUM = DyeColor.byName("bubblegum", DyeColor.WHITE);
+        MY_NEW_DYES.add(BUBBLEGUM);
+
+        BORDEAUX = DyeColor.byName("bordeaux", DyeColor.WHITE);
+        MY_NEW_DYES.add(BORDEAUX);
+
+        ENDER = DyeColor.byName("ender", DyeColor.WHITE);
+        MY_NEW_DYES.add(ENDER);
+
+        MINT = DyeColor.byName("mint", DyeColor.WHITE);
+        MY_NEW_DYES.add(MINT);
+
+        INDIGO = DyeColor.byName("indigo", DyeColor.WHITE);
+        MY_NEW_DYES.add(INDIGO);
+
+        OCHRE = DyeColor.byName("ochre", DyeColor.WHITE);
+        MY_NEW_DYES.add(OCHRE);
+
+        LAVENDER = DyeColor.byName("lavender", DyeColor.WHITE);
+        MY_NEW_DYES.add(LAVENDER);
+
+        CHARTREUSE = DyeColor.byName("chartreuse", DyeColor.WHITE);
+        MY_NEW_DYES.add(CHARTREUSE);
     }
 
 }

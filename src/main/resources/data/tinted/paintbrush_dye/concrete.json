@@ -29,6 +29,7 @@
     "mint": "tinted:mint_concrete",
     "indigo": "tinted:indigo_concrete",
     "ochre": "tinted:ochre_concrete",
-    "lavender": "tinted:lavender_concrete"
+    "lavender": "tinted:lavender_concrete",
+    "chartreuse": "tinted:chartreuse_concrete"
   }
 }

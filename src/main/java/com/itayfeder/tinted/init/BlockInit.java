@@ -235,6 +235,23 @@ public class BlockInit {
     public static final RegistryObject<Block> LAVENDER_CANDLE_CAKE = BLOCKS.register("lavender_candle_cake", () -> new CandleCakeBlock(LAVENDER_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
     public static final RegistryObject<Block> LAVENDER_GLAZED_TERRACOTTA = BLOCKS.register("lavender_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.LAVENDER).requiresCorrectToolForDrops().strength(1.4F)));
 
+    public static final RegistryObject<Block> CHARTREUSE_WOOL = BLOCKS.register("chartreuse_wool", () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.COLOR_GREEN).strength(0.8F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> CHARTREUSE_TERRACOTTA = BLOCKS.register("chartreuse_terracotta", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GREEN).requiresCorrectToolForDrops().strength(1.25F, 4.2F)));
+    public static final RegistryObject<Block> CHARTREUSE_STAINED_GLASS = BLOCKS.register("chartreuse_stained_glass", () -> new StainedGlassBlock(ExtraDyeColors.CHARTREUSE, BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_GREEN).strength(0.3F).sound(SoundType.GLASS).noOcclusion().isValidSpawn(BlockInit::never).isRedstoneConductor(BlockInit::never).isSuffocating(BlockInit::never).isViewBlocking(BlockInit::never)));
+    public static final RegistryObject<Block> CHARTREUSE_CONCRETE = BLOCKS.register("chartreuse_concrete", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GREEN).requiresCorrectToolForDrops().strength(1.8F)));
+    public static final RegistryObject<Block> CHARTREUSE_CONCRETE_POWDER = BLOCKS.register("chartreuse_concrete_powder", () -> new ConcretePowderBlock(CHARTREUSE_CONCRETE.get(), BlockBehaviour.Properties.of(Material.SAND, DyeColor.GREEN).strength(0.5F).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> CHARTREUSE_CARPET = BLOCKS.register("chartreuse_carpet", () -> new WoolCarpetBlock(ExtraDyeColors.CHARTREUSE, BlockBehaviour.Properties.of(Material.CLOTH_DECORATION, MaterialColor.COLOR_GREEN).strength(0.1F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> CHARTREUSE_STAINED_GLASS_PANE = BLOCKS.register("chartreuse_stained_glass_pane", () -> new StainedGlassPaneBlock(ExtraDyeColors.CHARTREUSE, BlockBehaviour.Properties.of(Material.GLASS).strength(0.3F).sound(SoundType.GLASS).noOcclusion()));
+    public static final RegistryObject<Block> CHARTREUSE_SHULKER_BOX = BLOCKS.register("chartreuse_shulker_box", () -> new ShulkerBoxBlock(ExtraDyeColors.CHARTREUSE, BlockBehaviour.Properties.of(Material.SHULKER_SHELL, MaterialColor.COLOR_GREEN).strength(2.0F).dynamicShape().noOcclusion().isSuffocating(blockbehaviour$statepredicate).isViewBlocking(blockbehaviour$statepredicate)));
+    public static final RegistryObject<Block> CHARTREUSE_BED = BLOCKS.register("chartreuse_bed", () -> new BedBlock(ExtraDyeColors.CHARTREUSE, BlockBehaviour.Properties.of(Material.WOOL, (p_152613_) -> {
+        return p_152613_.getValue(BedBlock.PART) == BedPart.FOOT ? ExtraDyeColors.CHARTREUSE.getMaterialColor() : MaterialColor.WOOL;
+    }).sound(SoundType.WOOD).strength(0.2F).noOcclusion()));
+    public static final RegistryObject<Block> CHARTREUSE_BANNER = BLOCKS.register("chartreuse_banner", () -> new BannerBlock(ExtraDyeColors.CHARTREUSE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CHARTREUSE_WALL_BANNER = BLOCKS.register("chartreuse_wall_banner", () -> new WallBannerBlock(ExtraDyeColors.CHARTREUSE, BlockBehaviour.Properties.of(Material.WOOD).noCollission().strength(1.0F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CHARTREUSE_CANDLE = BLOCKS.register("chartreuse_candle", () -> new CandleBlock(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_GREEN).noOcclusion().strength(0.1F).sound(SoundType.CANDLE).lightLevel(CandleBlock.LIGHT_EMISSION)));
+    public static final RegistryObject<Block> CHARTREUSE_CANDLE_CAKE = BLOCKS.register("chartreuse_candle_cake", () -> new CandleCakeBlock(CHARTREUSE_CANDLE.get(), BlockBehaviour.Properties.copy(Blocks.CANDLE_CAKE)));
+    public static final RegistryObject<Block> CHARTREUSE_GLAZED_TERRACOTTA = BLOCKS.register("chartreuse_glazed_terracotta", () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.of(Material.STONE, ExtraDyeColors.CHARTREUSE).requiresCorrectToolForDrops().strength(1.4F)));
+
 
 
 

@@ -29,6 +29,7 @@
     "mint": "tinted:mint_shulker_box",
     "indigo": "tinted:indigo_shulker_box",
     "ochre": "tinted:ochre_shulker_box",
-    "lavender": "tinted:lavender_shulker_box"
+    "lavender": "tinted:lavender_shulker_box",
+    "chartreuse": "tinted:chartreuse_shulker_box"
   }
 }

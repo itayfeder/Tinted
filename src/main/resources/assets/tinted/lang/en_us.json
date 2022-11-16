@@ -683,7 +683,7 @@
   "block.minecraft.banner.piglin.ochre": "Ochre Snout",
 
 
-  "comment___": "---------------------OCHRE---------------------",
+  "comment___": "---------------------LAVENDER---------------------",
   "block.tinted.lavender_stained_glass": "Lavender Stained Glass",
   "block.tinted.lavender_stained_glass_pane": "Lavender Stained Glass Pane",
   "block.tinted.lavender_carpet": "Lavender Carpet",
@@ -744,6 +744,68 @@
   "block.minecraft.banner.globe.lavender": "Lavender Globe",
   "block.minecraft.banner.piglin.lavender": "Lavender Snout",
 
+
+  "comment___": "---------------------CHARTREUSE---------------------",
+  "block.tinted.chartreuse_stained_glass": "Chartreuse Stained Glass",
+  "block.tinted.chartreuse_stained_glass_pane": "Chartreuse Stained Glass Pane",
+  "block.tinted.chartreuse_carpet": "Chartreuse Carpet",
+  "block.tinted.chartreuse_terracotta": "Chartreuse Terracotta",
+  "block.tinted.chartreuse_glazed_terracotta": "Chartreuse Glazed Terracotta",
+  "block.tinted.chartreuse_wool": "Chartreuse Wool",
+  "block.tinted.chartreuse_shulker_box": "Chartreuse Shulker Box",
+  "block.tinted.chartreuse_concrete": "Chartreuse Concrete",
+  "block.tinted.chartreuse_concrete_powder": "Chartreuse Concrete Powder",
+  "block.tinted.chartreuse_candle": "Chartreuse Candle",
+  "block.tinted.chartreuse_candle_cake": "Cake with Chartreuse Candle",
+  "item.tinted.chartreuse_dye": "Chartreuse Dye",
+  "block.tinted.chartreuse_bed": "Chartreuse Bed",
+  "item.minecraft.firework_star.chartreuse": "Chartreuse",
+  "block.tinted.chartreuse_banner": "Chartreuse Banner",
+  "item.minecraft.shield.chartreuse": "Chartreuse Shield",
+  "color.minecraft.chartreuse": "Chartreuse",
+
+  "block.minecraft.banner.base.chartreuse": "Fully Chartreuse Field",
+  "block.minecraft.banner.square_bottom_left.chartreuse": "Chartreuse Base Dexter Canton",
+  "block.minecraft.banner.square_bottom_right.chartreuse": "Chartreuse Base Sinister Canton",
+  "block.minecraft.banner.square_top_left.chartreuse": "Chartreuse Chief Dexter Canton",
+  "block.minecraft.banner.square_top_right.chartreuse": "Chartreuse Chief Sinister Canton",
+  "block.minecraft.banner.stripe_bottom.chartreuse": "Chartreuse Base",
+  "block.minecraft.banner.stripe_top.chartreuse": "Chartreuse Chief",
+  "block.minecraft.banner.stripe_left.chartreuse": "Chartreuse Pale Dexter",
+  "block.minecraft.banner.stripe_right.chartreuse": "Chartreuse Pale Sinister",
+  "block.minecraft.banner.stripe_center.chartreuse": "Chartreuse Pale",
+  "block.minecraft.banner.stripe_middle.chartreuse": "Chartreuse Fess",
+  "block.minecraft.banner.stripe_downright.chartreuse": "Chartreuse Bend",
+  "block.minecraft.banner.stripe_downleft.chartreuse": "Chartreuse Bend Sinister",
+  "block.minecraft.banner.small_stripes.chartreuse": "Chartreuse Paly",
+  "block.minecraft.banner.cross.chartreuse": "Chartreuse Saltire",
+  "block.minecraft.banner.triangle_bottom.chartreuse": "Chartreuse Chevron",
+  "block.minecraft.banner.triangle_top.chartreuse": "Chartreuse Inverted Chevron",
+  "block.minecraft.banner.triangles_bottom.chartreuse": "Chartreuse Base Indented",
+  "block.minecraft.banner.triangles_top.chartreuse": "Chartreuse Chief Indented",
+  "block.minecraft.banner.diagonal_left.chartreuse": "Chartreuse Per Bend Sinister",
+  "block.minecraft.banner.diagonal_right.chartreuse": "Chartreuse Per Bend",
+  "block.minecraft.banner.diagonal_up_left.chartreuse": "Chartreuse Per Bend Inverted",
+  "block.minecraft.banner.diagonal_up_right.chartreuse": "Chartreuse Per Bend Sinister Inverted",
+  "block.minecraft.banner.circle.chartreuse": "Chartreuse Roundel",
+  "block.minecraft.banner.rhombus.chartreuse": "Chartreuse Lozenge",
+  "block.minecraft.banner.half_vertical.chartreuse": "Chartreuse Per Pale",
+  "block.minecraft.banner.half_horizontal.chartreuse": "Chartreuse Per Fess",
+  "block.minecraft.banner.half_vertical_right.chartreuse": "Chartreuse Per Pale Inverted",
+  "block.minecraft.banner.half_horizontal_bottom.chartreuse": "Chartreuse Per Fess Inverted",
+  "block.minecraft.banner.creeper.chartreuse": "Chartreuse Creeper Charge",
+  "block.minecraft.banner.bricks.chartreuse": "Chartreuse Field Masoned",
+  "block.minecraft.banner.gradient.chartreuse": "Chartreuse Gradient",
+  "block.minecraft.banner.gradient_up.chartreuse": "Chartreuse Base Gradient",
+  "block.minecraft.banner.skull.chartreuse": "Chartreuse Skull Charge",
+  "block.minecraft.banner.flower.chartreuse": "Chartreuse Flower Charge",
+  "block.minecraft.banner.border.chartreuse": "Chartreuse Bordure",
+  "block.minecraft.banner.curly_border.chartreuse": "Chartreuse Bordure Indented",
+  "block.minecraft.banner.mojang.chartreuse": "Chartreuse Thing",
+  "block.minecraft.banner.straight_cross.chartreuse": "Chartreuse Cross",
+  "block.minecraft.banner.globe.chartreuse": "Chartreuse Globe",
+  "block.minecraft.banner.piglin.chartreuse": "Chartreuse Snout",
+  
 
 
   "comment___": "---------------------COMPAT: SUPPLEMENTARIES---------------------",
@@ -807,6 +869,11 @@
   "block.supplementaries.trapped_present_lavender": "Trapped Lavender Present",
   "block.supplementaries.candle_holder_lavender": "Lavender Candle Holder",
 
+  "block.supplementaries.flag_chartreuse": "Chartreuse Flag",
+  "block.supplementaries.present_chartreuse": "Chartreuse Present",
+  "block.supplementaries.trapped_present_chartreuse": "Trapped Chartreuse Present",
+  "block.supplementaries.candle_holder_chartreuse": "Chartreuse Candle Holder",
+  
 
 
   "comment___": "---------------------COMPAT: ANOTHER FURNITURE---------------------",
@@ -881,6 +948,12 @@
   "block.another_furniture.lavender_curtain": "Lavender Curtain",
   "block.another_furniture.lavender_lamp": "Lavender Lamp",
   "block.another_furniture.lavender_tall_stool": "Lavender Tall Stool",
+
+  "block.another_furniture.chartreuse_sofa": "Chartreuse Sofa",
+  "block.another_furniture.chartreuse_stool": "Chartreuse Stool",
+  "block.another_furniture.chartreuse_curtain": "Chartreuse Curtain",
+  "block.another_furniture.chartreuse_lamp": "Chartreuse Lamp",
+  "block.another_furniture.chartreuse_tall_stool": "Chartreuse Tall Stool",
 
 
 
@@ -957,6 +1030,12 @@
   "block.quark.lavender_framed_glass_pane": "Lavender Framed Glass Pane",
   "block.quark.lavender_stool": "Lavender Stool",
 
+  "item.quark.chartreuse_shard": "Chartreuse Glass Shard",
+  "item.quark.chartreuse_rune": "Chartreuse Rune",
+  "block.quark.chartreuse_framed_glass": "Chartreuse Framed Glass",
+  "block.quark.chartreuse_framed_glass_pane": "Chartreuse Framed Glass Pane",
+  "block.quark.chartreuse_stool": "Chartreuse Stool",
+
 
 
   "comment___": "---------------------COMPAT: CREATE---------------------",
@@ -1020,6 +1099,11 @@
   "block.create.lavender_toolbox": "Lavender Toolbox",
   "block.create.lavender_valve_handle": "Lavender Valve Handle",
 
+  "block.create.chartreuse_sail": "Chartreuse Sail",
+  "block.create.chartreuse_seat": "Chartreuse Seat",
+  "block.create.chartreuse_toolbox": "Chartreuse Toolbox",
+  "block.create.chartreuse_valve_handle": "Chartreuse Valve Handle",
+
 
 
 
@@ -1060,6 +1144,9 @@
   "block.waystones.lavender_sharestone": "Lavender Sharestone",
   "tooltip.waystones.lavender_sharestone": "Teleport to any other Lavender Sharestone",
 
+  "block.waystones.chartreuse_sharestone": "Chartreuse Sharestone",
+  "tooltip.waystones.chartreuse_sharestone": "Teleport to any other Chartreuse Sharestone",
+
 
 
   "comment___": "---------------------COMPAT: OPEN ELEVATORS---------------------",
@@ -1075,6 +1162,7 @@
   "block.elevatorid.elevator_indigo": "Indigo Elevator",
   "block.elevatorid.elevator_ochre": "Ochre Elevator",
   "block.elevatorid.elevator_lavender": "Lavender Elevator",
+  "block.elevatorid.elevator_chartreuse": "Chartreuse Elevator",
 
 
 
@@ -1091,6 +1179,7 @@
   "block.farmersdelight.indigo_canvas_sign": "Indigo Canvas Sign",
   "block.farmersdelight.ochre_canvas_sign": "Ochre Canvas Sign",
   "block.farmersdelight.lavender_canvas_sign": "Lavender Canvas Sign",
+  "block.farmersdelight.chartreuse_canvas_sign": "Chartreuse Canvas Sign",
 
 
 
@@ -1107,6 +1196,7 @@
   "item.chalk.indigo_chalk": "Indigo Chalk",
   "item.chalk.ochre_chalk": "Ochre Chalk",
   "item.chalk.lavender_chalk": "Lavender Chalk",
+  "item.chalk.chartreuse_chalk": "Chartreuse Chalk",
 
 
 
@@ -1123,6 +1213,7 @@
   "block.domesticationinnovation.pet_bed_indigo": "Indigo Pet Bed",
   "block.domesticationinnovation.pet_bed_ochre": "Ochre Pet Bed",
   "block.domesticationinnovation.pet_bed_lavender": "Lavender Pet Bed",
+  "block.domesticationinnovation.pet_bed_chartreuse": "Chartreuse Pet Bed",
 
 
 
@@ -1175,6 +1266,10 @@
   "block.snowyspirit.glow_lights_lavender": "Lavender Glow Lights",
   "item.snowyspirit.glow_lights_lavender": "Lavender Glow Lights",
 
+  "block.snowyspirit.gumdrop_chartreuse": "Chartreuse Gumdrop",
+  "block.snowyspirit.glow_lights_chartreuse": "Chartreuse Glow Lights",
+  "item.snowyspirit.glow_lights_chartreuse": "Chartreuse Glow Lights",
+
 
 
   "comment___": "---------------------COMPAT: COMFORTS---------------------",
@@ -1212,5 +1307,76 @@
   "block.comforts.sleeping_bag_ochre": "Ochre Sleeping Bag",
 
   "block.comforts.hammock_lavender": "Lavender Hammock Cloth",
-  "block.comforts.sleeping_bag_lavender": "Lavender Sleeping Bag"
+  "block.comforts.sleeping_bag_lavender": "Lavender Sleeping Bag",
+
+  "block.comforts.hammock_chartreuse": "Chartreuse Hammock Cloth",
+  "block.comforts.sleeping_bag_chartreuse": "Chartreuse Sleeping Bag",
+  
+  
+  
+  "comment___": "---------------------COMPAT: I WANNA SKATE---------------------",
+  "item.iwannaskate.skateboard_wheels_coral": "Coral Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_coral": "Coral Banner",
+  "item.iwannaskate.skateboard.grip_tape_coral": "Coral Grip",
+  "item.iwannaskate.skateboard.wheels_coral": "Coral Wheels",
+
+  "item.iwannaskate.skateboard_wheels_beige": "Beige Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_beige": "Beige Banner",
+  "item.iwannaskate.skateboard.grip_tape_beige": "Beige Grip",
+  "item.iwannaskate.skateboard.wheels_beige": "Beige Wheels",
+
+  "item.iwannaskate.skateboard_wheels_olive": "Olive Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_olive": "Olive Banner",
+  "item.iwannaskate.skateboard.grip_tape_olive": "Olive Grip",
+  "item.iwannaskate.skateboard.wheels_olive": "Olive Wheels",
+
+  "item.iwannaskate.skateboard_wheels_turquoise": "Turquoise Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_turquoise": "Turquoise Banner",
+  "item.iwannaskate.skateboard.grip_tape_turquoise": "Turquoise Grip",
+  "item.iwannaskate.skateboard.wheels_turquoise": "Turquoise Wheels",
+
+  "item.iwannaskate.skateboard_wheels_amber": "Amber Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_amber": "Amber Banner",
+  "item.iwannaskate.skateboard.grip_tape_amber": "Amber Grip",
+  "item.iwannaskate.skateboard.wheels_amber": "Amber Wheels",
+
+  "item.iwannaskate.skateboard_wheels_bubblegum": "Bubblegum Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_bubblegum": "Bubblegum Banner",
+  "item.iwannaskate.skateboard.grip_tape_bubblegum": "Bubblegum Grip",
+  "item.iwannaskate.skateboard.wheels_bubblegum": "Bubblegum Wheels",
+
+  "item.iwannaskate.skateboard_wheels_bordeaux": "Bordeaux Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_bordeaux": "Bordeaux Banner",
+  "item.iwannaskate.skateboard.grip_tape_bordeaux": "Bordeaux Grip",
+  "item.iwannaskate.skateboard.wheels_bordeaux": "Bordeaux Wheels",
+
+  "item.iwannaskate.skateboard_wheels_ender": "Ender Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_ender": "Ender Banner",
+  "item.iwannaskate.skateboard.grip_tape_ender": "Ender Grip",
+  "item.iwannaskate.skateboard.wheels_ender": "Ender Wheels",
+
+  "item.iwannaskate.skateboard_wheels_mint": "Mint Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_mint": "Mint Banner",
+  "item.iwannaskate.skateboard.grip_tape_mint": "Mint Grip",
+  "item.iwannaskate.skateboard.wheels_mint": "Mint Wheels",
+
+  "item.iwannaskate.skateboard_wheels_indigo": "Indigo Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_indigo": "Indigo Banner",
+  "item.iwannaskate.skateboard.grip_tape_indigo": "Indigo Grip",
+  "item.iwannaskate.skateboard.wheels_indigo": "Indigo Wheels",
+
+  "item.iwannaskate.skateboard_wheels_ochre": "Ochre Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_ochre": "Ochre Banner",
+  "item.iwannaskate.skateboard.grip_tape_ochre": "Ochre Grip",
+  "item.iwannaskate.skateboard.wheels_ochre": "Ochre Wheels",
+
+  "item.iwannaskate.skateboard_wheels_lavender": "Lavender Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_lavender": "Lavender Banner",
+  "item.iwannaskate.skateboard.grip_tape_lavender": "Lavender Grip",
+  "item.iwannaskate.skateboard.wheels_lavender": "Lavender Wheels",
+
+  "item.iwannaskate.skateboard_wheels_chartreuse": "Chartreuse Skateboard Wheels",
+  "item.iwannaskate.skateboard.banner_base_chartreuse": "Chartreuse Banner",
+  "item.iwannaskate.skateboard.grip_tape_chartreuse": "Chartreuse Grip",
+  "item.iwannaskate.skateboard.wheels_chartreuse": "Chartreuse Wheels"
 }

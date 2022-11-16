@@ -62,6 +62,8 @@ public class FarmersDelightCompat {
         curtainList.add(OCHRE_CANVAS_WALL_SIGN.get());
         curtainList.add(LAVENDER_CANVAS_SIGN.get());
         curtainList.add(LAVENDER_CANVAS_WALL_SIGN.get());
+        curtainList.add(CHARTREUSE_CANVAS_SIGN.get());
+        curtainList.add(CHARTREUSE_CANVAS_WALL_SIGN.get());
 
         ModBlockEntityTypes.CANVAS_SIGN.get().validBlocks = ImmutableSet.copyOf(curtainList);
 
@@ -117,6 +119,10 @@ public class FarmersDelightCompat {
             () -> new StandingCanvasSignBlock(ExtraDyeColors.LAVENDER));
     public static final RegistryObject<Block> LAVENDER_CANVAS_WALL_SIGN = BLOCKS.register("lavender_canvas_wall_sign",
             () -> new WallCanvasSignBlock(Block.Properties.copy(Blocks.OAK_SIGN).lootFrom(LAVENDER_CANVAS_SIGN), ExtraDyeColors.LAVENDER));
+    public static final RegistryObject<Block> CHARTREUSE_CANVAS_SIGN = BLOCKS.register("chartreuse_canvas_sign",
+            () -> new StandingCanvasSignBlock(ExtraDyeColors.CHARTREUSE));
+    public static final RegistryObject<Block> CHARTREUSE_CANVAS_WALL_SIGN = BLOCKS.register("chartreuse_canvas_wall_sign",
+            () -> new WallCanvasSignBlock(Block.Properties.copy(Blocks.OAK_SIGN).lootFrom(CHARTREUSE_CANVAS_SIGN), ExtraDyeColors.CHARTREUSE));
 
 
     //ITEMS
@@ -144,5 +150,7 @@ public class FarmersDelightCompat {
             () -> new SignItem(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB), OCHRE_CANVAS_SIGN.get(), OCHRE_CANVAS_WALL_SIGN.get()));
     public static final RegistryObject<Item> LAVENDER_CANVAS_SIGN_ITEM = ITEMS.register("lavender_canvas_sign",
             () -> new SignItem(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB), LAVENDER_CANVAS_SIGN.get(), LAVENDER_CANVAS_WALL_SIGN.get()));
+    public static final RegistryObject<Item> CHARTREUSE_CANVAS_SIGN_ITEM = ITEMS.register("chartreuse_canvas_sign",
+            () -> new SignItem(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB), CHARTREUSE_CANVAS_SIGN.get(), CHARTREUSE_CANVAS_WALL_SIGN.get()));
 
 }

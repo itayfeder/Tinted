@@ -12,10 +12,11 @@
 
         "accessors.SheepAccessor",
 
-		"compat/create/DyeHelperMixin",
+		"compat.create.DyeHelperAccessor",
         "compat/quark/ColorRunesModuleMixin",
         "compat.quark.RuneItemAccessor",
-        "compat/cloudstorage/SkyTempleBlockProcessorMixin"
+        "compat.cloudstorage.SkyTempleBlockProcessorAccessor",
+        "compat/iwannaskate/SkateboardWheelsMixin"
 	],
 	"client": [
 		"client.SheetsMixin",

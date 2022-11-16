@@ -12,6 +12,7 @@
     {"id":"supplementaries:flag_mint","required":false},
     {"id":"supplementaries:flag_indigo","required":false},
     {"id":"supplementaries:flag_ochre","required":false},
-    {"id":"supplementaries:flag_lavender","required":false}
+    {"id":"supplementaries:flag_lavender","required":false},
+    {"id":"supplementaries:flag_chartreuse","required":false}
   ]
 }

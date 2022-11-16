@@ -11,7 +11,8 @@
     {"id":"supplementaries:present_ender","required":false},
     {"id":"supplementaries:present_mint","required":false},
     {"id":"supplementaries:present_indigo","required":false},
-    {"id":"supplementaries:present_ochre","required":false},
-    {"id":"supplementaries:present_lavender","required":false}
+    {"id":"supplementaries:present_ochre","required":false,
+    {"id":"supplementaries:present_lavender","required":false},
+    {"id":"supplementaries:present_chartreuse","required":false}
   ]
 }

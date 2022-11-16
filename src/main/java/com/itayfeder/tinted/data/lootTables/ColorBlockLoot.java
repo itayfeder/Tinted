@@ -226,6 +226,23 @@ public class ColorBlockLoot extends BlockLoot {
         this.add(BlockInit.LAVENDER_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.LAVENDER_CANDLE.get()));
         this.dropSelf(BlockInit.LAVENDER_GLAZED_TERRACOTTA.get());
 
+
+        this.dropSelf(BlockInit.CHARTREUSE_WOOL.get());
+        this.dropSelf(BlockInit.CHARTREUSE_TERRACOTTA.get());
+        this.dropSelf(BlockInit.CHARTREUSE_CARPET.get());
+        this.dropSelf(BlockInit.CHARTREUSE_CONCRETE.get());
+        this.dropSelf(BlockInit.CHARTREUSE_CONCRETE_POWDER.get());
+        this.add(BlockInit.CHARTREUSE_BED.get(), (p_124201_) -> {
+            return createSinglePropConditionTable(p_124201_, BedBlock.PART, BedPart.HEAD);
+        });
+        this.add(BlockInit.CHARTREUSE_CANDLE.get(), BlockLoot::createCandleDrops);
+        this.add(BlockInit.CHARTREUSE_SHULKER_BOX.get(), BlockLoot::createShulkerBoxDrop);
+        this.add(BlockInit.CHARTREUSE_BANNER.get(), BlockLoot::createBannerDrop);
+        this.add(BlockInit.CHARTREUSE_WALL_BANNER.get(), BlockLoot::createBannerDrop);
+        this.dropWhenSilkTouch(BlockInit.CHARTREUSE_STAINED_GLASS.get());
+        this.dropWhenSilkTouch(BlockInit.CHARTREUSE_STAINED_GLASS_PANE.get());
+        this.add(BlockInit.CHARTREUSE_CANDLE_CAKE.get(), createCandleCakeDrops(BlockInit.CHARTREUSE_CANDLE.get()));
+        this.dropSelf(BlockInit.CHARTREUSE_GLAZED_TERRACOTTA.get());
     }
 
     @Override

@@ -33,6 +33,7 @@ public class ColorRecipeProvider extends RecipeProvider {
         ShapelessRecipeBuilder.shapeless(ItemInit.INDIGO_DYE.get(), 2).requires(Items.BLACK_DYE).requires(Items.BLUE_DYE).unlockedBy("has_black_dye", has(Items.BLACK_DYE)).unlockedBy("has_blue_dye", has(Items.BLUE_DYE)).save(p_176532_);
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.OCHRE_FROGLIGHT.asItem()), ItemInit.OCHRE_DYE.get(), 1.0F, 200).unlockedBy("has_ochre_froglight", has(Items.OCHRE_FROGLIGHT)).save(p_176532_);
         ShapelessRecipeBuilder.shapeless(ItemInit.LAVENDER_DYE.get(), 2).requires(Items.WHITE_DYE).requires(Items.PINK_DYE).unlockedBy("has_white_dye", has(Items.WHITE_DYE)).unlockedBy("has_pink_dye", has(Items.PINK_DYE)).save(p_176532_);
+        ShapelessRecipeBuilder.shapeless(ItemInit.CHARTREUSE_DYE.get(), 2).requires(Items.YELLOW_DYE).requires(Items.LIME_DYE).unlockedBy("has_yellow_dye", has(Items.YELLOW_DYE)).unlockedBy("has_lime_dye", has(Items.LIME_DYE)).save(p_176532_);
 
         coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.CORAL_WOOL.get(), ItemInit.CORAL_DYE.get());
         carpet(p_176532_, BlockInit.CORAL_CARPET.get(), BlockInit.CORAL_WOOL.get());
@@ -201,6 +202,20 @@ public class ColorRecipeProvider extends RecipeProvider {
         concretePowder(p_176532_, BlockInit.LAVENDER_CONCRETE_POWDER.get(), ItemInit.LAVENDER_DYE.get());
         candle(p_176532_, BlockInit.LAVENDER_CANDLE.get(), ItemInit.LAVENDER_DYE.get());
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.LAVENDER_TERRACOTTA.get()), BlockInit.LAVENDER_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.LAVENDER_TERRACOTTA.getId().getPath(), has(BlockInit.LAVENDER_TERRACOTTA.get())).save(p_176532_);
+
+        coloredWoolFromWhiteWoolAndDye(p_176532_, BlockInit.CHARTREUSE_WOOL.get(), ItemInit.CHARTREUSE_DYE.get());
+        carpet(p_176532_, BlockInit.CHARTREUSE_CARPET.get(), BlockInit.CHARTREUSE_WOOL.get());
+        coloredCarpetFromWhiteCarpetAndDye(p_176532_, BlockInit.CHARTREUSE_CARPET.get(), ItemInit.CHARTREUSE_DYE.get());
+        bedFromPlanksAndWool(p_176532_, ItemInit.CHARTREUSE_BED.get(), BlockInit.CHARTREUSE_WOOL.get());
+        bedFromWhiteBedAndDye(p_176532_, ItemInit.CHARTREUSE_BED.get(), ItemInit.CHARTREUSE_DYE.get());
+        banner(p_176532_, ItemInit.CHARTREUSE_BANNER.get(), BlockInit.CHARTREUSE_WOOL.get());
+        stainedGlassFromGlassAndDye(p_176532_, BlockInit.CHARTREUSE_STAINED_GLASS.get(), ItemInit.CHARTREUSE_DYE.get());
+        stainedGlassPaneFromStainedGlass(p_176532_, BlockInit.CHARTREUSE_STAINED_GLASS_PANE.get(), BlockInit.CHARTREUSE_STAINED_GLASS.get());
+        stainedGlassPaneFromGlassPaneAndDye(p_176532_, BlockInit.CHARTREUSE_STAINED_GLASS_PANE.get(), ItemInit.CHARTREUSE_DYE.get());
+        coloredTerracottaFromTerracottaAndDye(p_176532_, BlockInit.CHARTREUSE_TERRACOTTA.get(), ItemInit.CHARTREUSE_DYE.get());
+        concretePowder(p_176532_, BlockInit.CHARTREUSE_CONCRETE_POWDER.get(), ItemInit.CHARTREUSE_DYE.get());
+        candle(p_176532_, BlockInit.CHARTREUSE_CANDLE.get(), ItemInit.CHARTREUSE_DYE.get());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(BlockInit.CHARTREUSE_TERRACOTTA.get()), BlockInit.CHARTREUSE_GLAZED_TERRACOTTA.get().asItem(), 0.1F, 200).unlockedBy("has_" + BlockInit.CHARTREUSE_TERRACOTTA.getId().getPath(), has(BlockInit.CHARTREUSE_TERRACOTTA.get())).save(p_176532_);
 
     }
 }

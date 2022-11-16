@@ -37,7 +37,9 @@
 	"tinted:lavender_terracotta",
     "tinted:lavender_concrete",
     "tinted:lavender_glazed_terracotta",
-	
+	"tinted:chartreuse_terracotta",
+    "tinted:chartreuse_concrete",
+    "tinted:chartreuse_glazed_terracotta",
 	
     {"id":"quark:coral_framed_glass","required":false},
 	{"id":"quark:beige_framed_glass","required":false},
@@ -51,6 +53,7 @@
 	{"id":"quark:indigo_framed_glass","required":false},
 	{"id":"quark:ochre_framed_glass","required":false},
 	{"id":"quark:lavender_framed_glass","required":false},
+	{"id":"quark:chartreuse_framed_glass","required":false},
 	{"id":"quark:coral_framed_glass_pane","required":false},
 	{"id":"quark:beige_framed_glass_pane","required":false},
 	{"id":"quark:olive_framed_glass_pane","required":false},
@@ -63,6 +66,7 @@
 	{"id":"quark:indigo_framed_glass_pane","required":false},
 	{"id":"quark:ochre_framed_glass_pane","required":false},
 	{"id":"quark:lavender_framed_glass_pane","required":false},
+	{"id":"quark:chartreuse_framed_glass_pane","required":false},
 	
 	{"id":"create:coral_valve_handle","required":false},
 	{"id":"create:beige_valve_handle","required":false},
@@ -76,6 +80,7 @@
 	{"id":"create:indigo_valve_handle","required":false},
 	{"id":"create:ochre_valve_handle","required":false},
 	{"id":"create:lavender_valve_handle","required":false},
+	{"id":"create:chartreuse_valve_handle","required":false},
 	{"id":"create:coral_nixie_tube","required":false},
 	{"id":"create:beige_nixie_tube","required":false},
 	{"id":"create:olive_nixie_tube","required":false},
@@ -88,6 +93,7 @@
 	{"id":"create:indigo_nixie_tube","required":false},
 	{"id":"create:ochre_nixie_tube","required":false},
 	{"id":"create:lavender_nixie_tube","required":false},
+	{"id":"create:chartreuse_nixie_tube","required":false},
 	
 	{"id":"waystones:coral_sharestone","required":false},
 	{"id":"waystones:beige_sharestone","required":false},
@@ -100,7 +106,8 @@
 	{"id":"waystones:mint_sharestone","required":false},
 	{"id":"waystones:indigo_sharestone","required":false},
 	{"id":"waystones:ochre_sharestone","required":false},
-	{"id":"waystones:lavender_sharestone","required":false}
+	{"id":"waystones:lavender_sharestone","required":false},
+	{"id":"waystones:chartreuse_sharestone","required":false}
 
   ]
 }

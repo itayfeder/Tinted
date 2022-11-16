@@ -29,6 +29,7 @@
     "mint": "tinted:mint_carpet",
     "indigo": "tinted:indigo_carpet",
     "ochre": "tinted:ochre_carpet",
-    "lavender": "tinted:lavender_carpet"
+    "lavender": "tinted:lavender_carpet",
+    "chartreuse": "tinted:chartreuse_carpet"
   }
 }

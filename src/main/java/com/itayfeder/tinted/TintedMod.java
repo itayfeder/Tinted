@@ -2,6 +2,8 @@ package com.itayfeder.tinted;
 
 import com.itayfeder.tinted.compat.another_furniture.AnotherFurnitureCompat;
 import com.itayfeder.tinted.compat.chalk.ChalkCompat;
+import com.itayfeder.tinted.compat.cloudstorage.CloudStorageCompat;
+import com.itayfeder.tinted.compat.create.CreateCompat;
 import com.itayfeder.tinted.compat.domesticationinnovation.DomesticationInnovationCompat;
 import com.itayfeder.tinted.compat.farmers_delight.FarmersDelightCompat;
 import com.itayfeder.tinted.compat.quark.QuarkCompat;
@@ -67,6 +69,8 @@ public class TintedMod
             DomesticationInnovationCompat.RegisterRegistries(modEventBus);
         }
 
+
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -80,6 +84,18 @@ public class TintedMod
 
         if (ModList.get().isLoaded("quark")) {
             QuarkCompat.ChangeRuneValues();
+        }
+
+        if (ModList.get().isLoaded("create")) {
+            CreateCompat.FixDyeHelper();
+        }
+
+        if (ModList.get().isLoaded("create")) {
+            CreateCompat.FixDyeHelper();
+        }
+
+        if (ModList.get().isLoaded("cloudstorage")) {
+            CloudStorageCompat.AddWoolToBalloons();
         }
 
         event.enqueueWork(() -> {

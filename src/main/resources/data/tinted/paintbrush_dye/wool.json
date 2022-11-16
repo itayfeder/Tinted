@@ -29,6 +29,7 @@
     "mint": "tinted:mint_wool",
     "indigo": "tinted:indigo_wool",
     "ochre": "tinted:ochre_wool",
-    "lavender": "tinted:lavender_wool"
+    "lavender": "tinted:lavender_wool",
+    "chartreuse": "tinted:chartreuse_wool"
   }
 }

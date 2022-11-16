@@ -12,6 +12,7 @@
     {"id":"tinted:mint_concrete_powder","required":false},
     {"id":"tinted:indigo_concrete_powder","required":false},
     {"id":"tinted:ochre_concrete_powder","required":false},
-    {"id":"tinted:lavender_concrete_powder","required":false}
+    {"id":"tinted:lavender_concrete_powder","required":false},
+    {"id":"tinted:chartreuse_concrete_powder","required":false}
   ]
 }

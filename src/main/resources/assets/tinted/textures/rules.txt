@@ -80,3 +80,9 @@ Chartreuse (D1ED49):
 - Before:
 - - Brightness: 10
 - - Contrast: -20
+
+Crimson (D61C49):
+- Base: Magenta (Grayscale)
+- Before:
+- - Brightness: -10
+- - Contrast: -10

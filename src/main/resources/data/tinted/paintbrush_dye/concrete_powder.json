@@ -29,6 +29,7 @@
     "mint": "tinted:mint_concrete_powder",
     "indigo": "tinted:indigo_concrete_powder",
     "ochre": "tinted:ochre_concrete_powder",
-    "lavender": "tinted:lavender_concrete_powder"
+    "lavender": "tinted:lavender_concrete_powder",
+    "chartreuse": "tinted:chartreuse_concrete_powder"
   }
 }

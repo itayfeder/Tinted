@@ -29,6 +29,7 @@
     "mint": "tinted:mint_stained_glass_pane",
     "indigo": "tinted:indigo_stained_glass_pane",
     "ochre": "tinted:ochre_stained_glass_pane",
-    "lavender": "tinted:lavender_stained_glass_pane"
+    "lavender": "tinted:lavender_stained_glass_pane",
+    "chartreuse": "tinted:chartreuse_stained_glass_pane"
   }
 }
